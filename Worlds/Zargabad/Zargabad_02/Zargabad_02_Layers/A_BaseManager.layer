@@ -8,6 +8,7 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
  coords 4091.917 24.599 4097.97
  m_aRanks {
   SCR_RankIDCampaign "{5CB0777E83631136}" {
+   m_bIsRenegade 0
    m_iRadioRespawnCooldown 150
   }
  }
@@ -20,7 +21,7 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 4092.514 24.599 4098.058
- m_iControlPointsThreshold 4
+ m_iControlPointsThreshold 5
 }
 SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
  coords 4092.821 24.599 4099.815
