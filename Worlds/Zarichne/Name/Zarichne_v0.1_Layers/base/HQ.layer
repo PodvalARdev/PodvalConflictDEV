@@ -24,6 +24,9 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      }
     }
    }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 125
+   }
   }
   coords 1548.538 16.531 346.104
   angles 0 91.685 0
