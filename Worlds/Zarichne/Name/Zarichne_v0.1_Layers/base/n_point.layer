@@ -14,6 +14,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 80
     m_sBaseName "Коровники"
     m_sBaseNameUpper "Коровники"
    }
@@ -54,6 +55,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 80
     m_sBaseName "Поселок Торск"
     m_sBaseNameUpper "Поселок Торск"
    }
@@ -94,6 +96,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 80
     m_sBaseName "Электростанция EEZ"
     m_sBaseNameUpper "Электростанция EEZ"
    }
@@ -133,6 +136,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 80
     m_sBaseName "Хижина в лесу"
     m_sBaseNameUpper "Хижина в лесу"
    }
