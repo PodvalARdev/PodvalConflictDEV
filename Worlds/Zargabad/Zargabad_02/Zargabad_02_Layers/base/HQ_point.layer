@@ -2,7 +2,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
  {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRegularSuppliesIncomeBase 125
+    m_iRegularSuppliesIncomeBase 50
    }
   }
   coords 3109.516 3.596 618.107
@@ -10,7 +10,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
  {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRegularSuppliesIncomeBase 125
+    m_iRegularSuppliesIncomeBase 50
    }
   }
   coords 3400.772 26.254 7143.968
