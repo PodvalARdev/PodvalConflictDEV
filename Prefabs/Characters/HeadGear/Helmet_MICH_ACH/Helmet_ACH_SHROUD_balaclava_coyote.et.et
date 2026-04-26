@@ -3,6 +3,10 @@ GameEntity : "{926F2D2ED4D286EB}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helm
  components {
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Enabled 0
+     Prefab "{608F66AB8B36B85D}Prefabs/Characters/Eyewear/crossbow/Eyewear_ess_crossbow_blk.et"
+    }
     RHS_LoadoutSlotInfo Masks {
      Prefab "{B370D7A2DDBB73B7}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Coyote_brown.et"
     }
