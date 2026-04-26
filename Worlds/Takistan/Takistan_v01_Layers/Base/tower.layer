@@ -1,0 +1,41 @@
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ {
+  components {
+   RHS_RadioSourceComponent "{622704321284EE3B}" {
+    m_iSignalType Dynamic
+   }
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Вышка Сангинакт"
+    m_sBaseNameUpper "Вышка Сангинакт"
+   }
+  }
+  coords 4047.822 564.499 6961.333
+  angles 0 92.37 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Вышка ГуДур"
+    m_sBaseNameUpper "Вышка ГуДур"
+   }
+  }
+  coords 8069.447 644.679 6234.795
+  angles 0 90.2 0
+ }
+}
+$grp GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+ {
+  coords 8069.486 643.677 6234.839
+ }
+ {
+  coords 4047.787 563.502 6961.315
+ }
+}
+$grp StaticModelEntity : "{9E879BA4C7F579D2}PrefabsEditable/Auto/Structures/Infrastructure/Towers/E_TransmitterTower_01_medium.et" {
+ {
+  coords 8066.53 643.312 6234.85
+ }
+ {
+  coords 4044.832 563.856 6961.324
+ }
+}

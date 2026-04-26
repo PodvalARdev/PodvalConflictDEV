@@ -1,0 +1,20 @@
+$grp Vehicle : "{8175FCADFA2FB904}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_civ_red.et" {
+ Mi8MT_unarmed_civ_red1 {
+  coords 8059.794 322.187 1788.93
+  angles 0 57.461 0
+ }
+ Mi8MT_unarmed_civ_red2 {
+  coords 7931.726 322.187 1714.849
+  angles 0 62.359 0
+ }
+}
+$grp Vehicle : "{AB9ED3A33EE1B630}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_civ_blue.et" {
+ Mi8MT_unarmed_civ_blue1 {
+  coords 6006.034 109.32 11773.694
+  angles 0 -137.758 0
+ }
+ Mi8MT_unarmed_civ_blue2 {
+  coords 5808.195 109.313 11574.427
+  angles 0 -136.699 0
+ }
+}

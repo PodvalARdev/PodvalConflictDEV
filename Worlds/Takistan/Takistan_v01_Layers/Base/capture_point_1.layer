@@ -1,0 +1,60 @@
+GenericEntity : "{0438A6F1C5C1CA8A}Prefabs/Systems/DeployableRadios/DeployableItemTent.et" {
+ coords 8017.591 496.693 4690.612
+}
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 8023.381 496.802 4689.595
+ angles 0 153.468 0
+}
+$grp GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ {
+  coords 2512.997 274.516 9558.104
+  angles 0 62.094 0
+ }
+ {
+  coords 8003.185 496.929 4691.724
+  angles 0 -79.652 0
+ }
+}
+Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ coords 8019.487 496.031 4697.667
+ angles 0 75.168 0
+}
+GenericEntity : "{1A5B84D8AD7C44C2}Prefabs/Systems/MilitaryBase/TestCapturePoint.et" {
+ coords 8019.905 496.544 4692.986
+ {
+  GenericEntity {
+   ID "5AFC9B0D7086B45C"
+   coords -2.33 0.082 -2.368
+  }
+ }
+}
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 8009.553 495.849 4702.188
+ angles 0 -115.394 0
+}
+GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+ coords 8022.102 494.609 4705.863
+ angles 0 4.17 0
+}
+$grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
+ {
+  coords 8021.488 495.515 4700.726
+  angles 0 31.918 0
+ }
+ {
+  coords 8022.872 496.116 4695.776
+  angles 0 132.258 0
+ }
+ {
+  coords 8016.322 495.911 4699.646
+  angles 0 -44.315 0
+ }
+ {
+  coords 8017.464 496.437 4694.756
+  angles 0 -153.031 0
+ }
+}
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ coords 8032.267 494.671 4700.214
+ angles 0 55.539 0
+}
