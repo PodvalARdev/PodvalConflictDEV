@@ -1,0 +1,234 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 2711.245 221.107 6960.949
+ }
+ {
+  coords 3082.732 24.219 4782.408
+ }
+ {
+  coords 5987.428 2.438 8284.217
+ }
+ {
+  coords 11962.792 3.311 10967.444
+ }
+}
+$grp GenericEntity : "{47789BA6E9CA2928}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign.et" {
+ {
+  coords 2683.828 220.734 6988.53
+  angles 0 85.903 0
+ }
+ {
+  coords 2692.637 221.312 6949.886
+  angles 0 83.097 0
+ }
+ {
+  coords 3090.417 24.219 4775.982
+  angles 0 139.594 0
+ }
+ {
+  coords 2186.377 126.125 7324.063
+  angles 0 -178.49 0
+ }
+ {
+  coords 2240.911 126.125 7322.639
+  angles 0 -91.619 0
+ }
+ {
+  coords 2725.749 110.518 7477.3
+  angles 0 156.843 0
+ }
+ {
+  coords 2714.74 110.728 7471.561
+  angles 0 141.283 0
+ }
+ {
+  coords 2696.854 111.951 7438.36
+  angles 0 60.188 0
+ }
+ {
+  coords 5988.011 2.437 8273.346
+  angles 0 -14.056 0
+ }
+ {
+  coords 6015.598 2.438 8283.36
+  angles 0 76.593 0
+ }
+ {
+  coords 6398.825 4.786 8481.715
+  angles 0 -34.397 0
+ }
+ {
+  coords 9246.111 94.169 9464.774
+  angles 0 -3.962 0
+ }
+ {
+  coords 10831.12 111.169 10427.223
+  angles 0 154.532 0
+ }
+ {
+  coords 10820.446 111.493 10422.949
+  angles 0 153.138 0
+ }
+ {
+  coords 11897.063 15.703 10404.982
+  angles 0 -22.783 0
+ }
+ {
+  coords 11965.959 3.344 10957.996
+  angles 0 -86.9 0
+ }
+ {
+  coords 11979.793 3.5 10984.185
+  angles 0 1.242 0
+ }
+ {
+  coords 12003.622 3.478 10982.589
+  angles 0 3.494 0
+ }
+ {
+  coords 12080.159 2.781 10871.765
+  angles 0 -173.594 0
+ }
+ {
+  coords 12063.06 2.781 10834.238
+  angles 0 97.809 0
+ }
+ {
+  coords 11515.862 2.761 10131.179
+  angles 0 -36.146 0
+ }
+ {
+  coords 11505.13 3.236 10123.593
+  angles 0 -38.705 0
+ }
+ {
+  coords 8389.602 2.501 6071.246
+  angles 0 -58.126 0
+ }
+ {
+  coords 8407.653 2.506 6093.016
+  angles 0 -52.167 0
+ }
+ {
+  coords 8425.465 2.563 6118.231
+  angles 0 -56.009 0
+ }
+ {
+  coords 7431.826 21.469 4897.35
+  angles 0 -82.789 0
+ }
+ {
+  coords 7465.685 3.094 4168.205
+  angles 0 -51.873 0
+ }
+ {
+  coords 7482.669 3.196 4188.99
+  angles 0 -54.176 0
+ }
+ {
+  coords 7499.514 3.156 4208.888
+  angles 0 -51.956 0
+ }
+ {
+  coords 7014.169 4.645 3844.332
+  angles 0 -65.382 0
+ }
+ {
+  coords 6817.429 2.094 3478.194
+  angles 0 -46.852 0
+ }
+ {
+  coords 4392.458 55.15 3228.406
+  angles 0 -88.426 0
+ }
+}
+$grp GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
+ {
+  coords 2178.713 126.188 7379.695
+  angles 0 92.704 0
+ }
+ {
+  coords 6011.901 2.437 8295.337
+  angles 0 80.303 0
+ }
+ {
+  coords 9256.481 94.125 9462.93
+  angles 0 -1.951 0
+ }
+ {
+  coords 10811.156 111.853 10421.174
+  angles 0 156.079 0
+ }
+ {
+  coords 11955.158 3.313 10954.618
+  angles 0 7.155 0
+ }
+ {
+  coords 7514.214 3.25 4224.869
+  angles 0 -50.174 0
+ }
+ {
+  coords 5957.81 9.313 3106.5
+  angles 0 70.354 0
+ }
+}
+$grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
+ {
+  coords 3079.775 24.219 4770.016
+  angles 0 -129.238 0
+ }
+ {
+  coords 3069.763 24.219 4801.668
+  angles 0 140.563 0
+ }
+ {
+  coords 6288.032 5.658 3211.035
+  angles 0 58.372 0
+ }
+ {
+  coords 6281.758 6.437 3222.584
+  angles 0 57.056 0
+ }
+ {
+  coords 5956.963 9.313 3115.157
+  angles 0 70.518 0
+ }
+ {
+  coords 4388.618 57 3159.926
+  angles 0 -88.752 0
+ }
+ {
+  coords 4778.559 404.585 5210.841
+  angles 0 17.716 0
+ }
+}
+$grp GenericEntity : "{C63BFEEA9DE1CF26}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign.et" {
+ {
+  coords 2701.313 221.052 6993.494
+  angles 0 177.861 0
+ }
+ {
+  coords 1656.248 110.79 7405.645
+  angles 0 -178.263 3.377
+ }
+ {
+  coords 1645.705 110.688 7405.953
+  angles 4.526 -179.366 -2.614
+ }
+ {
+  coords 7472.412 3.163 4174.347
+  angles 0 -51.114 0
+ }
+ {
+  coords 7009.924 4.626 3857.61
+  angles 0 -153.161 0
+ }
+ {
+  coords 6404.87 4.686 3243.823
+  angles 0 52.684 0
+ }
+ {
+  coords 4392.608 55.188 3214.988
+  angles 0 -86.59 0
+ }
+}

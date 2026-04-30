@@ -1,0 +1,38 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 6455.265 251.812 7189.964
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 8412.81 243.312 8626.953
+}
+SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
+ coords 8412.288 243.312 8626.307
+ m_aRanks {
+  SCR_RankIDCampaign "{5CB0777E83631136}" {
+   m_bIsRenegade 0
+   m_iRadioRespawnCooldown 150
+  }
+ }
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 7531.903 251.955 6687.705
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 7548.589 252.107 6697.446
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ coords 8412.885 243.312 8626.395
+ m_iControlPointsThreshold 5
+ m_fAcceptableDistanceBetweenFactionHQs 4000
+ m_fPreferredDistanceBetweenFactionHQs 6000
+}
+SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
+ coords 8413.192 243.312 8628.151
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
+   m_sLoadoutResource "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
+  }
+  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
+   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
+  }
+ }
+}
