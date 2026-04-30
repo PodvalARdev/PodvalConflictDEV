@@ -15,6 +15,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_iRadius 70
     m_bSeizedByMajority 1
     m_bShowNotifications 1
+    m_sBaseName "Дюррас"
+    m_sBaseNameUpper "Дюррас"
    }
   }
   coords 8894.009 96.157 2715.927
@@ -39,6 +41,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
  }
  {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Регина"
+    m_sBaseNameUpper "Регина"
+   }
+  }
   coords 7300.095 139.964 2169.637
   angles 0 -3.28 0
   {
@@ -61,6 +69,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
  }
  {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Камурак"
+    m_sBaseNameUpper "Камурак"
+   }
+  }
   coords 6633.197 5.713 3120.311
   angles 0 -177.091 0
   {
@@ -83,6 +97,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   }
  }
  {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Леви"
+    m_sBaseNameUpper "Леви"
+   }
+  }
   coords 7459.776 131.353 4814.914
   angles 0 92.937 0
   {

@@ -3,6 +3,12 @@ GenericEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitar
  angles 0 -14.447 0
 }
 GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "Башня в Регине"
+   m_sBaseNameUpper "Башня в Регине"
+  }
+ }
  coords 7689.928 341.611 3055.617
  angles 0 164.873 0
  {

@@ -1,5 +1,11 @@
 $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
  {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Пинаты"
+    m_sBaseNameUpper "Пинаты"
+   }
+  }
   coords 8241.703 223.125 2163.379
   angles 0 -54.289 0
   {
@@ -22,6 +28,12 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   }
  }
  {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "Военная база в Леви"
+    m_sBaseNameUpper "Военная база в Леви"
+   }
+  }
   coords 7449.403 164.562 4306.269
   angles 0 101.521 0
   {
