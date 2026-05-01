@@ -1,13 +1,18 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 41827"
     m_sBaseNameUpper "в/ч 41827"
    }
   }
-  coords 7135.982 314.406 6041.99
-  angles 0 -98.699 0
+  coords 7101.667 312.89 6040.213
+  angles 0 101.529 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -29,13 +34,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 55309"
     m_sBaseNameUpper "в/ч 55309"
    }
   }
-  coords 5424.909 64.188 3380.464
-  angles 0 -94.219 0
+  coords 5323.499 65.609 3376.846
+  angles 0 67.5 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -57,7 +67,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Миглерон"
     m_sBaseNameUpper "Миглерон"
    }
@@ -85,7 +100,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Лангонет"
     m_sBaseNameUpper "Лангонет"
    }
@@ -113,7 +133,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Комсомольск"
     m_sBaseNameUpper "Комсомольск"
    }
@@ -141,7 +166,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Заброшка"
     m_sBaseNameUpper "Заброшка"
    }
@@ -169,7 +199,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Сортировочная"
     m_sBaseNameUpper "Сортировочная"
    }
@@ -197,7 +232,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Хижина в лесу"
     m_sBaseNameUpper "Хижина в лесу"
    }
@@ -225,13 +265,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 72041"
     m_sBaseNameUpper "в/ч 72041"
    }
   }
-  coords 6891.287 435.66 6716.513
-  angles 0 41.86 0
+  coords 6879.688 435.66 6712.645
+  angles 0 46.247 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -253,13 +298,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 88163"
     m_sBaseNameUpper "в/ч 88163"
    }
   }
-  coords 5599.187 421.438 6870.647
-  angles 0 90.552 0
+  coords 5657.018 421.437 6858.803
+  angles 0 174.161 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -281,13 +331,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Бовемонт"
     m_sBaseNameUpper "Бовемонт"
    }
   }
-  coords 6100.433 417.916 6169.915
-  angles 0 -163.94 0
+  coords 6116.151 417.916 6161.153
+  angles 0 -168.599 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -309,12 +364,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Соумонт"
     m_sBaseNameUpper "Соумонт"
    }
   }
-  coords 5042.61 410.71 5355.125
+  coords 5042.777 410.71 5358.946
   angles 0 -179.462 0
   {
    GenericEntity {
@@ -337,7 +397,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Перекресток"
     m_sBaseNameUpper "Перекресток"
    }
@@ -365,13 +430,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Хамертин"
     m_sBaseNameUpper "Хамертин"
    }
   }
-  coords 3258.097 272.262 6906.114
-  angles 0 134.057 0
+  coords 3270.686 271.121 6931.702
+  angles 0 57.96 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -393,13 +463,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Сосновый мыс"
     m_sBaseNameUpper "Сосновый мыс"
    }
   }
-  coords 4405.631 2.414 8149.74
-  angles 0 -121.588 0
+  coords 4410.18 2.32 8151.156
+  angles 0 -121.45 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -421,7 +496,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Ферма"
     m_sBaseNameUpper "Ферма"
    }
@@ -449,12 +529,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 94520"
     m_sBaseNameUpper "в/ч 94520"
    }
   }
-  coords 7643.706 3.297 5078.23
+  coords 7657.816 23.214 5061.546
   angles 0 102.939 0
   {
    GenericEntity {
@@ -477,7 +562,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 14283"
     m_sBaseNameUpper "в/ч 14283"
    }
@@ -505,7 +595,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 27516"
     m_sBaseNameUpper "в/ч 27516"
    }
@@ -533,13 +628,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "в/ч 39047"
     m_sBaseNameUpper "в/ч 39047"
    }
   }
-  coords 9631.296 11.563 8668.981
-  angles 0 44.022 0
+  coords 9609.088 11.563 8711.739
+  angles 0 132.629 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -561,12 +661,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Ле Рочер"
     m_sBaseNameUpper "Ле Рочер"
    }
   }
-  coords 11390.633 86.475 10516.247
+  coords 11417.097 86.475 10500.27
   angles 0 -177.245 0
   {
    GenericEntity {
@@ -589,12 +694,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Шахта «Надежда»"
     m_sBaseNameUpper "Шахта «Надежда»"
    }
   }
-  coords 7630.005 205.247 6902.029
+  coords 7625.695 206.276 6897.144
   angles 0 41.419 0
   {
    GenericEntity {
@@ -617,12 +727,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Старая дорога"
     m_sBaseNameUpper "Старая дорога"
    }
   }
-  coords 4987.94 251.903 4380.275
+  coords 4986.319 252.363 4383.442
   angles 0 -150.149 0
   {
    GenericEntity {
@@ -645,13 +760,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_sBaseName "Шахта «Красных Октябрь»"
-    m_sBaseNameUpper "Шахта «Красных Октябрь»"
+    m_iRadius 60
+    m_sBaseName "Шахта «Красный Октябрь»"
+    m_sBaseNameUpper "Шахта «Красный Октябрь»"
    }
   }
   coords 3667.053 179.632 5231.187
-  angles 0 172.148 0
+  angles 0 -110.421 0
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -673,12 +793,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 60
     m_sBaseName "Мичурино"
     m_sBaseNameUpper "Мичурино"
    }
   }
-  coords 3758.879 3.26 3737.191
+  coords 3736.955 3.578 3773.547
   angles 0 -120.371 0
   {
    GenericEntity {
