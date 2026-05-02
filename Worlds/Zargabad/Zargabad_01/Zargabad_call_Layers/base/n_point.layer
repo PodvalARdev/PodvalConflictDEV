@@ -17,6 +17,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Shahbaz"
     m_sBaseNameUpper "Shahbaz"
    }
@@ -55,6 +56,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Fuel storage"
     m_sBaseNameUpper "Fuel storage"
    }
@@ -93,6 +95,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "The dam"
     m_sBaseNameUpper "The dam"
    }
@@ -124,6 +127,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "The village"
     m_sBaseNameUpper "The village"
    }
@@ -155,6 +159,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Factory"
     m_sBaseNameUpper "Factory"
    }
@@ -186,6 +191,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Military base"
     m_sBaseNameUpper "Military base"
    }
@@ -217,6 +223,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Abbas's kebab"
     m_sBaseNameUpper "Abbas's kebab"
    }
@@ -248,6 +255,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Crossroad"
     m_sBaseNameUpper "Crossroad"
    }
