@@ -12,7 +12,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 70
+    m_iRadius 65
     m_bSeizedByMajority 1
     m_bShowNotifications 1
     m_sBaseName "Дюррас"
@@ -42,7 +42,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Регина"
     m_sBaseNameUpper "Регина"
    }
@@ -70,7 +75,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Камурак"
     m_sBaseNameUpper "Камурак"
    }
@@ -98,7 +108,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Леви"
     m_sBaseNameUpper "Леви"
    }

@@ -1,7 +1,12 @@
 $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
  {
   components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
     m_sBaseName "Пинаты"
     m_sBaseNameUpper "Пинаты"
    }
@@ -29,7 +34,12 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
  }
  {
   components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
     m_sBaseName "Военная база в Леви"
     m_sBaseNameUpper "Военная база в Леви"
    }
