@@ -6,7 +6,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 80
+    m_iRadius 65
     m_sBaseName "Нагара"
     m_sBaseNameUpper "Нагара"
    }
@@ -45,7 +45,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Мечеть Нур-Али"
     m_sBaseNameUpper "Мечеть Нур-Али"
    }
@@ -78,7 +78,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Аэропорт Мазари-Кундуз"
     m_sBaseNameUpper "Аэропорт Мазари-Кундуз"
    }
@@ -111,7 +111,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Пандж-Нагар"
     m_sBaseNameUpper "Пандж-Нагар"
    }
@@ -144,7 +144,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Зеравшан-Шахр"
     m_sBaseNameUpper "Зеравшан-Шахр"
    }
@@ -177,7 +177,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Кух-Абад"
     m_sBaseNameUpper "Кух-Абад"
    }
@@ -217,7 +217,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Нарин-Шахр"
     m_sBaseNameUpper "Нарин-Шахр"
    }
@@ -250,7 +250,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Кабул-Сар"
     m_sBaseNameUpper "Кабул-Сар"
    }
@@ -283,7 +283,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 80
+    m_iRadius 65
     m_sBaseName "Высота 345"
     m_sBaseNameUpper "Высота 345"
    }
@@ -315,7 +315,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Зеравшан-Шахр"
     m_sBaseNameUpper "Зеравшан-Шахр"
    }
@@ -355,7 +355,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Вершина 630"
     m_sBaseNameUpper "Вершина 630"
    }
@@ -389,7 +389,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Сар-Дар"
     m_sBaseNameUpper "Сар-Дар"
    }
@@ -429,7 +429,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 50
+    m_iRadius 65
     m_sBaseName "Вершина 425"
     m_sBaseNameUpper "Вершина 425"
    }
@@ -461,7 +461,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Нарин-Шахр"
     m_sBaseNameUpper "Нарин-Шахр"
    }
@@ -494,7 +494,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Перекресток Нарин-Шахр"
     m_sBaseNameUpper "Перекресток Нарин-Шахр"
    }
@@ -527,7 +527,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Регзар"
     m_sBaseNameUpper "Регзар"
    }
@@ -560,6 +560,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Регдара"
     m_sBaseNameUpper "Регдара"
    }
@@ -591,6 +592,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Гульсар"
     m_sBaseNameUpper "Гульсар"
    }
@@ -623,6 +625,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Аэропорт Тарин-Шариф"
     m_sBaseNameUpper "Аэропорт Тарин-Шариф"
    }
@@ -655,6 +658,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Нурсар"
     m_sBaseNameUpper "Нурсар"
    }
@@ -694,6 +698,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Дарбаз"
     m_sBaseNameUpper "Дарбаз"
    }
@@ -731,7 +736,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Гульдара"
     m_sBaseNameUpper "Гульдара"
    }
@@ -764,6 +769,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Дарбаз"
     m_sBaseNameUpper "Дарбаз"
    }
@@ -795,6 +801,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
     m_sBaseName "Аб-Кух"
     m_sBaseNameUpper "Аб-Кух"
    }

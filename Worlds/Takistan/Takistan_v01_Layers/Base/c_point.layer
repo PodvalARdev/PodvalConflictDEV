@@ -6,7 +6,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 80
+    m_iRadius 65
     m_sBaseName "Шах-Баз"
     m_sBaseNameUpper "Шах-Баз"
    }
@@ -39,7 +39,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Амир-Кала"
     m_sBaseNameUpper "Амир-Кала"
    }
@@ -72,7 +72,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Рег-Шахр"
     m_sBaseNameUpper "Рег-Шахр"
    }
@@ -105,7 +105,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 80
+    m_iRadius 65
     m_sBaseName "Гуль-Абад"
     m_sBaseNameUpper "Гуль-Абад"
    }
@@ -138,7 +138,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Нарин-Кут"
     m_sBaseNameUpper "Нарин-Кут"
    }
@@ -171,7 +171,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 80
+    m_iRadius 65
     m_sBaseName "Сар-Дара"
     m_sBaseNameUpper "Сар-Дара"
    }
@@ -196,7 +196,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 90
+    m_iRadius 65
     m_sBaseName "Сар-Кух"
     m_sBaseNameUpper "Сар-Кух"
    }

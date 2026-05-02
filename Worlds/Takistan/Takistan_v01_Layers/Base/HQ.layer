@@ -2,7 +2,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
  {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 95
+    m_iRadius 65
     m_iRegularSuppliesIncomeBase 50
    }
   }
@@ -12,7 +12,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
  {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 80
+    m_iRadius 65
     m_iRegularSuppliesIncomeBase 50
    }
   }
