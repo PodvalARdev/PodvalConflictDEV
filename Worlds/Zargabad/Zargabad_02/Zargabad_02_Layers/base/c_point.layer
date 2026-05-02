@@ -6,7 +6,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Mosque"
     m_sBaseNameUpper "Mosque"
    }
@@ -38,7 +38,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 80
+    m_iRadius 65
     m_sBaseName "Airfield"
     m_sBaseNameUpper "Airfield"
    }
@@ -79,7 +79,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 120
+    m_iRadius 65
     m_sBaseName "The villa"
     m_sBaseNameUpper "The villa"
    }
@@ -111,7 +111,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 75
+    m_iRadius 65
     m_sBaseName "Fuel storage"
     m_sBaseNameUpper "Fuel storage"
    }
@@ -144,7 +144,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     m_fMinimumSeizingTime 30
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 60
+    m_iRadius 65
     m_sBaseName "Factory"
     m_sBaseNameUpper "Factory"
    }
