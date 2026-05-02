@@ -22,7 +22,7 @@ SCR_ChimeraCharacter : "{8D89B17BCFBFAE44}Prefabs/Characters/Campaign/Final/BLUF
    m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
     m_aVariants {
      SCR_EditableEntityVariant "{60F6B2B4B9D3CC9B}" {
-      m_bEnabled 0
+      m_sVariantPrefab "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
      }
     }
    }
