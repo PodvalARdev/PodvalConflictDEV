@@ -7,7 +7,19 @@ Vehicle : "{DD0CB0331A3D8CA7}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok_camo1.
     m_aAutoLabels {
      FACTION_USSR SIZE_M VEHICLE_APC ENTITYTYPE_VEHICLE
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 5000
+     }
+     SCR_EntityBudgetValue "{650E8E075C071980}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+    }
    }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
   }
  }
 }
