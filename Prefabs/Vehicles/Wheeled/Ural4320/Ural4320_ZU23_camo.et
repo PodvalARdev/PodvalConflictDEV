@@ -19,6 +19,10 @@ Vehicle : "{FD109F3702AAB393}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23_bas
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 1250
      }
+     SCR_EntityBudgetValue "{68E48369FF4E810B}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
     }
    }
   }
