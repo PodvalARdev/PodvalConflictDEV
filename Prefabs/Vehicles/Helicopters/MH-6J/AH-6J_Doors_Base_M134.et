@@ -1,0 +1,48 @@
+Vehicle : "{0C60B2AA442AE5CA}Prefabs/Vehicles/Helicopters/MH-6J/MH-6J_Doors_Base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     AutoConnectToTurret "AHCarrier"
+     AutoConnectContextIndices 0x8 0
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "AH-6J (Doors) | M134"
+    m_aAuthoredLabels + {
+     TRAIT_ARMED
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2000
+     }
+     SCR_EntityBudgetValue "{6946A5131E61C677}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo AH6_WeaponRack {
+     Prefab "{DBE63604EE514ED7}Prefabs/Vehicles/Helicopters/MH-6J/VehParts/WeaponSystems/AH6_WeaponRack_M134.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo Crosshair {
+     Offset 0.3916 1.8873 1.0236
+     Prefab "{B94F6ABFE1E053AF}Prefabs/Vehicles/Helicopters/MH-6J/VehParts/WeaponSystems/Crosshair_Pane.et"
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}
