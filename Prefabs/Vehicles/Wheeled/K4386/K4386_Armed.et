@@ -18,7 +18,7 @@ Vehicle : "{863A65C2E3330F2F}Prefabs/Vehicles/Wheeled/K4386/K4386_Base.et" {
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 2500
+      m_Value 2000
      }
      SCR_EntityBudgetValue "{650E8E062E777269}" {
       m_BudgetType RANK_LIEUTENANT

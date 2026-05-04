@@ -19,7 +19,7 @@ Vehicle : "{31F0866273C46D76}Prefabs/Vehicles/Wheeled/K17/APC_K17_Berezok.et" {
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 5000
+      m_Value 3000
      }
      SCR_EntityBudgetValue "{650E8E075C071980}" {
       m_BudgetType RANK_CAPTAIN
