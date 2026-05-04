@@ -3,6 +3,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 65
+    m_sBaseName "Долина Мортон"
+    m_sBaseNameUpper "Долина Мортон"
    }
   }
   coords 4537.674 64.162 4987.353
@@ -30,6 +32,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 65
+    m_sBaseName "Фигари"
+    m_sBaseNameUpper "Фигари"
    }
   }
   coords 5131.122 52.482 5499.034
@@ -57,6 +61,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 65
+    m_sBaseName "Провин"
+    m_sBaseNameUpper "Провин"
    }
   }
   coords 5582.239 89.129 5890.252
@@ -84,6 +90,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 65
+    m_sBaseName "Военный госпиталь"
+    m_sBaseNameUpper "Военный госпиталь"
    }
   }
   coords 3931.518 15.567 8460.767
@@ -111,6 +119,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 65
+    m_sBaseName "Тирон"
+    m_sBaseNameUpper "Тирон"
    }
   }
   coords 5004.508 50.279 8912.454
@@ -137,6 +147,8 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
   components {
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_iRadius 65
+    m_sBaseName "Мо"
+    m_sBaseNameUpper "Мо"
    }
   }
   coords 4507.994 20.968 9768.153

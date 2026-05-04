@@ -3,6 +3,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 65
+    m_sBaseName "Грабовая Долина"
+    m_sBaseNameUpper "Грабовая Долина"
    }
   }
   coords 5380.665 24.907 8336.57
@@ -30,6 +32,8 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 65
+    m_sBaseName "Сосновое озеро"
+    m_sBaseNameUpper "Сосновое озеро"
    }
   }
   coords 4438.072 58.618 6234.236
@@ -62,6 +66,10 @@ GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRad
      "Transmitting Range" 1600
     }
    }
+  }
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "Вышка в Монтиньяке"
+   m_sBaseNameUpper "Вышка в Монтиньяке"
   }
  }
  coords 4669.891 161.284 7082.859
