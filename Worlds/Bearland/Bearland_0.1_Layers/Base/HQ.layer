@@ -1,0 +1,20 @@
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
+    m_iRegularSuppliesIncomeBase 125
+   }
+  }
+  coords 358.866 3.656 1499.059
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
+    m_iRegularSuppliesIncomeBase 125
+   }
+  }
+  coords 1462.664 1.279 375.735
+ }
+}

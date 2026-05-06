@@ -1,0 +1,11 @@
+StaticModelEntity : "{6DEC3A82BA35F108}Prefabs/Compositions/Misc/SubCompositions/Tent_BarrackHQ_Cluttered_USSR_01.et" {
+ coords 1425.15 30.049 1628.119
+ angles 0 -169.118 0
+}
+StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
+ coords 1230.994 2.656 1004.86
+}
+StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Antenna_BARS_01_transmitter.et" {
+ coords 837.779 0 1501.261
+ angles 0 48.958 0
+}
