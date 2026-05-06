@@ -1,0 +1,470 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Сууркила"
+    m_sBaseNameUpper "Сууркила"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5528.443 7.883 9143.069
+  angles 0 -64.98 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Макиинпаллис"
+    m_sBaseNameUpper "Макиинпаллис"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5430.254 100.544 7697.271
+  angles 0 96.121 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Коровник"
+    m_sBaseNameUpper "Коровник"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 4715.34 13.198 7508.34
+  angles 0 -121.481 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Хауккавуори"
+    m_sBaseNameUpper "Хауккавуори"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5935.41 39.625 5794.03
+  angles 0 -95.547 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Альттаркаллио"
+    m_sBaseNameUpper "Альттаркаллио"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 7924.946 42.285 2817.779
+  angles 0 -91.267 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Промышленная зона"
+    m_sBaseNameUpper "Промышленная зона"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 7515.938 18.562 3148.702
+  angles 0 -77.85 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Маахелли"
+    m_sBaseNameUpper "Маахелли"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5852.709 3.781 3628.559
+  angles 0 91.75 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Каппелиниеми"
+    m_sBaseNameUpper "Каппелиниеми"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5779.807 5.094 8269.121
+  angles 0 -124.189 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Валькиакаллио"
+    m_sBaseNameUpper "Валькиакаллио"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 6881.811 91.375 2076.727
+  angles 0 171.76 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Ветелиярви"
+    m_sBaseNameUpper "Ветелиярви"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 6022.495 44.563 4900.963
+  angles 0 -170.141 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_sBaseName "Скала на северной стороне"
+    m_sBaseNameUpper "Скала на северной стороне"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5242.874 11.125 10125.892
+  angles 0 82.503 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 4579.426 45.626 9687.161
+  angles 0 92.872 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Старая метеостанция"
+    m_sBaseNameUpper "Старая метеостанция"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5816.783 30.672 2967.477
+  angles 0 95.479 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Вышка «Запад»"
+    m_sBaseNameUpper "Вышка «Запад»"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 4937.26 5.027 4963.504
+  angles 0 -137.725 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Вышка «Север»"
+    m_sBaseNameUpper "Вышка «Север»"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 5101.358 82.961 8314.604
+  angles 0 15.204 0
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Вышка «Восток»"
+    m_sBaseNameUpper "Вышка «Восток»"
+    m_iRegularSuppliesIncomeBase 10
+    m_iSuppliesArrivalInterval 300
+   }
+  }
+  coords 6959.771 5.875 6366.813
+  angles 0 55.859 0
+ }
+}

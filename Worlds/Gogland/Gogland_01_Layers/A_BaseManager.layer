@@ -1,0 +1,39 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 5157.293 100.77 2513.962
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7114.838 92.27 3950.95
+}
+SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
+ coords 7114.316 92.27 3950.304
+ m_aRanks {
+  SCR_RankIDCampaign "{5CB0777E83631136}" {
+   m_bIsRenegade 0
+   m_iRadioRespawnCooldown 150
+  }
+ }
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 6233.932 100.913 2011.702
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 6250.617 101.065 2021.444
+}
+SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ coords 7114.914 92.27 3950.392
+ m_iControlPointsThreshold 5
+ m_iQuickSuppliesReplenishThreshold 100
+ m_iRegularSuppliesIncomeBase 13
+ m_iRegularSuppliesIncomeExtra 1
+}
+SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
+ coords 7115.221 92.27 3952.149
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
+   m_sLoadoutResource "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
+  }
+  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
+   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
+  }
+ }
+}
