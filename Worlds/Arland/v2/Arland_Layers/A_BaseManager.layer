@@ -8,7 +8,6 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
  coords 2018.032 46.079 2080.646
  m_aRanks {
   SCR_RankIDCampaign "{5CB0777E83631136}" {
-   m_bIsRenegade 0
   }
  }
 }
@@ -34,7 +33,7 @@ SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoad
    m_sLoadoutResource "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
   }
   SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
-   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_RF_forest_Player_2.et"
+   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
   }
  }
 }
