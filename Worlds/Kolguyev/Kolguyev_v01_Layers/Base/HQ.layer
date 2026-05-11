@@ -3,7 +3,6 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 65
-    m_iRegularSuppliesIncomeBase 25
    }
   }
   coords 4662.978 5.17 2900.521
@@ -13,7 +12,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 65
-    m_iRegularSuppliesIncomeBase 25
+    m_iRegularSuppliesIncomeBase 50
    }
   }
   coords 3675.779 1.736 7939.308
@@ -23,7 +22,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 65
-    m_iRegularSuppliesIncomeBase 25
+    m_iRegularSuppliesIncomeBase 50
    }
   }
   coords 10517.185 26.745 9826.517
@@ -33,7 +32,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRadius 65
-    m_iRegularSuppliesIncomeBase 25
+    m_iRegularSuppliesIncomeBase 50
    }
   }
   coords 9874.972 1.261 10799.279

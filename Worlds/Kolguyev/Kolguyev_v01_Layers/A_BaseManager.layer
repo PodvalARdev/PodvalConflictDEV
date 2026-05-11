@@ -20,9 +20,6 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 8412.885 243.312 8626.395
  m_iControlPointsThreshold 5
- m_iQuickSuppliesReplenishThreshold 100
- m_iRegularSuppliesIncome 5
- m_iRegularSuppliesIncomeBase 5
  m_fAcceptableDistanceBetweenFactionHQs 4000
  m_fPreferredDistanceBetweenFactionHQs 6000
 }
