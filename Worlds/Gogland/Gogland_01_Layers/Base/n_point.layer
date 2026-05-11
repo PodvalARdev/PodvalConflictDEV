@@ -428,7 +428,7 @@ $grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRel
     m_iSuppliesArrivalInterval 300
    }
   }
-  coords 5816.783 30.672 2967.477
+  coords 5825.109 14.987 2975.623
   angles 0 95.479 0
  }
  {
