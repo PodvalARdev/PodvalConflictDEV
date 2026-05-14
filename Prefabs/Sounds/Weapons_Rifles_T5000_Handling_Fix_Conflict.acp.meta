@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{3E7D277A2ADB876D}Sounds/Weapons/Rifles/T5000/Weapons_Rifles_T5000_Handling_Fix_Conflict.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+  AudioProjectResourceClass Xbox : PC {
+  }
+ }
+}
