@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{2B1C757BFBF3A42D}Prefabs/Weapons/Attachments/Optics/Scopes/Optic_Nightforce_ATACR1-8x/Optic_Nightforce_ATACR_1-8x_RMR_762x54.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
