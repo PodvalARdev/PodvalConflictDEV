@@ -7,6 +7,9 @@ Vehicle : "{3A4CDF7428E32E7C}Prefabs/Vehicles/Wheeled/JLTV/JLTV_Base.et" {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
       m_Value 2250
      }
+     SCR_EntityBudgetValue "{60F65AB2855D435D}" {
+      m_BudgetType RANK_MAJOR
+     }
     }
    }
   }
