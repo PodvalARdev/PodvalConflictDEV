@@ -1,0 +1,157 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 4946.015 139.096 6979.629
+  angles 0 27.534 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 4099.344 144.969 7999.313
+  angles 0 -34.576 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 2224.372 133.807 6178.615
+  angles 0 -61.999 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 3078.998 137.916 7116.683
+  angles 0 89.56 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 30
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+   }
+  }
+  coords 3658.86 132.309 6055.756
+  angles 0 177.81 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      Enabled 0
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,35 @@
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
+    m_iRegularSuppliesIncomeBase 25
+   }
+  }
+  coords 6167.321 101.643 6912.237
+  angles 0 -168.754 0
+ }
+ {
+  components {
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 65
+    m_iRegularSuppliesIncomeBase 25
+   }
+  }
+  coords 1210.33 125.779 5259.443
+ }
+}
