@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{939E21D5AA688A72}Configs/EntityCatalog/USSR/WCS_Vehicles_EntityCatalog_USSR2.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

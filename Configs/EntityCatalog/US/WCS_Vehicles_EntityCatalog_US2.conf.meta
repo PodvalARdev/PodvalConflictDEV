@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{52D84958844EC7DD}Configs/EntityCatalog/US/WCS_Vehicles_EntityCatalog_US2.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
