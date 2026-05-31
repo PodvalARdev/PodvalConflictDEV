@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{55818FBE447DCF6D}Configs/GroupPresets/USSR/WCS_GroupPreset_USSR_AttackHelicopter.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

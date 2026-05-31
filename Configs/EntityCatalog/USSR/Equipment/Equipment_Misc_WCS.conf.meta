@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{88E04E18506476E0}Configs/EntityCatalog/USSR/Equipment/Equipment_Misc_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

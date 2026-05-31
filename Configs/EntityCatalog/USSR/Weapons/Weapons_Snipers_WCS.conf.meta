@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B394B26B2525B3B6}Configs/EntityCatalog/USSR/Weapons/Weapons_Snipers_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

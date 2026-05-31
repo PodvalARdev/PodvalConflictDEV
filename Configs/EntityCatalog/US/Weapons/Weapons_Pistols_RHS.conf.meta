@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6E13F82C6C00D5CF}Configs/EntityCatalog/US/Weapons/Weapons_Pistols_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

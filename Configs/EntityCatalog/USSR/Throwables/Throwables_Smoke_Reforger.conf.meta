@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F0A2F8754F1C35D3}Configs/EntityCatalog/USSR/Throwables/Throwables_Smoke_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

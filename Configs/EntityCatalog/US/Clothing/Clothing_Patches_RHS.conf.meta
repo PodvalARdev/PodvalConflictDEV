@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DBC6EAB64AD20753}Configs/EntityCatalog/US/Clothing/Clothing_Patches_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

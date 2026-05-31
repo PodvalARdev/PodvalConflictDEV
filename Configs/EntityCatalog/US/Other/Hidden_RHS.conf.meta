@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EF6B6DE9F3A3024B}Configs/EntityCatalog/US/Other/Hidden_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

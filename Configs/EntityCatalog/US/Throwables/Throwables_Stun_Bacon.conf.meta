@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F03D39625FEC0AC9}Configs/EntityCatalog/US/Throwables/Throwables_Stun_Bacon.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{60A16AB4CB3BE165}Configs/EntityCatalog/US/Ammunition/Ammo_Pistols_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

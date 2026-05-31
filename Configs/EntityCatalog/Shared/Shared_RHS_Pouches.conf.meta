@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9AD785EAC48C3C06}Configs/EntityCatalog/Shared/Shared_RHS_Pouches.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

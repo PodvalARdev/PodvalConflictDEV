@@ -23,7 +23,6 @@ SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB64
  Factions {
   SCR_CampaignFaction "{56F0C3A6336375DC}" {
    m_bIsPlayable 1
-   m_bShowInWelcomeScreenIfNonPlayable 1
    m_bIsMilitary 1
   }
  }
@@ -76,7 +75,7 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
    m_iXpRewardTreshold 5
    m_iInitialRewardInterval 5
    m_fRewardCurveIncrement 0.2
-   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5D7A73031D9A11E1}" : "{96A8B496A076F1C0}scripts/Game/ACE_Trenches/Building/CampaignBuildingCompositionOutline.conf" {
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{5D7A73031D9A11E1}" : "{96A8B496A076F1C0}scripts/Game/Building/CampaignBuildingCompositionOutline.conf" {
     m_aCompositionLayouts {
      SCR_CampaignBuildingCompositionOutline "{5D34D094366A7550}" {
       m_sEditableEntity "{18BEFC9A7FA72CD8}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeKnifeRest_S_US_01.et"
@@ -568,35 +567,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
   SCR_XPHandlerComponent "{5CAAA397E5408ABF}" {
    m_sXPRewardsConfig "{8227B4636C73C5B5}Configs/Campaign/CampaignXPRewards.conf"
    m_fVehicleRepairXPMultiplier 0.5
-   m_mSeizeXPRewardConfig SCR_SeizeXpRewardConfig "{657C71E620E93E4A}" {
-    m_aSeizeCompletionXpRewardList {
-     SCR_SeizeCompletionXpRewardInfo "{657C71E63D8D0E79}" {
-      m_iXPReward 25
-     }
-     SCR_SeizeCompletionXpRewardInfo "{657C71E63A17E2AA}" {
-      m_eBaseType SOURCE_BASE
-      m_iXPReward 50
-     }
-     SCR_SeizeCompletionXpRewardInfo "{657C71E639D75E88}" {
-      m_eBaseType CONTROL_POINT
-      m_iXPReward 150
-     }
-    }
-    m_aSeizeProgressionXpRewardList {
-     SCR_SeizeProgressionXpRewardInfo "{657C71E63BC15986}" {
-      m_sFactionKey "FIA"
-      m_iXPReward 5
-     }
-     SCR_SeizeProgressionXpRewardInfo "{657C71E63B5DC55E}" {
-      m_sFactionKey "USSR"
-      m_iXPReward 15
-     }
-     SCR_SeizeProgressionXpRewardInfo "{657C71E63B176CCC}" {
-      m_sFactionKey "US"
-      m_iXPReward 15
-     }
-    }
-   }
   }
  }
  coords 26.726 0 10.962
@@ -12549,17 +12519,6 @@ $grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/Effe
 GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
  coords 2838.686 86.345 6339.803
 }
-SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 8113.258 222.503 4143.343
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
-   m_sLoadoutResource "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
-  }
-  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
-   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
-  }
- }
-}
 $grp GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
  {
   coords 3890.944 14.208 8508.7
@@ -13485,6 +13444,9 @@ GenericEntity : "{D48B49DC4F0BCB66}Prefabs/Compositions/Locations/Eden/SupplyCac
 }
 GenericEntity : "{D523CF2B952C71A9}Prefabs/Compositions/Locations/Eden/SupplyCache_Durras_FIA_01.et" {
  coords 8826.849 94.671 2745.832
+}
+SCR_LoadoutManager : "{D6481650CF7CBAB3}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager.et" {
+ coords 6395.273 159.23 6424.877
 }
 $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
  {

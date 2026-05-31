@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{183361B6DA2C304F}Configs/Arsenal/ArsenalLoadoutSaveBlacklists.conf"
+ Name "{148598E400270B6A}Configs/Arsenal/WCS_ArsenalLoadoutSaveBlacklists.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
-  }
-  CONFResourceClass Xbox : PC {
   }
  }
 }

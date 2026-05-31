@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{517A2A46AC90FAB0}Configs/EntityCatalog/US/Clothing/Clothing_Jackets_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

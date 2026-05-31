@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6B6463614EA09331}Configs/EntityCatalog/USSR/Ammunition/Ammo_Rifles_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

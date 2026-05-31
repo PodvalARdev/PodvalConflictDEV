@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ADDD33E182BC7805}Configs/EntityCatalog/US/Clothing/Clothing_Suits_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

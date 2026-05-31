@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EC4AFF4D06AE58A5}Configs/EntityCatalog/US/Attachments/Attachments_Bipods_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

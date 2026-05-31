@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C942A6F915792DB8}Configs/EntityCatalog/US/Clothing/Clothing_Boonies_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

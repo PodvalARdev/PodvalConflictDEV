@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{65C2AD6582ACC5FE}Configs/EntityCatalog/US/Ammunition/Ammo_Launchers_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

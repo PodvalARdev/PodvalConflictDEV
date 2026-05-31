@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F5B2BC0D7CC6E84}Configs/EntityCatalog/USSR/Equipment/Equipment_NVG_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

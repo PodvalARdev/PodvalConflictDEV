@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{91116B87F1572AAB}Configs/EntityCatalog/US/Ammunition/Ammo_GrenadeLaunchers_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

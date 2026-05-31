@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8C4AF44C9D3B285D}Configs/EntityCatalog/US/Attachments/Attachments_Grips_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

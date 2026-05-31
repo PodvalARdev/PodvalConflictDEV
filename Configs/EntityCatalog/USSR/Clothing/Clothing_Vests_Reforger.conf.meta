@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F6DD75A3B3139D47}Configs/EntityCatalog/USSR/Clothing/Clothing_Vests_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

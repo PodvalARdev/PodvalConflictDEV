@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ED1BAA135015659E}Configs/EntityCatalog/USSR/Weapons/Weapons_Carbine_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

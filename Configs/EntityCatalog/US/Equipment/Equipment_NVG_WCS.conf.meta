@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6443CD4BA8A49F43}Configs/EntityCatalog/US/Equipment/Equipment_NVG_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

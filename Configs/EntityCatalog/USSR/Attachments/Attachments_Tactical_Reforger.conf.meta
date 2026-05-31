@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9D58FB8F2E885D8C}Configs/EntityCatalog/USSR/Attachments/Attachments_Tactical_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

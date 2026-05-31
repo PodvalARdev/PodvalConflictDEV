@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{34B5B3F252E60343}Configs/EntityCatalog/USSR/Weapons/Weapons_MachineGuns_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

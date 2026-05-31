@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B8CE23CA18F3DA7B}Configs/EntityCatalog/US/Ammunition/Ammo_Snipers_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

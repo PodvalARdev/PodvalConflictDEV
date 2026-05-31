@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F642D4BEA0BD8CDE}Configs/EntityCatalog/US/Attachments/Attachments_Bayonets_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

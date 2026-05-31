@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FC8B3C61F96F2290}Configs/EntityCatalog/US/Ammunition/Ammo_GrenadeLaunchers_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

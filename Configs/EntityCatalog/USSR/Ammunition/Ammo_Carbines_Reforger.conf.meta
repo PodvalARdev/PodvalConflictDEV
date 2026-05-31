@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3810B33299DB1068}Configs/EntityCatalog/USSR/Ammunition/Ammo_Carbines_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

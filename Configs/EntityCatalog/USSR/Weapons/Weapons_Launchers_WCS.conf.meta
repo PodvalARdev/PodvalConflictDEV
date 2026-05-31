@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C083C48747CBB640}Configs/EntityCatalog/USSR/Weapons/Weapons_Launchers_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E2796D51FDBA183A}Configs/EntityCatalog/USSR/Attachments/Attachments_Muzzle_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

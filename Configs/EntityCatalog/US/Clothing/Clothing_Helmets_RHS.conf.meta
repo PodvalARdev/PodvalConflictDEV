@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{790E7EF457FAED73}Configs/EntityCatalog/US/Clothing/Clothing_Helmets_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

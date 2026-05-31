@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{466A1154E4AA0E56}Configs/EntityCatalog/USSR/Ammunition/Ammo_GrenadeLaunchers_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

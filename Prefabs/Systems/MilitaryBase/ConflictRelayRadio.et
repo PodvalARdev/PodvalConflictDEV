@@ -1,0 +1,8 @@
+GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ ID "5C727AD73024FB47"
+ components {
+  RHS_RadioSourceComponent "{622704321284EE3B}" {
+   Enabled 0
+  }
+ }
+}

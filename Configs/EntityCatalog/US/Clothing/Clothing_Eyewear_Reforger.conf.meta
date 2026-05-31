@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3BC0E292A7DE1D06}Configs/EntityCatalog/US/Clothing/Clothing_Eyewear_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

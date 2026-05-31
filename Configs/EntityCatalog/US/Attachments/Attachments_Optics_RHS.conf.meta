@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C307F4D44CE3ED0A}Configs/EntityCatalog/US/Attachments/Attachments_Optics_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

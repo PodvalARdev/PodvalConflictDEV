@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4A537DA35B1573FA}Configs/EntityCatalog/US/Clothing/Clothing_Backpacks_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

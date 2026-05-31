@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{68E5897A7D2C6183}Configs/EntityCatalog/USSR/Attachments/Attachments_IronSights_RHS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

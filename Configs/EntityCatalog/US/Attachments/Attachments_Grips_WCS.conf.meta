@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{94EE6A9F69705F6F}Configs/EntityCatalog/US/Attachments/Attachments_Grips_WCS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

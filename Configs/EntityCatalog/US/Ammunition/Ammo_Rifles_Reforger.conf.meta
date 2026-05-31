@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D1A079BBC7E875A3}Configs/EntityCatalog/US/Ammunition/Ammo_Rifles_Reforger.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
