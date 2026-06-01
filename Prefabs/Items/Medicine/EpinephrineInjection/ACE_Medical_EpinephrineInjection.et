@@ -1,0 +1,7 @@
+GenericEntity : "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_ConsumableItemComponent "{59E68C74C5CEE74F}" {
+  }
+ }
+}
