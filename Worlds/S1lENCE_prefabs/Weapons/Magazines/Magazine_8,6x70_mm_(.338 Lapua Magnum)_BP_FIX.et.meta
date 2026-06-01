@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{533820E8979A44AB}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et"
+ Name "{AFD51D7A24A59C08}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

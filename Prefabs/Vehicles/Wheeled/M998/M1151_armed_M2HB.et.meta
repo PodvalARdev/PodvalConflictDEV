@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{03708F7E58BB7A54}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et"
+ Name "{03708F7E58BB7A55}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

@@ -1,0 +1,154 @@
+Vehicle : "{D2CB0810A6F81E0D}Prefabs/Vehicles/Wheeled/M1083/M1083_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 15300
+   CenterOfMass 0 1.35 -0.9
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{65B6498665024F8B}" {
+     EntryPositionInfo PointInfo "{65B6498665024F84}" {
+      PivotID "driver_getin"
+     }
+    }
+    CompartmentDoorInfo "{65B6498665024FBB}" {
+     EntryPositionInfo PointInfo "{65B6498665024FB0}" {
+      PivotID "driver_getin"
+     }
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot passenger_m01 : "{F1145EBF949266C1}Prefabs/Vehicles/Wheeled/M1083/Configs/CargoCompartment_M1083_MiddleSeat.conf" {
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-EditableEntity_M1091A1P2_Fuel_Name"
+    Icon "{23EE5CFFB9D43382}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Truck_Fuel.edds"
+    m_Image "{C64EA131A7F0125A}UI/Textures/EditablePreviews/Vehicles/Wheeled/M1083/M1091_Tanker.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE TRAIT_REFUELING TRAIT_ARSENAL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 160
+     }
+    }
+    m_bEditorPlaceAsOneGroup 1
+   }
+  }
+  SCR_ResourceComponent "{698318F2630D8DDF}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{698318F2630D8DC1}" {
+     m_sDebugName "Consumer - Load Supplies"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier VEHICLE_LOAD
+     m_fResourceRange 12
+     m_fBuyMultiplier 0
+     m_fSellMultiplier 0
+     m_bIsIgnoringItself 1
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{698318F2630D8DCE}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{698318F2630D8DCF}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{698318F2630D8DC8}" {
+        }
+       }
+       SCR_ResourceConsumerStoragePolicy "{698318F2630D8DCA}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{698318F2630D8DCB}" {
+        }
+        m_eStorageType STORED
+       }
+      }
+     }
+    }
+    SCR_ResourceConsumer "{698318F2630D8DF4}" {
+     m_sDebugName "Consumer - Unload Supplies"
+     m_eResourceRights SELF
+     m_eGeneratorIdentifier VEHICLE_UNLOAD
+     m_fResourceRange 12
+     m_fBuyMultiplier 0
+     m_fSellMultiplier 0
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{698318F2630D8DF6}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicyGeneric "{698318F2630D8DF7}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{698318F2630D8DF0}" {
+        }
+       }
+      }
+     }
+    }
+    SCR_ResourceConsumer "{698318F2630D8DF1}" {
+     m_sDebugName "Vehicle - Consumer"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 135
+     m_fSellMultiplier 0
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{698318F2630D8DF3}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicyGeneric "{698318F2630D8C4C}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueue "{698318F2630D8C4D}" {
+        }
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{698318F2630D8C4F}" {
+     m_sDebugName "Generator - Load"
+     m_eResourceRights SELF
+     m_eIdentifier VEHICLE_LOAD
+     m_fResourceMultiplier 1
+     m_fStorageRange 12
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{698318F2630D8C49}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicyGeneric "{698318F2630D8C4B}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueue "{698318F2630D8C74}" {
+        }
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceGeneratorActionStore "{698318F2630D8C77}" {
+      }
+     }
+    }
+    SCR_ResourceGenerator "{698318F2630D8C70}" {
+     m_sDebugName "Generator - Unload Supplies"
+     m_eResourceRights ALL
+     m_eIdentifier VEHICLE_UNLOAD
+     m_fResourceMultiplier 1
+     m_fStorageRange 12
+     m_bIsIgnoringItself 1
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{698318F2630D8C71}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{698318F2630D8C72}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{698318F2630D8C73}" {
+        }
+        m_eStorageType STORED
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceGeneratorActionStore "{698318F2630D8C65}" {
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Enabled 1
+     Prefab "{6F4C4433277FE00F}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_fuel_tank.et"
+    }
+    RegisteringComponentSlotInfo Fuel {
+     Prefab "{FC2D5D9BB8DE3EA5}Prefabs/Vehicles/Core/VirtualSlots/Fuel_VirtualArsenalSlot.et"
+    }
+   }
+  }
+ }
+ coords 100.059 1 1250.623
+}

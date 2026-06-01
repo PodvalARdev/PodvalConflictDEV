@@ -1,0 +1,14 @@
+GenericEntity : "{E256C0CC945E18A5}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    CommonItemType "RHS_RIFLE_AMMO"
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   AmmoConfig "{8363A767693E362F}Worlds/S1lENCE_prefabs/Weapons/Ammo/338LM_ammo_cfg_fix.conf"
+  }
+ }
+ coords 161.886 1 130.815
+}

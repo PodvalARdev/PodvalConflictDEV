@@ -1,0 +1,19 @@
+Vehicle : "{A0CB8452B09E992D}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-EditableEntity_M1083A1P2_Transport_Covered_Name"
+    m_Image "{307F959AA368DC15}UI/Textures/EditablePreviews/Vehicles/Wheeled/M1083/M1083_Transport_Covered.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Cargo {
+     Prefab "{8CC8AAFE8FA2F143}Prefabs/Vehicles/Wheeled/M1083/VehParts/M1083_cargo_covered.et"
+    }
+   }
+  }
+ }
+ coords 80.805 1 1250.515
+}

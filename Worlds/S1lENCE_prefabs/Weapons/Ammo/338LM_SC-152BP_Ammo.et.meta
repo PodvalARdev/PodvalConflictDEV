@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{533820E8979A44AB}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et"
+ Name "{30A4959A4D5F08E8}Worlds/S1lENCE_prefabs/Weapons/Ammo/338LM_SC-152BP_Ammo.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

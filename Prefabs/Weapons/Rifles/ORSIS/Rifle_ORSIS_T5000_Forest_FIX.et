@@ -1,0 +1,16 @@
+GenericEntity : "{8865D6AEE1413CB5}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_base.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames +{
+   }
+  }
+  FORTEX_CustomWeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{AFD51D7A24A59C08}Worlds/S1lENCE_prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP_FIX.et"
+    }
+   }
+  }
+ }
+}

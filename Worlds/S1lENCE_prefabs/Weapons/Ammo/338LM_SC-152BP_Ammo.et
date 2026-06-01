@@ -1,0 +1,10 @@
+Projectile : "{BCEFA311044D3A16}Prefabs/Weapons/Ammo/338LM_SC-152BP_Ammo.et" {
+ ID "70A3674123B4BC16"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   PenetrationDepth 18
+   PenetrationDensity 16.92
+   PenetrationSpeed 900
+  }
+ }
+}

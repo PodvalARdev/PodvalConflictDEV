@@ -1,11 +1,11 @@
-Vehicle : "{923F0A979CE79ACD}Prefabs/Vehicles/Wheeled/M998/M998_covered_USAF.et" {
+Vehicle : "{A35A4AE2AD56643E}Prefabs/Vehicles/Wheeled/M998/M1151_armed_MK19.et" {
  ID "BBCBA43A9778AE21"
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "US"
     m_aAutoLabels {
-     FACTION_US SIZE_M FACTION_US
+     SIZE_M VEHICLE_CAR FACTION_US
     }
    }
   }
