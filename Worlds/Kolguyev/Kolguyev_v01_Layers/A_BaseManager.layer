@@ -22,3 +22,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
  m_fAcceptableDistanceBetweenFactionHQs 4000
  m_fPreferredDistanceBetweenFactionHQs 6000
 }
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 6398.505 444.159 6418.952
+}

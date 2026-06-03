@@ -21,6 +21,5 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
  m_iRegularSuppliesIncomeExtra 1
  m_iSuppliesArrivalIntervalSource 15
 }
-SCR_LoadoutManager : "{D6481650CF7CBAB3}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager.et" {
- coords -0.663 1918.958 4.845
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
 }

@@ -16,14 +16,3 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 2305.361 9 2309.831
 }
-SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 2305.668 9 2311.589
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
-   m_sLoadoutResource "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
-  }
-  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
-   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
-  }
- }
-}

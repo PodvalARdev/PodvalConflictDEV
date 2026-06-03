@@ -6,10 +6,6 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 7114.316 92.27 3950.304
- m_aRanks {
-  SCR_RankIDCampaign "{5CB0777E83631136}" {
-  }
- }
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 6233.932 100.913 2011.702
@@ -24,14 +20,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
  m_iRegularSuppliesIncomeBase 13
  m_iRegularSuppliesIncomeExtra 1
 }
-SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 7115.221 92.27 3952.149
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
-   m_sLoadoutResource "{D12A748951DA5352}Prefabs/Characters/Campaign/RHS/Conflict/Variants/forest/Campaign_US_forest_Player_1.et"
-  }
-  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
-   m_sLoadoutResource "{208647DB054C74B2}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Forest/Campaign_RF_forest_Player_1.et"
-  }
- }
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords -0.938 1918.943 4.796
 }

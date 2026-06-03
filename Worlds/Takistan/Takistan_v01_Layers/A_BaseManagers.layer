@@ -18,14 +18,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
  m_iControlPointsThreshold 5
  m_iHQStartingSupplies 500
 }
-SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 6526.093 323.705 1053.757
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
-   m_sLoadoutResource "{F0C3A8CF24BA9A41}Prefabs/Characters/Campaign/RHS/Conflict/Variants/Desert/Campaign_US_desert_Player_1.et"
-  }
-  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
-   m_sLoadoutResource "{3EEA0F54CD1E4E24}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Desert/Campaign_RF_desert_Player_1.et"
-  }
- }
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 6528.853 321.343 1054.97
 }

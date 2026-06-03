@@ -6,10 +6,6 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
  coords 2304.764 9 2309.744
- m_aRanks {
-  SCR_RankIDCampaign "{5CB0777E83631136}" {
-  }
- }
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
  coords 1424.379 17.643 371.143
@@ -19,15 +15,4 @@ RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 2305.361 9 2309.831
-}
-SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 2305.668 9 2311.589
- m_aPlayerLoadouts {
-  SCR_FactionPlayerLoadout "{68E33847EAA07831}" {
-   m_sLoadoutResource "{F0C3A8CF24BA9A41}Prefabs/Characters/Campaign/RHS/Conflict/Variants/Desert/Campaign_US_desert_Player_1.et"
-  }
-  SCR_FactionPlayerLoadout "{68E33847EAA0782F}" {
-   m_sLoadoutResource "{3EEA0F54CD1E4E24}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Desert/Campaign_RF_desert_Player_1.et"
-  }
- }
 }

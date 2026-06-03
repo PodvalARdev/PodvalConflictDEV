@@ -22,6 +22,6 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{E363105740A95BA9}Prefabs/MP/Modes/Co
  coords 2018.629 46.079 2080.733
  m_iControlPointsThreshold 2
 }
-SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
- coords 2053.195 36.402 2031.498
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 2050.646 40.716 2050.965
 }

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4F36F39A7D2BD8C9}Prefabs/Vehicles/Tracked/M1A2/SEPV2/M1A2_SEPV2_TUSK_Woodland.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
