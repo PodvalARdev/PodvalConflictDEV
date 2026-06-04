@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2AB920A35862BBB8}Configs/Factions/US_Campaign_Original.conf"
+ Name "{B5C731FD63B45B6E}Missions/Everon_Conflict.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
-  }
-  CONFResourceClass Xbox : PC {
   }
  }
 }

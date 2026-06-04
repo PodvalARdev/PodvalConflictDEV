@@ -1,0 +1,218 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  coords 8361.864 238.047 4771.45
+  angles 0 117.293 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 7679.593 340.875 3090.748
+  angles 0 -108.258 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6110.817 116.79 5098.549
+  angles 0 -34.842 3.404
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4450.672 63.927 5010.519
+  angles 0 81.197 2.155
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 4823.53 118.867 8155.005
+  angles 0 170.517 -0.753
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5130.506 21.307 9720.861
+  angles -6.228 170.517 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6251.944 168.033 7811.412
+  angles -0.306 66.951 -5.121
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3495.265 179.802 5798.474
+  angles 0 -159.542 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 3304.125 8.362 3593.901
+  angles 0 -37.111 -0.719
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{02D40AEC45F57852}Configs/Factions/RHS_US_USMC_Campaign.conf"
+ Name "{8DAC43E4F2AC1552}Missions/BelleauWood_AAS.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
-  }
-  CONFResourceClass Xbox : PC {
   }
  }
 }

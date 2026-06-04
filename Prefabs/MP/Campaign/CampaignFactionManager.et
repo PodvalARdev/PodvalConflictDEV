@@ -1,0 +1,25 @@
+SCR_CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ ID "50A6CDA4F7C1474A"
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{61B0889162E62027}" {
+     m_eRequiredRank PRIVATE
+    }
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{61A6B125A4D8D0AB}" {
+     m_eRequiredRank PRIVATE
+    }
+   }
+   m_aStartingVehicles {
+    "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et"
+   }
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_bIsPlayable 0
+  }
+ }
+}

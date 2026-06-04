@@ -1,0 +1,567 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseChampillon {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Champillon"
+    m_sBaseNameUpper "CHAMPILLON"
+    m_sMapLocationName "Champillon"
+    m_aWhiteList {
+     "Bussiares"
+     "Hill 142"
+     "Lucy-le-Bocage"
+     "Main Base South"
+    }
+    m_aWhiteListAntenna {
+     "Bussiares"
+     "Hill 142"
+     "Lucy-le-Bocage"
+     "Main Base South"
+    }
+   }
+  }
+  coords 2887.399 162.255 4697.567
+ }
+ BaseLucy_Le_Booage {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Lucy-le-Bocage"
+    m_sBaseNameUpper "LUCY-LE-BOCAGE"
+    m_sMapLocationName "Lucy"
+    m_aWhiteList {
+     "Champillon"
+     "Outpost Bravo"
+     "Bouresches"
+     "Triangle Farm"
+     "Main Base South"
+    }
+    m_aWhiteListAntenna {
+     "Champillon"
+     "Outpost Bravo"
+     "Bouresches"
+     "Triangle Farm"
+     "Main Base South"
+    }
+   }
+  }
+  coords 4730.461 173.868 3491.576
+  angles 0 13.113 0
+ }
+ BaseBouresches {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Bouresches"
+    m_sBaseNameUpper "BOURESCHES"
+    m_sMapLocationName "Bouresches"
+    m_aWhiteList {
+     "Farm"
+     "Southern Crossroads"
+     "Belleau Wood"
+     "Triangle Farm"
+     "Lucy-le-Bocage"
+    }
+    m_aWhiteListAntenna {
+     "Farm"
+     "Southern Crossroads"
+     "Belleau Wood"
+     "Triangle Farm"
+     "Lucy-le-Bocage"
+    }
+   }
+  }
+  coords 6963.449 132.95 4187.59
+ }
+ BaseBelleauWood {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Belleau Wood"
+    m_sBaseNameUpper "BELLEAU WOOD"
+    m_sMapLocationName "Belleau_wood"
+    m_aWhiteList {
+     "Belleau"
+     "Outpost Bravo"
+     "Southern Crossroads"
+     "Bouresches"
+     "Hill 142"
+    }
+    m_aWhiteListAntenna {
+     "Belleau"
+     "Outpost Bravo"
+     "Southern Crossroads"
+     "Bouresches"
+     "Hill 142"
+    }
+   }
+  }
+  coords 5611.377 174.531 5548.285
+  angles 0 -13.348 0
+ }
+ BaseHill142 {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Hill 142"
+    m_sBaseNameUpper "HILL 142"
+    m_sMapLocationName "Hill142"
+    m_aWhiteList {
+     "Licy-Clignon"
+     "Bussiares"
+     "Champillon"
+     "Outpost Bravo"
+     "Torcy-en-Valois"
+    }
+    m_aWhiteListAntenna {
+     "Licy-Clignon"
+     "Bussiares"
+     "Champillon"
+     "Outpost Bravo"
+     "Torcy-en-Valois"
+    }
+   }
+  }
+  coords 3520.681 141.051 5928.455
+  angles 0 -160.576 0
+ }
+ BaseBussiares {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Bussiares"
+    m_sBaseNameUpper "BUSSIARES"
+    m_sMapLocationName "Bussiares"
+    m_aWhiteList {
+     "Licy-Clignon"
+     "Hill 142"
+     "Champillon"
+     ""
+    }
+    m_aWhiteListAntenna {
+     "Licy-Clignon"
+     "Hill 142"
+     "Champillon"
+     ""
+    }
+   }
+  }
+  coords 3080.492 105.938 7208.452
+  angles 0 -79.757 0
+ }
+ BaseBelleau {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Belleau"
+    m_sBaseNameUpper "BELLEAU"
+    m_sMapLocationName "Belleau"
+    m_aWhiteList {
+     "Torcy-en-Valois"
+     "Brussels Farm"
+     "Belleau Wood"
+    }
+    m_aWhiteListAntenna {
+     "Torcy-en-Valois"
+     "Brussels Farm"
+     "Belleau Wood"
+    }
+   }
+  }
+  coords 5594.604 121.032 6479.276
+  angles 0 105 0
+ }
+ BaseTorcy {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Torcy-en-Valois"
+    m_sBaseNameUpper "TORCY-EN-VALIOS"
+    m_sMapLocationName "Torcy"
+    m_aWhiteList {
+     "Belleau"
+     "Licy-Clignon"
+     "Hill 142"
+     "Belleau Wood"
+     ""
+    }
+    m_aWhiteListAntenna {
+     "Belleau"
+     "Licy-Clignon"
+     "Hill 142"
+     "Belleau Wood"
+     ""
+    }
+   }
+  }
+  coords 4790.523 111.941 6884.847
+  angles 0 23.712 0
+ }
+ BaseFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Farm"
+    m_sBaseNameUpper "FARM"
+    m_sMapLocationName "Farm"
+    m_aWhiteList {
+     "Triangle Farm"
+     "Bouresches"
+     "Southern Crossroads"
+     "Etrepilly"
+     "Brussels Farm"
+    }
+    m_aWhiteListAntenna {
+     "Triangle Farm"
+     "Bouresches"
+     "Southern Crossroads"
+     "Etrepilly"
+     "Brussels Farm"
+    }
+   }
+  }
+  coords 8556.201 201.789 5297.354
+  angles 0 110.419 0
+ }
+ BaseEtrepilly {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Etrepilly"
+    m_sBaseNameUpper "ETREPILLY"
+    m_sMapLocationName "Etrepilly"
+    m_aWhiteList {
+     "Farm"
+     "Burie"
+     "Northern Crossroads"
+     "Brussels Farm"
+     "Southern Crossroads"
+    }
+    m_aWhiteListAntenna {
+     "Farm"
+     "Burie"
+     "Northern Crossroads"
+     "Brussels Farm"
+     "Southern Crossroads"
+    }
+   }
+  }
+  coords 9052.604 167.375 6610.268
+  angles 0 52.153 0
+ }
+ BaseMonthiers {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Monthiers"
+    m_sBaseNameUpper "MONTHIERS"
+    m_sMapLocationName "Monthiers"
+    m_aWhiteList {
+     "Main Base North"
+     "Licy-Clignon"
+     "Burie"
+     "Northern Crossroads"
+     "Brussels Farm"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "Licy-Clignon"
+     "Burie"
+     "Northern Crossroads"
+     "Brussels Farm"
+    }
+   }
+  }
+  coords 6124.937 94.914 8615.592
+  angles 0 -160.764 0
+ }
+ BaseLicy_Clignon {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Licy-Clignon"
+    m_sBaseNameUpper "LICY-CLIGNON"
+    m_sMapLocationName "Licy"
+    m_aWhiteList {
+     "Main Base North"
+     "Bussiares"
+     "Torcy-en-Valois"
+     "Hill 142"
+     "Monthiers"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "Bussiares"
+     "Torcy-en-Valois"
+     "Hill 142"
+     "Monthiers"
+    }
+   }
+  }
+  coords 4311.549 95.938 8228.83
+  angles 0 -90 0
+ }
+ BaseBurie {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Burie"
+    m_sBaseNameUpper "BURIE"
+    m_sMapLocationName "Burie"
+    m_aWhiteList {
+     "Main Base North"
+     "Monthiers"
+     "Northern Crossroads"
+     "Etrepilly"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "Monthiers"
+     "Northern Crossroads"
+     "Etrepilly"
+    }
+   }
+  }
+  coords 8404.564 113.125 9086.733
+ }
+ BaseBrusselsFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Brussels Farm"
+    m_sBaseNameUpper "BRUSSELS FARM"
+    m_sMapLocationName "BrusselsFarm"
+    m_aWhiteList {
+     "Northern Crossroads"
+     "Belleau"
+     "Southern Crossroads"
+     "Etrepilly"
+     "Monthiers"
+    }
+    m_aWhiteListAntenna {
+     "Northern Crossroads"
+     "Belleau"
+     "Southern Crossroads"
+     "Etrepilly"
+     "Monthiers"
+    }
+   }
+  }
+  coords 6866.989 127.406 6863.687
+  angles 0 -97.454 0
+ }
+ BaseNorthernCrossroads {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Northern Crossroads"
+    m_sBaseNameUpper "NORTHERN CROSSROADS"
+    m_sMapLocationName "Northern Crossroads"
+    m_aWhiteList {
+     "Brussels Farm"
+     "Etrepilly"
+     "Burie"
+     "Monthiers"
+    }
+    m_aWhiteListAntenna {
+     "Brussels Farm"
+     "Etrepilly"
+     "Burie"
+     "Monthiers"
+    }
+   }
+  }
+  coords 7208.655 154.236 7721.528
+  angles 0 -130.055 0
+ }
+ BaseSouthernCrossroads {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Southern Crossroads"
+    m_sBaseNameUpper "SOUTHERN CROSSROADS"
+    m_sMapLocationName "Southern Crossroads"
+    m_aWhiteList {
+     "Farm"
+     "Bouresches"
+     "Etrepilly"
+     "Belleau Wood"
+     "Brussels Farm"
+    }
+    m_aWhiteListAntenna {
+     "Farm"
+     "Bouresches"
+     "Etrepilly"
+     "Belleau Wood"
+     "Brussels Farm"
+    }
+   }
+  }
+  coords 7303.12 138.69 5409.435
+  angles 0 -165 0
+ }
+ BaseTriangleFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Triangle Farm"
+    m_sBaseNameUpper "TRIANGLE FARM"
+    m_sMapLocationName "Triangle"
+    m_aWhiteList {
+     "Bouresches"
+     "Lucy-le-Bocage"
+     "Main Base South"
+     "Farm"
+    }
+    m_aWhiteListAntenna {
+     "Bouresches"
+     "Lucy-le-Bocage"
+     "Main Base South"
+     "Farm"
+    }
+   }
+  }
+  coords 7004.037 177.896 2964.907
+  angles 0 -15.394 0
+ }
+ BaseOutpostBravo {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Outpost Bravo"
+    m_sBaseNameUpper "OUTPOST BRAVO"
+    m_sMapLocationName "OutpostBravo"
+    m_aWhiteList {
+     "Lucy-le-Bocage"
+     "Champillon"
+     "Bouresches"
+     "Belleau Wood"
+     "Hill 142"
+    }
+    m_aWhiteListAntenna {
+     "Lucy-le-Bocage"
+     "Champillon"
+     "Bouresches"
+     "Belleau Wood"
+     "Hill 142"
+    }
+   }
+  }
+  coords 4448.203 192.327 4641.259
+  angles 0 -45 0
+ }
+}
