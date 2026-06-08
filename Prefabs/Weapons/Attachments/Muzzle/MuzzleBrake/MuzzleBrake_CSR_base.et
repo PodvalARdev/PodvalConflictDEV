@@ -1,0 +1,74 @@
+GenericEntity : "{5E3F62F66878C9B8}Prefabs/Weapons/Core/FlashHider_base.et" {
+ ID "4BA426CBAED42A14"
+ components {
+  InventoryItemComponent "{52627A1F45CD4EB6}" {
+   Attributes SCR_ItemAttributeCollection "{52627A1EBB0698FD}" {
+    ItemDisplayName UIInfo "{6990D2E6FB7A7B1A}" {
+     Name "CSR Muzzle Brake"
+     Description "Muzzle Brake for use with the CSR"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{618A8428E1E08833}" {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 10
+     DimensionScaler 1
+     RestingUP Right
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+     ActivePhysicalSimulation None
+    }
+    CustomAttributes {
+     SCR_WeaponAttachmentSuppressorAttributes "{5284D858FFF9BE66}" {
+      AttachmentType AttachmentMuzzle308 "{618A8420490F13B4}" {
+      }
+      m_fExtraObstructionLength 0.03
+     }
+     PreviewRenderAttributes "{52D69389645B4E4D}" {
+      CameraPreset Right
+      FOV 7.5
+     }
+     SCR_WeaponAttachmentObstructionAttributes "{61B08C8FB18ADF25}" {
+      AttachmentType AttachmentMuzzle308 "{61B08C8FB311F65A}" {
+      }
+     }
+    }
+   }
+  }
+  MeshObject "{5C46D45E03D7AD12}" {
+   Object "{6B44CE2388AF0BC0}Assets/Weapons/Attachments/Muzzle/Muzzle Brake/surgeon_CSRmuzzlebreak.xob"
+  }
+  SCR_MuzzleEffectComponent "{618AE28AFD0B049C}" {
+   ParticleEffect "{1991E0492F618D77}Particles/Weapon/Muzzle_M60_flashHider.ptc"
+   EffectPosition EntitySlotInfo position {
+    Offset 0 0 0.0416
+   }
+   ResetOnFire 0
+   OverrideByAttachment 1
+  }
+  ActionsManagerComponent "{5284E0EFF569AD07}" {
+   ActionContexts {
+    UserActionContext "{618A8427BADA3E0B}" {
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipWeaponAttachment "{5284E0EFDA00C63B}" {
+     UIInfo SCR_ActionUIInfo "{5284E0EFD09FA6F2}" {
+      Name "Attach Muzzle Brake"
+     }
+    }
+    SCR_AttachementAction "{618A842EE43D889E}" {
+     UIInfo UIInfo "{5CB8A0964428CA7A}" {
+      Name "Detach "
+     }
+    }
+    SCR_AttachItemFromInventoryAction "{618A842E0B4638A3}" {
+     UIInfo UIInfo "{5CB8A09647770950}" {
+      Name "Attach "
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,58 @@
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ MainBaseWest {
+  components {
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 5000
+    m_iSuppliesMax 5000
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 3750
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Base West"
+    m_sBaseNameUpper "Main Base West"
+    m_aWhiteList {
+     "Power Station"
+    }
+    m_aWhiteListAntenna {
+     "Power Station"
+    }
+   }
+  }
+  coords 320.412 160.406 9193.642
+  angles 0 -4.415 0
+ }
+ MainBaseEast {
+  components {
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 5000
+    m_iSuppliesMax 5000
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Base East"
+    m_sBaseNameUpper "MAIN BASE EAST"
+    m_aWhiteList {
+     "Eastern Lumbermill"
+    }
+    m_aWhiteListAntenna {
+     "Eastern Lumbermill"
+    }
+   }
+  }
+  coords 9855.545 199 6087.7
+  angles 0 173.951 0
+ }
+}

@@ -18,20 +18,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bCanBeHQ 1
     m_sBaseName "Main Base South"
     m_sBaseNameUpper "MAIN BASE SOUTH"
-    m_sMapLocationName "Coupru"
+    m_sMapLocationName "Essome-sur-Marne"
     m_aWhiteList {
-     "Lucy-le-Bocage"
-     "Triangle Farm"
-     "Champillon"
+     "Vaux"
+     ""
     }
     m_aWhiteListAntenna {
-     "Lucy-le-Bocage"
-     "Triangle Farm"
-     "Champillon"
+     "Vaux"
+     ""
     }
    }
   }
-  coords 4742.288 180.036 630.564
+  coords 11320.799 100.598 299.709
  }
  MainBaseNorth {
   components {
@@ -53,17 +51,15 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "Main Base North"
     m_sBaseNameUpper "MAIN BASE NORTH"
     m_aWhiteList {
-     "Licy-Clignon"
      "Monthiers"
-     "Burie"
+     ""
     }
     m_aWhiteListAntenna {
-     "Licy-Clignon"
+     ""
      "Monthiers"
-     "Burie"
     }
    }
   }
-  coords 5207.981 180.808 10999.887
+  coords 8174.842 129.015 10994.192
  }
 }

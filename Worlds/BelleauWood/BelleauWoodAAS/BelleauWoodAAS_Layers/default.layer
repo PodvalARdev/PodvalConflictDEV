@@ -1,38 +1,13 @@
-SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- components {
-  NavmeshWorldComponent "{5584F30E67F617AD}" {
-   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{659CBA8F0B2B6BAA}" {
-     NavmeshFile "{972D93CA1AFF09BE}Worlds/Gamemaster/Belleau_wood_navmeshGM/Soldiers.nmn"
-    }
-   }
-  }
-  NavmeshWorldComponent "{5584F30EEFEE1223}" {
-   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
-     NavmeshFile "{FB9987D19DF53969}Worlds/Gamemaster/Belleau_wood_navmeshGM/BTRlike.nmn"
-    }
-   }
-  }
-  NavmeshWorldComponent "{5C8C9B750D124A63}" {
-   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFile "{1E154D1DFDBC3B55}Worlds/Gamemaster/Belleau_wood_navmeshGM/LowRes.nmn"
-    }
-   }
-  }
- }
- coords 3969.982 118.874 3971.863
-}
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 3969.982 118.874 3970.863
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
- coords 4891.198 202.895 647.191
+ coords 11342.219 99.289 306.62
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 3969.982 118.877 3969.863
- m_iControlPointsThreshold 6
+ m_iControlPointsThreshold 8
+ m_fVictoryTimer 60
  m_iSuppliesReplenishThreshold 0
  m_iQuickSuppliesReplenishThreshold 5000
  m_iSuppliesArrivalInterval 30

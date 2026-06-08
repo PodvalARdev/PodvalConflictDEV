@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D54E7C9F03D8478A}Prefabs/Weapons/Attachments/Muzzle/Suppressor/Suppressor_CSR_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

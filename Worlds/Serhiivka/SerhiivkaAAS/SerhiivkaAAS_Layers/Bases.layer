@@ -1,0 +1,233 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BasePowerStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3700
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Power Station"
+    m_sBaseNameUpper "POWER STATION"
+    m_aWhiteList {
+     "Western Farm"
+     "Main Base West"
+    }
+    m_aWhiteListAntenna {
+     "Western Farm"
+     "Main Base West"
+    }
+   }
+  }
+  coords 2315.984 153.094 6415.646
+  angles 0 -164.838 0
+ }
+ BaseWesternFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Western Farm"
+    m_sBaseNameUpper "WESTERN FARM"
+    m_aWhiteList {
+     "Airfield"
+     "Power Station"
+    }
+    m_aWhiteListAntenna {
+     "Airfield"
+     "Power Station"
+    }
+   }
+  }
+  coords 4009.653 150.73 5629.687
+  angles 0 102.806 0
+ }
+ BaseAirfield {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield"
+    m_sBaseNameUpper "AIRFIELD"
+    m_aWhiteList {
+     "Big Red"
+     "Western Farm"
+    }
+    m_aWhiteListAntenna {
+     "Big Red"
+     "Western Farm"
+    }
+   }
+  }
+  coords 3486.036 157.781 4239.735
+ }
+ BaseBigRed {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Big Red"
+    m_sBaseNameUpper "BIG RED"
+    m_aWhiteList {
+     "Gas Station"
+     "Airfield"
+    }
+    m_aWhiteListAntenna {
+     "Gas Station"
+     "Airfield"
+    }
+   }
+  }
+  coords 4495.832 168.118 4134.457
+  angles 0 33.46 0
+ }
+ BaseGasStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Gas Station"
+    m_sBaseNameUpper "GAS STATION"
+    m_aWhiteList {
+     "Apartment Complex"
+     "Big Red"
+    }
+    m_aWhiteListAntenna {
+     "Apartment Complex"
+     "Big Red"
+    }
+   }
+  }
+  coords 4665.701 149.126 5250.248
+  angles 0 136.705 0
+ }
+ BaseIndustrialZone {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Industrial Zone"
+    m_sBaseNameUpper "INDUSTRIAL ZONE"
+    m_aWhiteList {
+     "Eastern Lumbermill"
+     "Crossroads"
+    }
+    m_aWhiteListAntenna {
+     "Eastern Lumbermill"
+     "Crossroads"
+    }
+   }
+  }
+  coords 6399.843 185.719 6642.877
+ }
+ BaseApartmentComplex {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Apartment Complex"
+    m_sBaseNameUpper "APARTMENT COMPLEX"
+    m_aWhiteList {
+     "Crossroads"
+     "Gas Station"
+    }
+    m_aWhiteListAntenna {
+     "Crossroads"
+     "Gas Station"
+    }
+   }
+  }
+  coords 5433.725 159.406 4607.772
+  angles 0 57.283 0
+ }
+ BaseEasternLumbermill {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Eastern Lumbermill"
+    m_sBaseNameUpper "EASTERN LUMBERMILL"
+    m_aWhiteList {
+     "Main Base East"
+     "Industrial Zone"
+    }
+    m_aWhiteListAntenna {
+     "Main Base East"
+     "Industrial Zone"
+    }
+   }
+  }
+  coords 8289.13 170.781 5399.655
+  angles 0 -89.864 0
+ }
+ BaseCrossroads {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1400
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Crossroads"
+    m_sBaseNameUpper "CROSSROADS"
+    m_aWhiteList {
+     "Industrial Zone"
+     "Apartment Complex"
+    }
+    m_aWhiteListAntenna {
+     "Industrial Zone"
+     "Apartment Complex"
+    }
+   }
+  }
+  coords 6173.787 158.539 5414.078
+ }
+}

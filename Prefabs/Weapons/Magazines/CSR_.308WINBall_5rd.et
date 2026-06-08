@@ -1,0 +1,63 @@
+GenericEntity : "{6D18CC33708EE712}Prefabs/Weapons/Magazines/Magazine_762x51_M14_20rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "CSR .308 Ball"
+     Description "Standard .308 ammunition"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{52ACC797D8C70448}" {
+     Weight 0.1
+    }
+   }
+  }
+  MagazineComponent "{6990D2E626403D18}" {
+   MagazineWell MagazineWellSurgeonCSR "{6990D2E626403D03}" {
+   }
+   UIInfo MagazineUIInfo "{6990D2E626403D0E}" {
+    Name ".308 Ball"
+    m_sAmmoCaliber ".308"
+    m_MagIndicator SCR_MagazineIndicatorConfiguration "{6990D2E626403D09}" {
+    }
+   }
+   ItemModel "{385FCC9A12F2D239}Assets/Weapons/Magazines/CSRSurgeon/CSRMAG.xob"
+   MaxAmmo 5
+   AmmoConfig "{8363A767693E362F}Prefabs/Weapons/Ammo/338LM_ammo_cfg_fix.conf"
+   AmmoMapping {
+    0 0 0 0 0
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   Enabled 0
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#AR-Magazine_CSR_Name"
+    Description "#AR-Magazine_CSR_Description"
+    m_sAmmoCaliber "#AR-AmmunitionID_.308"
+   }
+   ItemModel "{385FCC9A12F2D239}Assets/Weapons/Magazines/CSRSurgeon/CSRMAG.xob"
+   MaxAmmo 5
+   AmmoConfig "{848D5DE7B2E307A1}Configs/Weapons/Ammo/Ammo_308WIN.conf"
+   AmmoMapping {
+    0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{385FCC9A12F2D239}Assets/Weapons/Magazines/CSRSurgeon/CSRMAG.xob"
+  }
+  ActionsManagerComponent "{F092E6B0537754FD}" {
+   additionalActions {
+    SCR_PickUpItemAction "{51EED12BE042E459}" {
+     UIInfo SCR_ActionUIInfo "{51EED12BE54D5CEC}" {
+      Name "Pickup "
+     }
+    }
+    SCR_AttachItemFromInventoryAction "{5A1E58F7D9256374}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F7D137DE75}" {
+      Name "Attach "
+     }
+    }
+   }
+  }
+ }
+}
