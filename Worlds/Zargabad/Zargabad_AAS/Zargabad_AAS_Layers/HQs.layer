@@ -18,10 +18,10 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_sBaseNameUpper "MAIN BASE NORTH"
     m_sMapLocationName "LocationStPhillipe_Harbour"
     m_aWhiteList {
-     "Factory"
+     "HazarBagh"
     }
     m_aWhiteListAntenna {
-     "Factory"
+     "HazarBagh"
     }
    }
   }
@@ -47,10 +47,10 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_sBaseNameUpper "MAIN BASE SOUTH"
     m_sMapLocationName "LocationStPierre_Harbour"
     m_aWhiteList {
-     "Durras"
+     "Shahbaz"
     }
     m_aWhiteListAntenna {
-     "Durras"
+     "Shahbaz"
     }
    }
   }
