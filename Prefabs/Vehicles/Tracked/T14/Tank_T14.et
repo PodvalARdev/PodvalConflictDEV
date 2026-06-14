@@ -5,7 +5,7 @@ RHS_Tank : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_sFaction "USSR"
     m_aAutoLabels {
-     SIZE_M VEHICLE_TRUCK FACTION_USSR
+     SIZE_M VEHICLE_TANK FACTION_USSR
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
