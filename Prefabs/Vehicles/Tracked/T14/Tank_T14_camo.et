@@ -1,75 +1,25 @@
 RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
  ID "5CDE8068D49AAEBB"
  components {
-  SlotManagerComponent "{55BCE45E438E4CFF}" {
-   Slots {
-    RegisteringComponentSlotInfo era_1_left {
-     Prefab "{B80893A7A72E7182}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_L01_Camo.et"
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_aAutoLabels {
+     SIZE_M VEHICLE_TRUCK FACTION_USSR
     }
-    RegisteringComponentSlotInfo era_2_left {
-     Prefab "{E6E0BAE418A3FF8F}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_L02_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_3_left {
-     Prefab "{12E8FD7C157E97FB}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_L03_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_4_left {
-     Prefab "{5B30E86367B8E391}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_L04_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_5_left {
-     Prefab "{AF38AFFB6A658BE5}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_L05_Camo.et"
-    }
-    RegisteringComponentSlotInfo cage_1_left {
-     Prefab "{12415AFBAF808FDA}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Camo/WCS_T14_NERA_Cage_L01_Camo.et"
-    }
-    RegisteringComponentSlotInfo cage_2_left {
-     Prefab "{4CA973B8100D01D5}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Camo/WCS_T14_NERA_Cage_L02_Camo.et"
-    }
-    RegisteringComponentSlotInfo cage_2_right {
-     Prefab "{A866AE32E39798F5}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Camo/WCS_T14_NERA_Cage_R01_Camo.et"
-    }
-    RegisteringComponentSlotInfo cage_1_right {
-     Prefab "{F68E87715C1A16FA}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Camo/WCS_T14_NERA_Cage_R02_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_5_right {
-     Prefab "{151F5B3226729CCB}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_R05_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_4_right {
-     Prefab "{E1171CAA2BAFF4BF}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_R04_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_3_right {
-     Prefab "{A8CF09B5596980D5}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_R03_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_2_right {
-     Prefab "{5CC74E2D54B4E8A1}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_R02_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_1_right {
-     Prefab "{022F676EEB3966AE}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_R01_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front {
-     Prefab "{F96D10B2E69C1787}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_Front_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front1 {
-     Prefab "{D1EA3FE09CDC8364}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_F01_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front2 {
-     Prefab "{8F0216A323510D6B}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_F02_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front3 {
-     Prefab "{7B0A513B2E8C651F}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_F03_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front4 {
-     Prefab "{32D244245C4A1175}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_F04_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front5 {
-     Prefab "{C6DA03BC51977901}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_F05_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front6 {
-     Prefab "{98322AFFEE1AF70E}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_F06_Camo.et"
-    }
-    RegisteringComponentSlotInfo era_front7 {
-     Prefab "{6C3A6D67E3C79F7A}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Camo/WCS_T14_ERA_Block_F07_Camo.et"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{6052A79ADDA6C7A8}" {
+      m_Value 3000
+     }
+     SCR_EntityBudgetValue "{699CADB363BEA33C}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
     }
    }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
   }
  }
 }
