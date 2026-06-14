@@ -1,0 +1,183 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseRVPark {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "RV Park"
+    m_sBaseNameUpper "RV PARK"
+    m_aWhiteList {
+     "Main Base North"
+     "Cement Plant"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "Cement Plant"
+    }
+   }
+  }
+  coords 2998.299 92 6024.061
+  angles 0 -172.693 0
+ }
+ BaseCementPlant {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Cement Plant"
+    m_sBaseNameUpper "CEMENT PLANT"
+    m_aWhiteList {
+     "RV Park"
+     "Radio Station"
+    }
+    m_aWhiteListAntenna {
+     "RV Park"
+     "Radio Station"
+    }
+   }
+  }
+  coords 2746.95 27.812 5319.667
+  angles 0 -158.371 0
+ }
+ BaseRadioStation {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Radio Station"
+    m_sBaseNameUpper "RADIO STATION"
+    m_aWhiteList {
+     "Cement Plant"
+     "Hotel"
+    }
+    m_aWhiteListAntenna {
+     "Cement Plant"
+     "Hotel"
+    }
+   }
+  }
+  coords 3524.286 20.936 4991.583
+  angles 0 47.404 0
+ }
+ BaseHotel {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Hotel"
+    m_sBaseNameUpper "HOTEL"
+    m_aWhiteList {
+     "Radio Station"
+     "North Apartments"
+    }
+    m_aWhiteListAntenna {
+     "Radio Station"
+     "North Apartments"
+    }
+   }
+  }
+  coords 4323.979 80 5018.394
+  angles 0 -142.378 0
+ }
+ BaseNorthApartments {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "North Apartments"
+    m_sBaseNameUpper "NORTH APARTMENTS"
+    m_aWhiteList {
+     "Hotel"
+     "South Apartments"
+    }
+    m_aWhiteListAntenna {
+     "Hotel"
+     "South Apartments"
+    }
+   }
+  }
+  coords 4266.46 34.391 4353.679
+  angles 0 -90 0
+ }
+ BaseSouthApartments {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "South Apartments"
+    m_sBaseNameUpper "SOUTH APARTMENTS"
+    m_aWhiteList {
+     "Church"
+     "North Apartments"
+    }
+    m_aWhiteListAntenna {
+     "Church"
+     "North Apartments"
+    }
+   }
+  }
+  coords 4020.785 42 3717.11
+ }
+ BaseChurch {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2500
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Church"
+    m_sBaseNameUpper "CHURCH"
+    m_aWhiteList {
+     "Main Base South"
+     "South Apartments"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South"
+     "South Apartments"
+    }
+   }
+  }
+  coords 4314.044 55.344 3021.362
+  angles 0 -178.847 0
+ }
+}

@@ -13,6 +13,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "Shahbaz"
     m_sBaseNameUpper "SHAHBAZ"
     m_sMapLocationName "Shahbaz"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "Main Base South"
      "MilitaryBase"
@@ -40,6 +41,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "MilitaryBase"
     m_sBaseNameUpper "MILITARYBASE"
     m_sMapLocationName "Military Base"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "Durras"
      "Yarum"
@@ -67,6 +69,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "Yarum"
     m_sBaseNameUpper "YARUM"
     m_sMapLocationName "Yarum"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "MilitaryBase"
      "Airfield"
@@ -94,6 +97,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "Airfield707"
     m_sBaseNameUpper "AIRFIELD707"
     m_sMapLocationName "Airfield 707"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "Yarum"
      "Mosque"
@@ -121,6 +125,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "Mosque"
     m_sBaseNameUpper "MOSQUE"
     m_sMapLocationName "Mosque"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "Airfield707"
      "TheReggesVilla"
@@ -148,6 +153,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "TheReggesVilla"
     m_sBaseNameUpper "THEREGGESVILLA"
     m_sMapLocationName "The Regges Villa"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "Mosque"
      "Nango"
@@ -175,12 +181,13 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "Nango"
     m_sBaseNameUpper "NANGO"
     m_sMapLocationName "Nango"
+    m_fAntennaRange 1500
     m_aWhiteList {
-     "TheVilla"
+     "TheReggesVilla"
      "TheField"
     }
     m_aWhiteListAntenna {
-     "TheVilla"
+     "TheReggesVilla"
      "TheField"
     }
    }
@@ -202,6 +209,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "TheFIeld"
     m_sBaseNameUpper "THEFIELD"
     m_sMapLocationName "The Field"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "Nango"
      "HazarBagh"
@@ -229,6 +237,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseName "HazarBagh"
     m_sBaseNameUpper "HAZARBAGH"
     m_sMapLocationName "Hazar Bagh"
+    m_fAntennaRange 1500
     m_aWhiteList {
      "TheFIeld"
      "Main Base North"
