@@ -1,0 +1,132 @@
+Tank : "{83C6FE37C44E4EE0}Prefabs/Vehicles/Tracked/M1A2/M1A2_SEPV2_TuskII_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{699CB4AAA3A4BACF}" {
+     SourceMaterial "m1a1_abrams"
+     AssignedMaterial "{45BE5806D6B7B969}Assets/Vehicles/Tracked/M1A1/data/Woodland/m1a1_abrams_Woodland.emat"
+    }
+    MaterialAssignClass "{699CB4AAA3A44510}" {
+     SourceMaterial "m1a1_abrams_decals"
+     AssignedMaterial "{4B3E9F4386280E28}Assets/Vehicles/Tracked/M1A1/data/Shared/Decals/m1a1_abrams_queen_decals.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{F583C8B2137253FE}UI/Textures/EditorPreviews/Vehicles/Tracked/M1A2/SEPV2/M1A2SEPV2TUSKIIMERDC.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{AA9FB855EFB03309}Prefabs/Vehicles/Tracked/M1A2/VehParts/Turret/SEPV2/TuskII/M1A2_Turret_SEPV2_TuskII_Woodland.et"
+    }
+    RegisteringComponentSlotInfo EngineCover {
+     MergePhysics 1
+     Prefab "{E970773D0A6DDB1A}Prefabs/Vehicles/Tracked/M1A2/VehParts/M1A2_Engine_Grill_Woodland.et"
+    }
+    RegisteringComponentSlotInfo TuskSupports {
+     Prefab "{FAD80C353729E599}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/M1A2_TuskSupports_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L01 {
+     Prefab "{246CE16EAD2BACA9}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L01_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L02 {
+     Prefab "{64CD53C8973E5FAE}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L02_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L03 {
+     Prefab "{5B523DAA8132F153}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L03_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L04 {
+     Prefab "{E58E3684E315B9A0}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L04_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L05 {
+     Prefab "{DA1158E6F519175D}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L05_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L06 {
+     Prefab "{9AB0EA40CF0CE45A}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L06_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L07 {
+     Prefab "{A52F8422D9004AA7}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L07_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_L08 {
+     Prefab "{A5F81DF7A2A8432F}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_L08_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R01 {
+     Prefab "{9E07A09959BD6267}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R01_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R02 {
+     Prefab "{DEA6123F63A89160}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R02_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R03 {
+     Prefab "{E1397C5D75A43F9D}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R03_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R04 {
+     Prefab "{5FE577731783776E}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R04_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R05 {
+     Prefab "{607A1911018FD993}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R05_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R06 {
+     Prefab "{20DBABB73B9A2A94}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R06_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R07 {
+     Prefab "{1F44C5D52D968469}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R07_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Block_R08 {
+     Prefab "{1F935C00563E8DE1}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Block/Woodland/ARAT_Block_R08_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L01 {
+     Prefab "{7E85E86DC1449222}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L01_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L02 {
+     Prefab "{3E245ACBFB516125}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L02_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L03 {
+     Prefab "{01BB34A9ED5DCFD8}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L03_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L04 {
+     Prefab "{BF673F878F7A872B}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L04_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L05 {
+     Prefab "{80F851E5997629D6}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L05_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L06 {
+     Prefab "{C059E343A363DAD1}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L06_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L07 {
+     Prefab "{FFC68D21B56F742C}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L07_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_L08 {
+     Prefab "{FF1114F4CEC77DA4}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_L08_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R01 {
+     Prefab "{C4EEA99A35D25CEC}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R01_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R02 {
+     Prefab "{844F1B3C0FC7AFEB}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R02_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R03 {
+     Prefab "{BBD0755E19CB0116}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R03_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R04 {
+     Prefab "{050C7E707BEC49E5}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R04_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R05 {
+     Prefab "{3A9310126DE0E718}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R05_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R06 {
+     Prefab "{7A32A2B457F5141F}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R06_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R07 {
+     Prefab "{45ADCCD641F9BAE2}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R07_Woodland.et"
+    }
+    RegisteringComponentSlotInfo ARAT_Tile_R08 {
+     Prefab "{457A55033A51B36A}Prefabs/Vehicles/Tracked/M1A2/VehParts/ERA/ARAT_Tile/Woodland/ARAT_Tile_R08_Woodland.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+GenericEntity RelayHill193 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CampaignMilitaryBaseMapDescriptorComponent "{5CD2C48C8F5A230F}" {
+   m_pMapLinkColor 0.11 0.875 0.302 1
+  }
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "Hill 193"
+   m_sMapLocationName "Hill193"
+   m_aWhiteList {
+    "Monthiers"
+    "Belleau Wood"
+   }
+   m_aWhiteListAntenna {
+    "Monthiers"
+    "Belleau Wood"
+   }
+  }
+ }
+ coords 6116.233 174.711 7212.938
+ angles 0 -91.103 0
+}
+StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Antenna_BARS_01_transmitter.et" {
+ coords 6092.81 0 7225.736
+ angles 0 4.014 0
+}

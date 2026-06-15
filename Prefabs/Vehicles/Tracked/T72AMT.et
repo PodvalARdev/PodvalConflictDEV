@@ -1,0 +1,106 @@
+Tank : "{B9A8400A3CEC2DFA}Prefabs/Vehicles/Tracked/T72B_UA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "T-72AMT"
+    m_Image "{399E4557569A1B18}UI/t72amt.edds"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M VEHICLE_TANK
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 800
+     }
+     SCR_EntityBudgetValue "{5EE71CA1677C234F}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+     SCR_EntityBudgetValue "{699CBE2FA4130F6A}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 400
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" ""
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Left_Kontakt_01 {
+     Offset -0.0385 -0.493 0
+     Prefab "{F071E63230F6A158}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_base.et"
+    }
+    RegisteringComponentSlotInfo Left_Kontakt_02 {
+     Offset -0.0385 -0.493 0
+     Prefab "{90EC5FA6FF3E0608}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_02.et"
+    }
+    RegisteringComponentSlotInfo Left_Kontakt_03 {
+     Offset -0.0385 -0.493 0
+     Prefab "{7570135FF3DB9163}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_03.et"
+    }
+    RegisteringComponentSlotInfo Left_Kontakt_04 {
+     Offset -0.0385 -0.493 -0.6284
+     Prefab "{7570135FF3DB9163}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_03.et"
+    }
+    RegisteringComponentSlotInfo Left_Kontakt_05 {
+     Offset -0.0385 -0.493 -1.2546
+     Prefab "{7570135FF3DB9163}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_03.et"
+    }
+    RegisteringComponentSlotInfo Left_Kontakt_06 {
+     Offset -0.0385 -0.493 -1.8848
+     Prefab "{7570135FF3DB9163}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_03.et"
+    }
+    RegisteringComponentSlotInfo Right_Kontakt_01 {
+     Offset 0.0385 -0.493 0
+     Prefab "{3F89694811A06976}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_R_01.et"
+    }
+    RegisteringComponentSlotInfo Right_Kontakt_02 {
+     Offset 0.0385 -0.493 0
+     Prefab "{53DD5DA8AD64E658}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_R_02.et"
+    }
+    RegisteringComponentSlotInfo Right_Kontakt_03 {
+     Offset 0.0385 -0.493 0
+     Prefab "{B6411151A1817133}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_R_03.et"
+    }
+    RegisteringComponentSlotInfo Right_Kontakt_04 {
+     Offset 0.0385 -0.493 -0.6284
+     Prefab "{B6411151A1817133}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_R_03.et"
+    }
+    RegisteringComponentSlotInfo Right_Kontakt_05 {
+     Offset 0.0385 -0.493 -1.2546
+     Prefab "{B6411151A1817133}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_R_03.et"
+    }
+    RegisteringComponentSlotInfo Right_Kontakt_06 {
+     Offset 0.0385 -0.493 -1.8848
+     Prefab "{B6411151A1817133}Prefabs/Vehicles/Tracked/VehParts/MOD_AMT/MOD_AMT_PANEL_R_03.et"
+    }
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{93183762CC7F73FC}Prefabs/Vehicles/Tracked/VehParts/Turret/T72AMT_turret.et"
+    }
+    RegisteringComponentSlotInfo Grid_rear : Right_Kontakt_06 {
+     Offset 0.0544 -0.0158 0
+     Prefab "{7172C05B946B118E}Prefabs/Vehicles/Tracked/VehParts/MOD3/LeftArmNet_01.et"
+    }
+    RegisteringComponentSlotInfo Grid_rear_01 : Right_Kontakt_06 {
+     Offset 0.0226 -0.0158 0
+     Prefab "{305F4AF05547BD97}Prefabs/Vehicles/Tracked/VehParts/MOD3/RightArmNet_01.et"
+    }
+    RegisteringComponentSlotInfo Grid_rear_02 : Right_Kontakt_06 {
+     Offset 0.0226 -0.0158 0.0653
+     Prefab "{F5F768F9E2C3FFCC}Prefabs/Vehicles/Tracked/VehParts/MOD3/RightRearNet_01.et"
+    }
+    RegisteringComponentSlotInfo Grid_rear_03 : Right_Kontakt_06 {
+     Offset 0.0226 -0.0158 0.0653
+     Prefab "{408820C68DE9F170}Prefabs/Vehicles/Tracked/VehParts/MOD3/LeftRearNet_01.et"
+    }
+    RegisteringComponentSlotInfo Grid_rear_04 : Right_Kontakt_06 {
+     Offset 0.0398 -0.009 0.0653
+     Prefab "{2F19D2291DDA287B}Prefabs/Vehicles/Tracked/VehParts/MOD3/CenterRearNet_01.et"
+    }
+   }
+  }
+ }
+ coords 137.852 1 107.171
+}
