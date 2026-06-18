@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{FE63E7E256909A00}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et"
+ Name "{968B9DE878D365EB}Prefabs/Vehicles/Tracked/M1A2/SEPV2/M1A2_SEPV2_TuskII_Woodland.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
