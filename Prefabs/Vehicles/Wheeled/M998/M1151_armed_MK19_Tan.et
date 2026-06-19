@@ -7,6 +7,18 @@ Vehicle : "{88AC991871268D12}Prefabs/Vehicles/Wheeled/M998/M1151_armed_MK19_Tan.
     m_aAutoLabels {
      SIZE_M VEHICLE_CAR FACTION_US
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69A2CE105E333ACC}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 150
+     }
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {

@@ -1,5 +1,5 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- BaseSoutheastMarigny {
+ BaseCrossroads {
   components {
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     m_pMapLinkColor 0.502 0 1 1
@@ -13,22 +13,23 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 0
-    m_sBaseName "Southeast Marigny"
-    m_sBaseNameUpper "SOUTHEAST MARIGNY"
+    m_sBaseName "Crossroads"
+    m_sBaseNameUpper "CROSSROADS"
+    m_sMapLocationName "Crossroads"
     m_aWhiteList {
-     "Main Base Southwest"
-     "Belleau Wood"
+     "Main Base South"
+     "Hamertin"
     }
     m_aWhiteListAntenna {
-     "Main Base Southwest"
-     "Belleau Wood"
+     "Main Base South"
+     "Hamertin"
     }
    }
   }
-  coords 2188.317 209.319 3000.885
+  coords 3415.474 271.814 6261.727
   angles -1.814 4.647 1.64
  }
- BaseBelleauWood {
+ BaseMineraly {
   components {
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     m_pMapLinkColor 0.502 0 1 1
@@ -42,23 +43,28 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Belleau Wood"
-    m_sBaseNameUpper "BELLEAU WOOD"
-    m_sMapLocationName "BelleauWood"
+    m_sBaseName "Minerals"
+    m_sBaseNameUpper "MINERALS"
+    m_sMapLocationName "Minerals"
     m_aWhiteList {
-     "Southeast Marigny"
-     "Bussiares"
+     "SosnovyMys"
+     "MilitaryBase707"
     }
     m_aWhiteListAntenna {
-     "Southeast Marigny"
-     "Bussiares"
+     "SosnovyMys"
+     "MilitaryBase707"
     }
    }
   }
-  coords 5605.176 176.678 5443.383
+  coords 6313.967 37.58 8002.403
   angles 0.893 -176.547 -0.627
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_3 {
+    ID "5C6696731466AF36"
+   }
+  }
  }
- BaseBussiares {
+ BaseHamertin {
   components {
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     m_pMapLinkColor 0.502 0 1 1
@@ -72,23 +78,28 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Bussiares"
-    m_sBaseNameUpper "BUSSIARES"
-    m_sMapLocationName "Bussiares"
+    m_sBaseName "Hamertin"
+    m_sBaseNameUpper "HAMERTIN"
+    m_sMapLocationName "Hamertin"
     m_aWhiteList {
-     "Belleau Wood"
-     "Hautevesnes"
+     "Crossroads"
+     "SosnovyMys"
     }
     m_aWhiteListAntenna {
-     "Belleau Wood"
-     "Hautevesnes"
+     "Crossroads"
+     "SosnovyMys"
     }
    }
   }
-  coords 3040.689 123.706 6766.081
+  coords 3259.73 271.232 6946.789
   angles -0.91 -36.379 1.782
+  {
+   SCR_CampaignSpawnPointGroup SCR_CampaignSpawnPointGroup_2 {
+    ID "5C6696731466AF36"
+   }
+  }
  }
- BaseHautevesnes {
+ BaseSosnovyMys {
   components {
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     m_pMapLinkColor 0.502 0 1 1
@@ -102,23 +113,28 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Hautevesnes"
-    m_sBaseNameUpper "HAUTEVESNES"
-    m_sMapLocationName "Hautevesnes"
+    m_sBaseName "SosnovyMys"
+    m_sBaseNameUpper "SOSNOVYMYS"
+    m_sMapLocationName "SosnovyMys"
     m_aWhiteList {
-     "Bussiares"
-     "Monthiers"
+     "Hamertin"
+     "Minerals"
     }
     m_aWhiteListAntenna {
-     "Bussiares"
-     "Monthiers"
+     "Hamertin"
+     "Minerals"
     }
    }
   }
-  coords 2273.247 165.917 9419.587
-  angles -1.773 151.672 3.385
+  coords 4376.71 1.556 8151.887
+  angles 0.893 -176.547 -0.627
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_2 {
+    ID "5C6696731466AF36"
+   }
+  }
  }
- BaseMonthiers {
+ BaseMilitaryBase707 {
   components {
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     m_pMapLinkColor 0.502 0 1 1
@@ -132,23 +148,28 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Monthiers"
-    m_sBaseNameUpper "MONTHIERS"
-    m_sMapLocationName "Monthiers"
+    m_sBaseName "MilitaryBase707"
+    m_sBaseNameUpper "MILITARYBASE707"
+    m_sMapLocationName "Military Base 707"
     m_aWhiteList {
-     "Hautevesnes"
-     "Buire"
+     "Minerals"
+     "Langonnet"
     }
     m_aWhiteListAntenna {
-     "Hautevesnes"
-     "Buire"
+     "Minerals"
+     "Langonnet"
     }
    }
   }
-  coords 6131.66 93.432 8734.971
-  angles -0.109 29.694 1.998
+  coords 8558.775 96.076 9377.634
+  angles 0.893 -176.547 -0.627
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_4 {
+    ID "5C6696731466AF36"
+   }
+  }
  }
- BaseBuire {
+ BaseLangonnet {
   components {
    SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
     m_pMapLinkColor 0.502 0 1 1
@@ -162,20 +183,20 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 0
-    m_sBaseName "Buire"
-    m_sBaseNameUpper "BUIRE"
-    m_sMapLocationName "Buire"
+    m_sBaseName "Langonnet"
+    m_sBaseNameUpper "LANGONNET"
+    m_sMapLocationName "Langonnet"
     m_aWhiteList {
-     "Monthiers"
-     "Main Base Northeast"
+     "MilitaryBase707"
+     "Main Base North"
     }
     m_aWhiteListAntenna {
-     "Monthiers"
-     "Main Base Northeast"
+     "MilitaryBase707"
+     "Main Base North"
     }
    }
   }
-  coords 8683.367 123.84 9016.24
-  angles 3.883 167.171 0.948
+  coords 9730.428 128.321 10122.167
+  angles -1.814 4.647 1.64
  }
 }

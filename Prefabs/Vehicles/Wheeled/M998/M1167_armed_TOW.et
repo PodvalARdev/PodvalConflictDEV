@@ -7,6 +7,18 @@ Vehicle : "{08DC83258B558A9E}Prefabs/Vehicles/Wheeled/M998/M1167_armed_TOW.et" {
     m_aAutoLabels {
      SIZE_M VEHICLE_CAR FACTION_US
     }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69A2C865EAE0D999}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 150
+     }
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {

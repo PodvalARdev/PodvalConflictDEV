@@ -1,0 +1,31 @@
+Vehicle : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-MLRS-EditableEntity_BMl_Name AP"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE FACTION_TF_RF ENTITYTYPE_VEHICLE TRAIT_ARMED
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69A2C86544C08305}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 300
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" ""
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WeaponRackSlotInfo Weapon {
+     Prefab "{38DD5EB7B2E9E1E7}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/VehParts/BM_21_Turret_3M16.et"
+    }
+   }
+  }
+ }
+ coords 98 0.894 20
+}

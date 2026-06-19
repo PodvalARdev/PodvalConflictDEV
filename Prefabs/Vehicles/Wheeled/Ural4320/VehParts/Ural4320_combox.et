@@ -1,0 +1,133 @@
+GenericEntity : "{D9C7B82F567BA500}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_combox.et" {
+ ID "5206D4E7CE97EC05"
+ components {
+  SCR_CampaignBuildingProviderComponent "{69A2D9590E225D64}" {
+   m_sProviderDisplayName "#AR-Vehicle_Ural4320_Comms_Name"
+   m_iRank SERGEANT
+   m_aBudgetsToEvaluate {
+    SCR_CampaignBuildingBudgetToEvaluateData "{69A2D9590E225D6B}" {
+     m_eBudget CAMPAIGN
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{69A2D9590E225D95}" {
+     m_eBudget RANK_CORPORAL
+    }
+    SCR_CampaignBuildingRankBudgetToEvaluateData "{69A2D9590E225D96}" {
+     m_eBudget RANK_SERGEANT
+    }
+   }
+   m_aAvailableTraits {
+    TRAIT_BASE TRAIT_FORTIFICATION THEME_MILITARY TRAIT_SERVICE
+   }
+  }
+  SCR_ResourceComponent "{5D83561F25268587}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D83561F24437BF2}" {
+     m_fResourceValueMax 1500
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{69A2D9590E225D93}" {
+     m_sDebugName "Consumer - Service Vehicle"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 1
+     m_fSellMultiplier 0
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{69A2D9590E225D9E}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{69A2D9590E225D9F}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{69A2D9590E225D99}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGeneratorServicePoint "{69A2D9590E225D9B}" {
+     m_sDebugName "Generator - Service Vehicle"
+     m_eResourceRights ALL
+     m_fResourceMultiplier 0.333
+     m_fStorageRange 5
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{69A2D9590E225D85}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{69A2D9590E225D87}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{69A2D9590E225D81}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+       SCR_ResourceGeneratorStoragePolicy "{69A2D9590E225D82}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{69A2D9590E225F35}" {
+        }
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceGeneratorActionStore "{69A2D9590E225F30}" {
+      }
+      SCR_ResourceGeneratorActionDropContainers "{69A2D9590E225F31}" {
+       m_fSpawnRadius 10
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{5DE2DEF025C6CAA0}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{69A2D9590E225F3D}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo SCR_ActionUIInfo "{69A2D9590E225F3F}" {
+      Name "#AR-Campaign_Action_ShowBuildPreview"
+      m_sIconName "use"
+     }
+     Duration 0.5
+     CanAggregate 1
+    }
+    SCR_CampaignPackMobileAssemblyUserAction "{69A2D95836261F1E}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{69A2D95B925B374A}" {
+      Name "#AR-Campaign_Action_Dismantle-UC"
+     }
+     VisibilityRange 3
+     Duration 5
+    }
+    SCR_FactionCommanderOpenMapUserAction "{69A2D95823BAA4B9}" {
+     UIInfo UIInfo "{69A2D95B0EF6A268}" {
+      Name "#AR-FactionCommander_UserAction_LogisticsStation"
+     }
+     VisibilityRange 3
+     m_eOpenWithMapEntityMode LOGISTICS_STATION
+    }
+    SCR_FactionCommanderOpenMapUserAction "{69A2D95B000185CF}" {
+     UIInfo UIInfo "{69A2D95B40C24860}" {
+      Name "#AR-FactionCommander_UserAction_EngineeringStation"
+     }
+     VisibilityRange 3
+     m_eOpenWithMapEntityMode OPERATIONS_STATION
+    }
+    SCR_FactionCommanderOpenMapUserAction "{69A2D95B035491D2}" {
+     UIInfo UIInfo "{69A2D95B48B4E675}" {
+      Name "#AR-FactionCommander_UserAction_RadioStation"
+     }
+     VisibilityRange 3
+     m_eOpenWithMapEntityMode COMBAT_SUPPORT_STATION
+    }
+    SCR_CampaignDeployMobileAssemblyUserAction "{69A2D9580E6A9177}" {
+     ParentContextList {
+      "trunk"
+     }
+     UIInfo UIInfo "{69A2D95B8683E73F}" {
+      Name "#AR-Campaign_Action_Deploy-UC"
+     }
+     ActionTitle "#AR-Campaign_Action_Deploy-UC"
+     VisibilityRange 3
+     Duration 10
+    }
+   }
+  }
+ }
+}

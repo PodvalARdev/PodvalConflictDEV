@@ -15,11 +15,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sMapLocationName "Coupru"
     m_aWhiteList {
      "Main Base Southwest"
-	 "Triangle Farm"
+     "Triangle Farm"
     }
     m_aWhiteListAntenna {
      "Main Base Southwest"
-	 "Triangle Farm"
+     "Triangle Farm"
     }
    }
   }
@@ -42,42 +42,16 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sMapLocationName "Triangle"
     m_aWhiteList {
      "Coupru"
-     "West Monneaux"
+     "Fort De Vaux"
     }
     m_aWhiteListAntenna {
      "Coupru"
-     "West Monneaux"
+     "Fort De Vaux"
     }
    }
   }
   coords 6919.97 179.357 2941.061
   angles -1.844 -86.321 0.778
- }
- BaseWestMonneaux {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3800
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "West Monneaux"
-    m_sBaseNameUpper "WEST MONNEAUX"
-    m_aWhiteList {
-     "Triangle Farm"
-     "Fort De Vaux"
-    }
-    m_aWhiteListAntenna {
-     "Triangle Farm"
-     "Fort De Vaux"
-    }
-   }
-  }
-  coords 8253.935 194.871 1286.368
-  angles 0.835 -86.276 0.951
  }
  BaseFortDeVaux {
   components {
@@ -94,11 +68,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseNameUpper "FORT DE VAUX"
     m_sMapLocationName "Fortdevaux"
     m_aWhiteList {
-     "West Monneaux"
+     "Triangle Farm"
      "Airfield"
     }
     m_aWhiteListAntenna {
-     "West Monneaux"
+     "Triangle Farm"
      "Airfield"
     }
    }

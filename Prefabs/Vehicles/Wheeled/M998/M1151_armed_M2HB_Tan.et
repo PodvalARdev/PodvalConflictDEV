@@ -1,3 +1,20 @@
 Vehicle : "{533820E8979A44A9}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_Tan.et" {
  ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69A2CE13B8C668E6}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 100
+     }
+    }
+   }
+  }
+ }
 }

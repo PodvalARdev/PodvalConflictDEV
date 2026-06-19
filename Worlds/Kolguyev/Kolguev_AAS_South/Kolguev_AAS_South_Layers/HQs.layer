@@ -17,16 +17,16 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_sBaseName "Main Base Northeast"
     m_sBaseNameUpper "MAIN BASE NORTHEAST"
     m_aWhiteList {
-     "South Epaux-Bezu"
-     "Buire"
+     "Crossroads"
+     "Udarnik"
     }
     m_aWhiteListAntenna {
-     "South Epaux-Bezu"
-     "Buire"
+     "Crossroads"
+     "Udarnik"
     }
    }
   }
-  coords 10818.883 211.46 10537.534
+  coords 2635.328 24.217 5409.823
   angles 0 -120 0
  }
  MainBaseSoutheast {
@@ -46,17 +46,18 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_bCanBeHQ 1
     m_sBaseName "Main Base Southwest"
     m_sBaseNameUpper "MAIN BASE SOUTHWEST"
+    m_sMapLocationName "Main Base Southwest"
     m_aWhiteList {
-     "Coupru"
-     "Southeast Marigny"
+     "Langonnet"
+     "Meglerone"
     }
     m_aWhiteListAntenna {
-     "Coupru"
-     "Southeast Marigny"
+     "Langonnet"
+     "Meglerone"
     }
    }
   }
-  coords 1645.967 206.103 678.878
-  angles 0 0 1.352
+  coords 12080.604 2.188 10432.046
+  angles 0.382 -16.415 1.297
  }
 }

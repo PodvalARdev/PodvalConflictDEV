@@ -1,7 +1,0 @@
-Vehicle : "{3ADAB98297CE0203}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_Base.et" {
- ID "BBCBA43A9778AE21"
- components {
-  HQSPP_VehicleNoFireTagComponent "{6962BD3B566A3033}" {
-  }
- }
-}

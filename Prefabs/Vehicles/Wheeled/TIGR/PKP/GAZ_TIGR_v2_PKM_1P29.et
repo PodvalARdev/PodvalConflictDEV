@@ -3,6 +3,10 @@ Vehicle : "{7ACFD8FA081996F6}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_1
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M VEHICLE_CAR
+    }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{61B3396B66A62BA8}" {
       m_BudgetType RANK_CORPORAL
@@ -10,6 +14,9 @@ Vehicle : "{7ACFD8FA081996F6}Prefabs/Vehicles/Wheeled/TIGR/PKP/GAZ_TIGR_v2_PKM_1
      }
     }
    }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" ""
   }
  }
 }

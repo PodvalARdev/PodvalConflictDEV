@@ -446,7 +446,6 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
    }
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" : "{CF9447B87AB774DB}Configs/Factions/FIA_Campaign.conf" {
-   m_bShowInWelcomeScreenIfNonPlayable 0
    m_bIsMilitary 0
    m_aEntityCatalogs {
     SCR_EntityCatalogMultiList "{5C68A0EABE8B7B2A}" {
@@ -496,50 +495,4 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
   }
  }
  m_bCanChangeFactionsPlayable 0
- m_aRanks {
-  SCR_RankIDCampaign "{5CB0777E83631136}" {
-   m_iRequestCD 1200
-   m_iRadioRespawnCooldown 600
-   m_iFastTravelCooldown 3600
-   m_eRadioMsg DEMOTION_RENEGADE
-  }
-  SCR_RankIDCampaign "{5CB0777E828E61F3}" {
-   m_iRequestCD 600
-   m_iRadioRespawnCooldown 45
-   m_iFastTravelCooldown 600
-   m_eRadioMsg PROMOTION_PRIVATE
-  }
-  SCR_RankIDCampaign "{5CB0777E803B7EA2}" {
-   m_iRequiredXP 150
-   m_iRequestCD 600
-   m_iRadioRespawnCooldown 42
-   m_iFastTravelCooldown 540
-   m_eRadioMsg PROMOTION_CORPORAL
-  }
-  SCR_RankIDCampaign "{5CB0777E8F0E82AF}" {
-   m_iRequiredXP 600
-   m_iRequestCD 450
-   m_iRadioRespawnCooldown 39
-   m_iFastTravelCooldown 480
-   m_eRadioMsg PROMOTION_SERGEANT
-  }
-  SCR_RankIDCampaign "{5CB0777E8BE66EC2}" {
-   m_iRequestCD 300
-   m_iRadioRespawnCooldown 36
-   m_iFastTravelCooldown 420
-   m_eRadioMsg PROMOTION_LIEUTENANT
-  }
-  SCR_RankIDCampaign "{5CB0777E8AD658D6}" {
-   m_iRequiredXP 2100
-   m_iRequestCD 150
-   m_iRadioRespawnCooldown 33
-   m_iFastTravelCooldown 360
-   m_eRadioMsg PROMOTION_CAPTAIN
-  }
-  SCR_RankIDCampaign "{5CB0777E88380770}" {
-   m_iRequiredXP 3300
-   m_iRequestCD 5
-   m_eRadioMsg PROMOTION_MAJOR
-  }
- }
 }

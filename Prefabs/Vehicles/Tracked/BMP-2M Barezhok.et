@@ -1,0 +1,64 @@
+Tank : "{F03E2B72FBD294E7}Prefabs/Vehicles/Tracked/BMP-2_Shkval.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64E8F5B0FC630B21}" {
+     SourceMaterial "BMP2_TrackR"
+     AssignedMaterial "{C2A3DE15F410BB71}Prefabs/TankTracks/RightTrackBMP2.emat"
+    }
+    MaterialAssignClass "{64E8F5B0FC630B5C}" {
+     SourceMaterial "BMP2_trackL"
+     AssignedMaterial "{8D32A83EACD897F4}Prefabs/TankTracks/LeftTrackBMP2.emat"
+    }
+    MaterialAssignClass "{64F36B234A7ABA0C}" {
+     SourceMaterial "BMP2_body"
+     AssignedMaterial "{17C820805F0BDB6F}Assets/Tracked/Data/BMP2_body_Berezhok.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    CargoCompartmentSlot commander {
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Passenger"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "BMP-2M"
+    m_Image "{0CB7C8BBF666A47D}UI/bmp2m.edds"
+    m_sFaction "USSR"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M CONTENT_MODDED VEHICLE_APC
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 800
+     }
+     SCR_EntityBudgetValue "{60F08A849E9A4EBF}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69A2C66FB25CF688}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 350
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.4964 0
+     Prefab "{F37355B7361A951E}Prefabs/Vehicles/Tracked/VehParts/Turret/Berezok_Module.et"
+    }
+   }
+  }
+ }
+ coords 1464.919 39 2797.424
+}

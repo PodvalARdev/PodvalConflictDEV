@@ -7,6 +7,12 @@ Vehicle : "{CEFC2B5C4334CADB}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17
     m_aAutoLabels {
      FACTION_USSR SIZE_M VEHICLE_CAR
     }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69A2C864A8C2472B}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 200
+     }
+    }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {

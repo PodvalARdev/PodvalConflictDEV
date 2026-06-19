@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F4238420855F2BDE}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_empty.et"
+ Name "{AA0DED30340F9737}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_3M161.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }

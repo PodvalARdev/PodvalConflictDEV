@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4C3EB7CE9F8D0D78}Worlds/Kolguyev/Kolguev_AAS_North/Kolguev_AAS_North.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

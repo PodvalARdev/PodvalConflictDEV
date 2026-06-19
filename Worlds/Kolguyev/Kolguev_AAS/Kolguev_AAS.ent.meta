@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{47292710A5A93AA6}Worlds/Kolguyev/Kolguev_AAS/Kolguev_AAS.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

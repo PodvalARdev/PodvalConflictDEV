@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8AB8CCE154851291}Prefabs/Vehicles/Wheeled/Ural_4320_Grad/BM 21-1_empty_camo.et"
+ Name "{E504DEC0AC04AE29}Prefabs/Vehicles/Tracked/BMP-2M Barezhok.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
