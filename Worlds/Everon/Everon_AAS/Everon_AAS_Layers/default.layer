@@ -53,6 +53,6 @@ BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Ga
 }
 MusicManager MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
 }
-SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 0.121 0 0.182
+SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ coords 6380.456 158.929 6443.043
 }

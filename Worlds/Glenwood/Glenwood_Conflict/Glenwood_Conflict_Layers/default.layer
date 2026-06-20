@@ -37,9 +37,9 @@ BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Ga
 GenericEntity : "{46EF8569D1C875D8}Prefabs/World/Game/PrefabCache.et" {
  coords 0 0 0
 }
-SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 3969.982 118.816 3974.863
-}
 MusicManager MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
  coords 3969.982 118.816 3974.863
+}
+SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ coords 3680.267 17.733 4005.903
 }

@@ -1,4 +1,4 @@
-SCR_AIWorld SCR_AIWorld_Rostov : "{998834C2F010C11A}Prefabs/AI/SCR_AIWorld_Rostov.et" {
+SCR_AIWorld SCR_AIWorld_Rostov {
  coords 3969.982 118.874 3971.863
 }
 SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
@@ -34,9 +34,9 @@ ItemPreviewManagerEntity ItemPreviewManagerEntity {
 BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 3969.982 118.816 3974.863
 }
-SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 3985.37 119.627 3961.946
-}
 MusicManager MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
  coords 3969.982 118.816 3974.863
+}
+SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ coords 3985.354 130.082 3932.648
 }
