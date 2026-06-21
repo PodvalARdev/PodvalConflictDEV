@@ -1,0 +1,3790 @@
+Vehicle : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ ID "5DB688595BAB2FD7"
+ components {
+  SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+   Filenames {
+    "{91131B10BCA04005}Sounds/Vehicles/Helicopters/UH1H/Vehicles_VT22_Rotor_Turbine.acp" "{E5B7F94F44F36F00}Sounds/Vehicles/Helicopters/UH1H/Vehicles_UH1H_Animations.acp" "{5D4DDB6D802EFD9C}Sounds/Vehicles/_SharedData/Crashes/Helicopters/Vehicles_Crashes_Helicopters.acp" "{2F7A88127617CD05}Sounds/Vehicles/Helicopters/UH1H/Vehicles_UH1H_Rain.acp" "{BA8A5BD290F5FB34}Sounds/Vehicles/_SharedData/Destruction/Vehicles_Destruction.acp" "{4EB882CF87723536}Sounds/Vehicles/Helicopters/UH1H/Vehicles_UH1H_Dampers.acp" "{17189463513F5EA6}Sounds/Vehicles/Helicopters/UH1H/Vehicles_UH1H_Warnings.acp" "{1A3AEBFDCFB645AD}Sounds/Vehicles/_SharedData/Destruction/VT_22_Damage_Fire.acp" "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp" "{F1030E91E4B33E24}Sounds/Vehicles/_SharedData/WaterInteractions/Vehicles_WaterInteractions.acp" "{28531E6CCABC0875}Sounds/Compositions/Slotted/SlotFlatSmall/VT_Pull_UP.acp" "{7644ECFF93C28D43}Sounds/Compositions/Slotted/SlotFlatSmall/Hyd.acp"
+   }
+   SoundPoints {
+    SoundPointInfo Rain_Window_Front {
+     Offset 0 2 7.2147
+    }
+    SoundPointInfo Engine {
+     PivotID "v_motor_l"
+     Offset 6.4094 -0.2049 -0.6756
+    }
+    SoundPointInfo Warning_Speaker {
+     Offset 0 2.1473 5.3747
+    }
+    SoundPointInfo Pull_UP {
+     Offset 0 2.1238 6.8513
+    }
+    SoundPointInfo Ramp_Pump {
+     Offset 0.0001 1.462 -2.5924
+    }
+    SoundPointInfo Engine_R {
+     PivotID "v_motor_r"
+     Offset 1.5475 -0.2049 -0.6756
+    }
+    SoundPointInfo SOUND_APU_LOOP {
+     Offset 0 2.8941 5.3445
+    }
+    SoundPointInfo SOUND_APU {
+     Offset 0 2.8941 5.0564
+    }
+   }
+   m_aHitZoneStateSignalData {
+    SCR_HitZoneStateSignalData "{69AA9899674CFF0A}" {
+     m_sSignalName "Engine_02DamageState"
+     m_aHitZoneNames {
+      "Engine_02"
+     }
+    }
+   }
+  }
+  ACM_EngineTiltComponent "{69AA9899674CFF38}" {
+   m_fDegreesPerPress -120
+   m_fMaxThrustForce 13000
+   m_fYawBoost 0.05
+   m_fPitchBoost 0.1
+   m_fAutoSlowForce 0.1
+   m_bDebugLog 1
+  }
+  ACM_GroundProximityWarning "{69AA9899674CFF3B}" {
+   m_fWarningHeight 100
+   m_fDescentThreshold 2
+   m_fHoverSpeedThreshold 8
+  }
+  ACM_RampController "{69AA9899674CFF3D}" {
+   m_sSignalName "Ramp_Upper"
+   m_fHorizontalDegrees 0
+   m_fOpenDegrees 1500
+   m_fSpeedDegPerSec 250
+   m_sSoundEvent "Ramp_Pump"
+  }
+  ACM_RampController "{69AA9899674CFF3F}" {
+   m_sSignalName "Ramp"
+   m_fClosedDegrees 0
+   m_fHorizontalDegrees 1200
+   m_fOpenDegrees 2050
+   m_fSpeedDegPerSec 250
+   m_sSoundEvent "Ramp_Pump"
+  }
+  ACM_StartupComponent "{69AA9899674CFF20}" {
+   m_bDebugLog 1
+   m_fApuWarmupDuration 10
+   m_sBatterySoundEvent "SOUND_BATTERY"
+  }
+  AG0_MFDManagerComponent "{69AA9899674CFF21}" {
+   m_EnabledCompartments {
+    "pilot" "copilot"
+   }
+  }
+  BaseLightManagerComponent "{51F88B1C7D1C1F11}" {
+   LightSlots {
+    SCR_LightSlot "{5E32ACA107A21791}" {
+     LightPositionInfo EntitySlotInfo "5DD6BB25F0B075F2" {
+      Offset 0.003 0.4759 7.6947
+     }
+    }
+    SCR_LightSlot "{5E32ACA104651DD1}" {
+     LightPositionInfo EntitySlotInfo "5DD6BB25F0B075F2" {
+      Offset 0.0001 0.6183 8.0262
+     }
+    }
+    SCR_LightSlot "{5E3EDDEBCBCE7D76}" {
+     LightPositionInfo EntitySlotInfo d {
+      PivotID "v_motor_l"
+      Offset -2.0078 1.1293 0.0178
+      Angles 0 90 0
+      MergePhysics 1
+     }
+     LightPrefab "{B41AB478B563D8B8}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_Navigating_Green.et"
+    }
+    SCR_LightSlot "{5E3EDDEBC8F86F29}" {
+     LightPositionInfo EntitySlotInfo d {
+      PivotID "v_motor_l"
+      Offset 14.7758 1.1293 0.0178
+      MergePhysics 1
+     }
+     LightPrefab "{A67B39D999D0C004}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_Navigating_Red.et"
+    }
+    SCR_LightSlot "{5E427CC494B40FA6}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset -2.7925 3.1998 -8.3149
+     }
+    }
+    SCR_LightSlot "{5E427CC4927A300B}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset -0.9669 0.1357 -6.5199
+     }
+    }
+    SCR_LightSlot "{5E427CC1E135743C}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset -0.459 0.0645 1.4004
+     }
+    }
+    SCR_LightSlot "{5E427CC4912718AE}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset 1.2502 0.1357 -6.2733
+     }
+    }
+    SCR_LightSlot "{5E427CC420178A0E}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset 0.4627 0.068 1.4027
+     }
+    }
+    SCR_LightSlot "{5E427CC405410FE0}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset -0.0312 2.6212 -1.6672
+     }
+    }
+    SCR_LightSlot "{5E42CDD9CA9E758F}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset -0.0847 2.6777 4.0941
+      Angles -90 0 0
+     }
+    }
+    SCR_LightSlot "{5E42D7318622F1A4}" {
+     LightFunctional 0
+     LightPositionInfo EntitySlotInfo s {
+      Offset -1.2563 2.3108 2.1345
+     }
+    }
+    SCR_LightSlot "{5E42D7318524ABF4}" {
+     LightType Dashboard
+     LightFunctional 0
+     LightPositionInfo EntitySlotInfo s {
+      Offset 1.2248 2.3108 2.1345
+     }
+     LightPrefab "{C97E345A2E86C058}Prefabs/Vehicles/Core/Lights/Dash_Red.et"
+     ParentSurface "InteriorLightBack1203"
+    }
+    SCR_LightSlot "{69997A95EF06D111}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Dashboard
+     LightPositionInfo EntitySlotInfo s {
+      Offset 0 2.7489 4.8461
+      Angles -90 180 -180
+     }
+     LightPrefab "{C97E345A2E86C058}Prefabs/Vehicles/Core/Lights/Dash_Red.et"
+     ParentSurface "IN_03"
+    }
+    SCR_LightSlot "{69997A95E85C661A}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Dashboard
+     LightPositionInfo EntitySlotInfo s {
+      Offset 0.0015 2.8871 1.7728
+      Angles -90 180 -180
+     }
+     LightPrefab "{C97E345A2E86C058}Prefabs/Vehicles/Core/Lights/Dash_Red.et"
+     ParentSurface "IN_02"
+    }
+    SCR_LightSlot "{69997A95E97B31FE}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Dashboard
+     LightPositionInfo EntitySlotInfo s {
+      Offset -0.0421 2.8954 7.0782
+      Angles -78.2095 180 -180
+     }
+     LightPrefab "{9EA692FE0B82936C}Prefabs/Vehicles/Core/Lights/Dash_Green.et"
+     ParentSurface "IN_04"
+    }
+    SCR_LightSlot "{69997A95EA40E4B3}" : "{DF2AF286E222F6AE}Prefabs/Vehicles/Helicopters/UH1H/Lights/SCR_LightSlot_UH1H_Dome.conf" {
+     LightType Dashboard
+     LightPositionInfo EntitySlotInfo s {
+      Offset -0.0421 2.7794 -1.4017
+      Angles -90 180 -180
+     }
+     LightPrefab "{C97E345A2E86C058}Prefabs/Vehicles/Core/Lights/Dash_Red.et"
+     ParentSurface "IN_01"
+    }
+    SCR_LightSlot "{69AA9899674CFF54}" {
+     LightType Rear
+     LightPositionInfo EntitySlotInfo s {
+      Offset 2.8017 3.1998 -8.3149
+      MergePhysics 1
+     }
+     LightPrefab "{A67B39D999D0C004}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_UH1H_Navigating_Red.et"
+     ParentSurface "Pos_Light_Tail_01"
+    }
+   }
+   EmissiveSurfaceSlots {
+    SCR_EmissiveLightSurfaceSlot Anticollision_01 {
+     Enabled 0
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{5E6B5A9493771571}" {
+      }
+     }
+    }
+    SCR_EmissiveLightSurfaceSlot Landing_Light_01 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot Landing_Light_02 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot Pos_Light_L01 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot Pos_Light_L02 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot Pos_Light_R01 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot Pos_Light_R02 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot Pos_Light_Tail_01 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot IN_01 : Pos_Light_Tail_01 {
+     Enabled 0
+    }
+    SCR_EmissiveLightSurfaceSlot IN_02 : Pos_Light_Tail_01 {
+     Offset 0 0.8378 0.7689
+     Enabled 1
+     Prefab "{37B6BC3AE7FCE821}Prefabs/Vehicles/Wheeled/S1203/Lights/InteriorLight.et"
+     RegisterDamage 0
+     LightType 0x80 0
+     EmissiveOnMultiplier 10
+    }
+    SCR_EmissiveLightSurfaceSlot IN_03 : Pos_Light_Tail_01 {
+     Offset 0 0.8778 3.8545
+     Enabled 1
+     Prefab "{37B6BC3AE7FCE821}Prefabs/Vehicles/Wheeled/S1203/Lights/InteriorLight.et"
+     RegisterDamage 0
+     LightType 0x80 0
+     EmissiveOnMultiplier 10
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{69AA9899674CFF5E}" {
+      }
+     }
+    }
+    SCR_EmissiveLightSurfaceSlot IN_04 : Pos_Light_Tail_01 {
+     Offset 0 1.0311 5.9399
+     Enabled 1
+     Prefab "{37B6BC3AE7FCE821}Prefabs/Vehicles/Wheeled/S1203/Lights/InteriorLight.et"
+     RegisterDamage 0
+     LightType 0x80 0
+     EmissiveOnMultiplier 10
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{69AA9899674CFF40}" {
+      }
+     }
+    }
+   }
+   LightAction {
+    SCR_LightsDashboardUserAction "{69AA9899674CFF43}" {
+     ParentContextList {
+      "light_dashboard"
+     }
+     m_eLightType Dashboard
+    }
+    SCR_LightsDashboardUserAction "{69AA9899674CFF45}" {
+     ParentContextList {
+      "light_dome"
+     }
+     m_eLightType Dashboard
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{72DBF5C75F677A77}Assest_New/Main_Body/VT_Main_Body.xob"
+   Materials {
+    MaterialAssignClass "{69AA9899674CFF49}" {
+     SourceMaterial "MV_22_Osprey_glass"
+     AssignedMaterial "{CA04CFF8FA857B8D}Assets/Props/Furniture/Bookshelf_01/data/Bookshelf_01_Glass.emat"
+    }
+    MaterialAssignClass "{69AA9899674CFF71}" {
+     SourceMaterial "Tint"
+     AssignedMaterial "{CBE5A2B102D88492}Assets/Weapons/Attachments/Optics/PSO1/Data/ak74_pso1_lensglass_standard.emat"
+    }
+    MaterialAssignClass "{69AA9899674C2BFF}" {
+     SourceMaterial "Fuselage"
+     AssignedMaterial "{97FE67E10991D200}Assest_New/Main_Body/Data/Fuselage_NightRunner.emat"
+    }
+    MaterialAssignClass "{69AA9899674C2BFD}" {
+     SourceMaterial "Cockpit"
+     AssignedMaterial "{7D78B1BA36961EFC}Assets/Props/Furniture/DeskSchool_01/Data/Metal.emat"
+    }
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Layers 0x3004000 0
+   Mass 2700
+   CenterOfMass 0 0.473 1.284
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{60F8D2B583BD6505}" {
+     EntryPositionInfo PointInfo "{50B8D5DD213DC00C}" {
+      Offset 0.1035 0.9373 5.3891
+     }
+     ExitPositionInfo PointInfo "{5CAAA44AC4FFE225}" {
+      Offset 0.1035 0.9373 5.3891
+      Angles 0 180 0
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+    }
+    CompartmentDoorInfo "{60F8D2B58CA24A75}" {
+     EntryPositionInfo PointInfo "{50B8D5DD213DC00C}" {
+      Offset 1.8236 0.1044 4.5529
+     }
+     ExitPositionInfo PointInfo "{5CAAA44AC4FFE225}" {
+      Offset 1.8236 0.1044 4.5529
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+    }
+    CompartmentDoorInfo "{60F8D2B4A57BB87E}" {
+     EntryPositionInfo PointInfo "{50B8D5DD78963937}" {
+      Offset 0 0.8752 5.2686
+     }
+     ExitPositionInfo PointInfo "{51D10B84FFF2C498}" {
+      PivotID ""
+      Offset 0 0.8752 1.2732
+      Angles 0 180 0
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{60F8D2B4B6C9A956}" {
+     EntryPositionInfo PointInfo "{50B8D5DD78963937}" {
+      Offset 0 0.8788 1.6376
+     }
+     ExitPositionInfo PointInfo "{51D10B84FFF2C498}" {
+      Offset 0 0.8788 1.6376
+      Angles 0 180 0
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      ParentContextList {
+       "door_r01" "door_l03"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528254D8CE5491}" {
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E93B44D65}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      PivotID ""
+      Offset 0.6115 1.5105 6.7336
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674C2BED}" {
+      Offset 0 0.8668 5.1933
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674C2BEA}" {
+      Offset 0 0.8668 5.1933
+      Angles 0 90 0
+     }
+     OverrideExitTeleportPositionInfo PointInfo "{69AA9899674C2BEB}" {
+      Offset 0 0.9141 5.2142
+     }
+     AutoConnectToTurret "UHCarrier"
+     AutoConnectContextIndices 0x8 0
+    }
+    PilotCompartmentSlot CopilotCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      ParentContextList {
+       "door_l01" "door_l03"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528254D8CE5491}" {
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E93B44D65}" {
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      PivotID ""
+      Offset -0.6405 1.5105 6.7336
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674C2BE6}" {
+      Offset 0 0.8668 5.1933
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674C2BE7}" {
+      Offset 0 0.8668 5.1933
+     }
+    }
+    CargoCompartmentSlot passenger_l02 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674C2BE2}" {
+      ParentContextList {
+       "passenger_l02"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674C2BE0}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674C2C1E}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674C2C12}" {
+      ParentContextList {
+       "passenger_l02"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674C2C10}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674C670B}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 5.3757
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674C6717}" {
+      Offset -0.0066 0.8769 5.3757
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674C6716}" {
+      Offset -0.8209 1.2146 5.3757
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674C6711}" {
+     }
+     ContextName "passenger_l02"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674C6712}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l03 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674C671C}" {
+      ParentContextList {
+       "door_l03"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674C671E}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674C6719}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674C6718}" {
+      ParentContextList {
+       "passenger_l03"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674C671A}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674C6725}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674FA82E}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674FA82F}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 4.9199
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674FA82C}" {
+      Offset -0.0066 0.8769 4.9125
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674FA82D}" {
+      Offset -0.0066 0.8769 4.9125
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674FA82A}" {
+     }
+     ContextName "passenger_l03"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674FA82B}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l04 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674FF6BB}" {
+      ParentContextList {
+       "passenger_l04"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674FF6B9}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674FF6B6}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674FF6AA}" {
+      ParentContextList {
+       "passenger_l04"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674FF6AB}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674FF6A8}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674FF6A6}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674FF7B0}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 4.4876
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674FF7B2}" {
+      Offset -0.0066 0.8769 4.4736
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674FF7B3}" {
+      Offset -0.0066 0.8769 4.4736
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674FF7B4}" {
+     }
+     ContextName "passenger_l04"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674FF7B5}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l05 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674FF7B6}" {
+      ParentContextList {
+       "passenger_l05"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674FF7B7}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674FF7C8}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674FF7C9}" {
+      ParentContextList {
+       "passenger_l05"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674F68C7}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674F68C4}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674F68C5}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E8C53}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 4.0231
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674E8C55}" {
+      Offset -0.0066 0.8769 4.0459
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674E8C56}" {
+      Offset -0.0066 0.8769 4.0459
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674E8C57}" {
+     }
+     ContextName "passenger_l05"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674E8C58}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l06 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674E8C59}" {
+      ParentContextList {
+       "passenger_l06"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674E8C5A}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674EDF46}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674EDF47}" {
+      ParentContextList {
+       "passenger_l06"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674EDF40}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674EDF41}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674EDF42}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674EDF43}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 3.5619
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674EDF5C}" {
+      Offset -0.0066 0.8769 3.5245
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674EDF5D}" {
+      Offset -0.0066 0.8769 3.5245
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674EDF5E}" {
+     }
+     ContextName "passenger_l06"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674EDF5F}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l07 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674EDF58}" {
+      ParentContextList {
+       "passenger_l07"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674EDF59}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674EDF5A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674EDF5B}" {
+      ParentContextList {
+       "passenger_l07"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674EDF55}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674EDF56}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E287E}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E2878}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 3.0876
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674E2879}" {
+      Offset -0.0066 0.8769 3.0929
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674E287A}" {
+      Offset -0.0066 0.8769 3.0929
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674E287B}" {
+     }
+     ContextName "passenger_l07"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674E2844}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l08 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674E2856}" {
+      ParentContextList {
+       "passenger_l08"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674E2857}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674E2850}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674E2852}" {
+      ParentContextList {
+       "passenger_l08"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674E285C}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E285D}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E285E}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E285F}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 2.6278
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674E2858}" {
+      Offset -0.0066 0.8769 2.64
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674E2859}" {
+      Offset -0.0066 0.8769 2.64
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674E285A}" {
+     }
+     ContextName "passenger_l08"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674E285B}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l09 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674E28A4}" {
+      ParentContextList {
+       "passenger_l09"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674E28A5}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674E28A6}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674E28A7}" {
+      ParentContextList {
+       "passenger_l09"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28A0}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28A1}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28A2}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28A3}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 2.1668
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674E28AC}" {
+      Offset -0.0066 0.8769 2.1628
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674E28AD}" {
+      Offset -0.0066 0.8769 2.1628
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674E28AE}" {
+     }
+     ContextName "passenger_l09"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674E28AF}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l10 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674E28A8}" {
+      ParentContextList {
+       "passenger_l10"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674E28A9}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674E28AA}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674E28AB}" {
+      ParentContextList {
+       "passenger_l10"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28B5}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28B6}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28B7}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E28B0}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 1.744
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674E28B2}" {
+      Offset -0.0066 0.8769 1.681
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674E28B3}" {
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674E28BC}" {
+     }
+     ContextName "passenger_l10"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674E28BD}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l11 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674E28BE}" {
+      ParentContextList {
+       "passenger_l11"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674E28B8}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674E28B9}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674E28BA}" {
+      ParentContextList {
+       "passenger_l11"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674E541D}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E541C}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E5423}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E5422}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 1.2529
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674E5421}" {
+      Offset -0.0066 0.8769 1.2391
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674E5420}" {
+      Offset -0.0066 0.8769 1.2391
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674E5427}" {
+     }
+     ContextName "passenger_l11"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674E5426}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l12 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674E5425}" {
+      ParentContextList {
+       "passenger_l12"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674E542B}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674E542A}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674E5429}" {
+      ParentContextList {
+       "passenger_l12"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674E5428}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E542E}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674E542D}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996749A5C0}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID ""
+      Offset -0.8209 1.2146 0.8001
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA98996749A5DE}" {
+      Offset -0.0066 0.8769 0.7747
+     }
+     OverrideExitPositionInfo PointInfo "{69AA98996749A5DF}" {
+      Offset -0.0066 0.8769 0.7747
+     }
+     UIInfo SCR_ActionUIInfo "{69AA98996749A5DC}" {
+     }
+     ContextName "passenger_l12"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA98996749A5DD}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l13 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996749A5DA}" {
+      ParentContextList {
+       "passenger_l13"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996749A5D8}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA989967490F48}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA989967490F49}" {
+      ParentContextList {
+       "passenger_l13"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA989967490F47}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967490F44}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967490F45}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674950CA}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 0.3466
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674950CD}" {
+      Offset -0.0066 0.8769 0.3315
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674950CF}" {
+      Offset -0.0066 0.8769 0.3315
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674950CE}" {
+     }
+     ContextName "passenger_l13"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674950B1}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l14 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674950B0}" {
+      ParentContextList {
+       "passenger_l14"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996748AC78}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA98996748AC7B}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA98996748AC7A}" {
+      ParentContextList {
+       "passenger_l14"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA98996748AC7D}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996748AC71}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996748B3F0}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996748B3F2}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8179 1.2967 -0.0372
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA98996748B3F3}" {
+      Offset -0.0066 0.8769 -0.1032
+     }
+     OverrideExitPositionInfo PointInfo "{69AA98996748B3F4}" {
+      Offset -0.0066 0.8769 -0.1032
+     }
+     UIInfo SCR_ActionUIInfo "{69AA98996748B3F5}" {
+     }
+     ContextName "passenger_l14"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA98996748B3F6}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l15 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996748B3F7}" {
+      ParentContextList {
+       "passenger_l15"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996748B3E8}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA98996748D78F}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA98996748D78D}" {
+      ParentContextList {
+       "passenger_l15"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA98996748D78C}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996748D78A}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996748D7B6}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674855BE}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 -0.5582
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674855BC}" {
+      Offset -0.0066 0.8769 -0.5972
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674B8E81}" {
+      Offset -0.0066 0.8769 -0.5972
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674B8E86}" {
+     }
+     ContextName "passenger_l15"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674B8E87}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l16 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674BA95E}" {
+      ParentContextList {
+       "passenger_l16"
+      }
+      VisibilityRange 2
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674BA95D}" {
+      ParentContextList {
+       "door_l02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674BA95C}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674BA943}" {
+      ParentContextList {
+       "passenger_l16"
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674BCCC4}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674BCCC5}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674BCCC6}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674B06DD}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.8209 1.2146 -1.0297
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 2
+     DoorInfoList {
+      2
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674B06DC}" {
+      Offset -0.0066 0.8769 -1.0595
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674B06DB}" {
+      Offset -0.0066 0.8769 -1.0595
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674B1EB1}" {
+     }
+     ContextName "passenger_l16"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674B1EB0}" {
+      m_sDefaultOccupantPrefab "{5B1996C05B1E51A4}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r02 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674B1EB3}" {
+      ParentContextList {
+       "passenger_r02"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674B1EB2}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674B3A68}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674B3A67}" {
+      ParentContextList {
+       "passenger_r02"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA9899674B3A66}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674B3A64}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674B3A63}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674B3A62}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674B3A61}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 4.4522
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674B3A60}" {
+      Offset -0.0066 0.8769 4.4536
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674B3B9F}" {
+      Offset -0.0066 0.8769 4.4536
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674B70E3}" {
+     }
+     ContextName "passenger_r02"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674B70E1}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r03 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674A8FFF}" {
+      ParentContextList {
+       "passenger_r03"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674A8FFE}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674A8FF9}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674A8FF8}" {
+      ParentContextList {
+       "passenger_r03"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA9899674A8FFB}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674ACCC0}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674ACCC1}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674ACCCE}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674AE828}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 3.9808
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674AE82A}" {
+      Offset -0.0066 0.8769 4.0005
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674AF96A}" {
+      Offset -0.0066 0.8769 4.0005
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674AF96B}" {
+     }
+     ContextName "passenger_r03"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674AF96C}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r04 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899674AF96D}" {
+      ParentContextList {
+       "passenger_r04"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899674AF96E}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899674AFADE}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899674AFADF}" {
+      ParentContextList {
+       "passenger_r04"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA9899674A35F9}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899674A35E6}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674A35E7}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674A614B}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899674A6148}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 3.5275
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899674A6149}" {
+      Offset -0.0066 0.8769 3.5459
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899674A614E}" {
+      Offset -0.0066 0.8769 3.5459
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899674A614F}" {
+     }
+     ContextName "passenger_r04"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899674A614C}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r05 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996755B547}" {
+      ParentContextList {
+       "passenger_r05"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996755B546}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA98996755B549}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA98996755B548}" {
+      ParentContextList {
+       "passenger_r05"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA98996755D545}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA98996755D546}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996755D547}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996755D540}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996755D541}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 3.078
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA98996755D542}" {
+      Offset -0.0066 0.8769 3.049
+     }
+     OverrideExitPositionInfo PointInfo "{69AA98996755D543}" {
+      Offset -0.0066 0.8769 3.049
+     }
+     UIInfo SCR_ActionUIInfo "{69AA98996755E2AD}" {
+     }
+     ContextName "passenger_r05"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA98996755E292}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r06 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996755E293}" {
+      ParentContextList {
+       "passenger_r06"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996755E290}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899675512EB}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899675512EA}" {
+      ParentContextList {
+       "passenger_r06"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA9899675512ED}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA9899675512EC}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899675512EF}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899675512EE}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899675512E1}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID ""
+      Offset 0.7864 1.2146 2.6348
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899675512E0}" {
+      Offset -0.0066 0.8769 2.6412
+     }
+     OverrideExitPositionInfo PointInfo "{69AA98996755330F}" {
+      Offset -0.0066 0.8769 2.6412
+     }
+     UIInfo SCR_ActionUIInfo "{69AA98996755330C}" {
+     }
+     ContextName "passenger_r06"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA98996755330D}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r07 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996755330A}" {
+      ParentContextList {
+       "passenger_r07"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996755330B}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA989967553308}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA989967553309}" {
+      ParentContextList {
+       "passenger_r07"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA989967553316}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA989967553317}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967553314}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967553315}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899675487F6}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 2.1736
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899675487F1}" {
+      Offset -0.0066 0.8769 2.2166
+     }
+     OverrideExitPositionInfo PointInfo "{69AA9899675487F0}" {
+      Offset -0.0066 0.8769 2.2166
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899675487F3}" {
+     }
+     ContextName "passenger_r07"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899675487F2}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r08 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899675487FD}" {
+      ParentContextList {
+       "passenger_r08"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899675487FC}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA98996754B477}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA98996754B474}" {
+      ParentContextList {
+       "passenger_r08"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA98996754B475}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA98996754B472}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996754B473}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996754290A}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967542909}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 1.7168
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA989967542908}" {
+      Offset -0.0066 0.8769 1.718
+     }
+     OverrideExitPositionInfo PointInfo "{69AA98996757862C}" {
+      Offset -0.0066 0.8769 1.718
+     }
+     UIInfo SCR_ActionUIInfo "{69AA989967578653}" {
+     }
+     ContextName "passenger_r08"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA989967578652}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r09 {
+     CompartmentAction SCR_GetInUserAction "{69AA989967578651}" {
+      ParentContextList {
+       "passenger_r09"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA989967578657}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA989967578656}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA989967578654}" {
+      ParentContextList {
+       "passenger_r09"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA98996757F9C9}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA98996757F9C6}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996757F9C7}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996757F9C4}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA9899675738FE}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 1.2469
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA9899675738F8}" {
+      Offset -0.0066 0.8769 1.2393
+     }
+     OverrideExitPositionInfo PointInfo "{69AA98996757653F}" {
+      Offset -0.0066 0.8769 1.2393
+     }
+     UIInfo SCR_ActionUIInfo "{69AA98996757653E}" {
+     }
+     ContextName "passenger_r09"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA98996757653D}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r10 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996757653C}" {
+      ParentContextList {
+       "passenger_r10"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA989967576523}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA989967576522}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA989967576521}" {
+      ParentContextList {
+       "passenger_r10"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA989967569A5C}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA989967569A5D}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967569A5A}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967569A5B}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967569A58}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 0.7674
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA989967569A59}" {
+      Offset -0.0066 0.8769 0.7566
+     }
+     OverrideExitPositionInfo PointInfo "{69AA989967569A56}" {
+      Offset -0.0066 0.8769 0.7566
+     }
+     UIInfo SCR_ActionUIInfo "{69AA989967569A57}" {
+     }
+     ContextName "passenger_r10"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA989967569A54}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r11 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996756CD91}" {
+      ParentContextList {
+       "passenger_r11"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996756CD90}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA98996756CD97}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA98996756CD96}" {
+      ParentContextList {
+       "passenger_r11"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA98996756CD95}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA98996756CD94}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996756CDAB}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996756378F}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996756378E}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 0.3388
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA98996756378D}" {
+      Offset -0.0066 0.8769 0.3376
+     }
+     OverrideExitPositionInfo PointInfo "{69AA98996756378C}" {
+      Offset -0.0066 0.8769 0.3376
+     }
+     UIInfo SCR_ActionUIInfo "{69AA9899675659C9}" {
+     }
+     ContextName "passenger_r11"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA9899675659CE}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r12 {
+     CompartmentAction SCR_GetInUserAction "{69AA9899675659CF}" {
+      ParentContextList {
+       "passenger_r12"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA9899675677CF}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA9899675677CC}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA9899675677CD}" {
+      ParentContextList {
+       "passenger_r12"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA989967567F0B}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA989967567F04}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967567F05}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967567F06}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967567F07}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 -0.0833
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA989967567F00}" {
+      Offset -0.0066 0.8769 -0.0985
+     }
+     OverrideExitPositionInfo PointInfo "{69AA989967567F01}" {
+      Offset -0.0066 0.8769 -0.0985
+     }
+     UIInfo SCR_ActionUIInfo "{69AA98996751A74E}" {
+     }
+     ContextName "passenger_r12"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA98996751A74D}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r13 {
+     CompartmentAction SCR_GetInUserAction "{69AA98996751A74C}" {
+      ParentContextList {
+       "passenger_r13"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA98996751A753}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA98996751A751}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA98996751FA0A}" {
+      ParentContextList {
+       "passenger_r13"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA98996751FA0B}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA98996751FA0C}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996751FA0D}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA98996751FA0E}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967515E9A}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 -0.5485
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA989967515E94}" {
+      Offset -0.0066 0.8769 -0.5471
+     }
+     OverrideExitPositionInfo PointInfo "{69AA989967517CB5}" {
+      Offset -0.0066 0.8769 -0.5471
+     }
+     UIInfo SCR_ActionUIInfo "{69AA989967517CB4}" {
+     }
+     ContextName "passenger_r13"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA989967517CB7}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r14 {
+     CompartmentAction SCR_GetInUserAction "{69AA989967517CB6}" {
+      ParentContextList {
+       "passenger_r14"
+      }
+      VisibilityRange 2
+      CanAggregate 0
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{69AA989967517CB1}" {
+      ParentContextList {
+       "door_r02_int"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{69AA989967517CB0}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{69AA989967517CB3}" {
+      ParentContextList {
+       "passenger_r14"
+      }
+      UIInfo SCR_ActionUIInfo "{69AA989967517CB2}" {
+      }
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{69AA989967517C50}" {
+       ParentContextList {
+        "passenger_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967517F60}" {
+       ParentContextList {
+        "door_l02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967517F63}" {
+       ParentContextList {
+        "passenger_r02"
+       }
+       "Sort Priority" 8
+      }
+      SCR_RemoveCasualtyUserAction "{69AA989967517F62}" {
+       ParentContextList {
+        "door_r02"
+       }
+       "Sort Priority" 8
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset 0.7864 1.2146 -1.0229
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     SeatType 3
+     DoorInfoList {
+      3
+     }
+     OverrideEntryPositionInfo PointInfo "{69AA989967517F5D}" {
+      Offset -0.0066 0.8769 -1.018
+     }
+     OverrideExitPositionInfo PointInfo "{69AA989967517F5C}" {
+      Offset -0.0066 0.8769 -1.018
+     }
+     UIInfo SCR_ActionUIInfo "{69AA98996750EA0A}" {
+     }
+     ContextName "passenger_r14"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{69AA98996750EA09}" {
+      m_sDefaultOccupantPrefab "{27BF1FF235DD6036}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT.et"
+     }
+    }
+   }
+  }
+  SCR_BaseEffectManagerComponent "{5D4ADA33D7B11909}" {
+   m_aEffectModules {
+    SCR_EffectModule "{5D4ADA33D4E92022}" {
+     m_effectPosition PointInfo "{5D4ADA33DBAC468C}" {
+      PivotID "v_motor_l"
+      Offset -1.2301 -2.8033 -0.1403
+     }
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{5D4ADA33907C1970}" {
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{5D4ADA335170CCCD}" {
+      }
+     }
+    }
+    SCR_EffectModule "{5D4ECA9481FB22A1}" {
+     m_sParticle "{C27127CC778598F4}Particles/Vehicle/Helicopter/Helicopter_exhaust_normal_01.ptc"
+     m_effectPosition PointInfo "{69AA98996750EA0C}" {
+      PivotID "v_motor_l"
+      Offset 14.1405 -2.8033 -0.1403
+      Angles 0 0 0
+     }
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{69AA98996750EA02}" {
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{69AA98996750EA01}" {
+      }
+     }
+    }
+    SCR_EffectModule "{69AA98996750EA07}" {
+     m_sParticle "{C27127CC778598F4}Particles/Vehicle/Helicopter/Helicopter_exhaust_normal_01.ptc"
+     m_effectPosition PointInfo "{69AA9899675030BD}" {
+      PivotID "v_motor_r"
+      Offset 1.2014 -2.8033 -0.1403
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterEventAction "{69AA9899675030BF}" {
+      }
+      SCR_BaseEffectParticleHelicopterEventAction "{69AA9899675039C4}" {
+       m_Parameter TURN_OFF
+       m_eEvent ON_ENGINE_STOP
+      }
+     }
+    }
+    SCR_EffectModule "{69AA9899675039C5}" {
+     m_sParticle "{2741AA2CADC552D9}Particles/Vehicle/RotorWash_VT22.ptc"
+     m_effectPosition PointInfo "{69AA9899675039DA}" {
+      PivotID "rotor_fx"
+      Offset 0 0 1.7035
+      Angles 0 90 -90
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterRotorControlAction "{69AA9899675039D8}" {
+       m_ExhaustEndSpeedInM 100
+      }
+     }
+    }
+    SCR_EffectModule "{69AA9899675039D9}" {
+     m_sParticle "{2741AA2CADC552D9}Particles/Vehicle/RotorWash_VT22.ptc"
+     m_effectPosition PointInfo "{69AA98996753853B}" {
+      PivotID "rotor_fx"
+      Offset 0 0 1.7035
+      Angles 0 90 -90
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterRotorControlAction "{69AA98996753853C}" {
+       m_ExhaustEndSpeedInM 100
+      }
+     }
+    }
+    SCR_EffectModule "{69AA98996753853D}" {
+     m_sParticle "{2741AA2CADC552D9}Particles/Vehicle/RotorWash_VT22.ptc"
+     m_effectPosition PointInfo "{69AA98996753EC1D}" {
+      PivotID "rotor_fx"
+      Offset -0.0001 0 -2.3594
+      Angles 0 90 -90
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterRotorControlAction "{69AA98996753EC1E}" {
+       m_ExhaustEndSpeedInM 100
+      }
+      SCR_BaseEffectParticleHelicopterRotorControlAction "{69AA98996753EC1F}" {
+       m_ExhaustEndSpeedInM 100
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "VT-22 Night Runner"
+    m_Image "{4E483FCB72B0AC86}Assest_New/Images/Thumbnails/V3.edds"
+    m_aAutoLabels {
+     FACTION_US SIZE_M VEHICLE_HELICOPTER
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+     SCR_EntityBudgetValue "{69AA9A6885596BDB}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 200
+     }
+    }
+   }
+  }
+  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    ACM_FlammableEngineHitZone Hull {
+     MaxHealth 2500
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{6833A69A3D6B8891}Assest_New/V_22_Wrecked.xob"
+     }
+     m_vParticleOffset 0 2 0
+     m_sDamagedParticleHeavy "{7EFE83AA8F943977}Particles/Vehicle/Helicopter/VT22_Smoke_Damaged.ptc"
+     m_sBurningParticle "{4D5CD8B2B5DE8916}Particles/Vehicle/Vehicle_fire_engine_medium.ptc"
+     m_sFireStateSignal ""
+     m_aEnginePoints {
+      ACM_EngineVFXPoint "{69AA98996753EC16}" {
+       m_vOffset 7.5 2 4
+      }
+      ACM_EngineVFXPoint "{69AA98996753EC17}" {
+       m_vOffset -8 2 4
+      }
+     }
+    }
+    SCR_EngineHitZone Engine_01 {
+     ColliderNames {
+      "UBX_Fuel_L" "UBX_Fuel_R"
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{69AA98996753EC69}" {
+     }
+     m_vParticleOffset 0 0 0
+    }
+    SCR_EngineHitZone Engine_02 {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{69AA98996753EC6D}" {
+     }
+    }
+    ACM_FlammableEngineHitZone Engine {
+     ColliderNames {
+     }
+     m_sDestructionSoundEvent "SOUND_VEHICLE_DESTRUCTION"
+     m_sDamagedParticle "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+     m_sDamagedParticleHeavy "{30B678ED32C177C2}Particles/Vehicle/Helicopter/Helicopter_Smoke_Damaged.ptc"
+     m_sBurningParticle "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+     m_sBurningGroundParticle "{A9259561960FD620}Particles/Vehicle/Vehicle_fire_ground_medium.ptc"
+     m_aEnginePoints {
+      ACM_EngineVFXPoint "{69AA98996753EC60}" {
+       m_vOffset 10 0 0
+      }
+      ACM_EngineVFXPoint "{69AA989967536DF2}" {
+       m_vOffset -10 0 0
+      }
+     }
+    }
+   }
+  }
+  VehicleHelicopterSimulation "{51FAEE57F7DA270E}" {
+   Animation VehicleAnimation "{5D9CEE8599E9D9BA}" {
+    VehicleParts {
+     VehiclePartAnimation "{5D9ECEDEFBCD0229}" {
+      SlotName "R01"
+     }
+     VehiclePartAnimation "{5D9ECEDEFBA14196}" {
+      SlotName "L01"
+      StartNode "eco_mainRotor_out"
+     }
+    }
+   }
+   Simulation Helicopter "{51FAED9EF37A2D29}" {
+    Rotors {
+     HelicopterRotorMain "{51FAED9EF37A2D2F}" {
+      Pivot Pivot "{5CAAA44AC4FFE243}" {
+       Bone ""
+       Position 0.0077 3.509 1.2674
+      }
+     }
+     HelicopterRotorTail "{5CAAA44AC4FFE25C}" {
+      Pivot Pivot "{5CAAA44AC4FFE25D}" {
+       Position 0 4.0707 -6.215
+      }
+     }
+    }
+    LandingGear LandingGear "{5E08FD406D9D8646}" {
+     Configuration {
+      LandingGearSkid "{5E08FD406B1A4E10}" {
+       Pivot Pivot "{5E0E806EE2562CE5}" {
+        Position 0 0.0139 0.4997
+       }
+      }
+      LandingGearSkid "{5E08FD4069E97E54}" {
+       Pivot Pivot "{5E0E806EDEC3A708}" {
+        Position 0 0.0139 0.4997
+       }
+      }
+      LandingGearSkid "{5E0E806EE7A863D4}" {
+       Pivot Pivot "{5E0E806E29EC2679}" {
+        Position -0.5241 -0.0527 0.9244
+       }
+      }
+      LandingGearSkid "{5E0E806EE465C25C}" {
+       Pivot Pivot "{5E0E806E3F363175}" {
+        Position -1.1205 -0.0527 0
+       }
+      }
+      LandingGearWheel "{69AA989967536DE9}" {
+       Pivot Pivot "{69AA989967536DEE}" {
+        Bone "v_root"
+        Position -2.3 1.1011 7.7388
+        Rotation 0 -12.4127 0
+       }
+       Suspension Suspension "{69AA989967536DEC}" {
+        SpringRate 238
+        CompressionDamper 3000
+        RelaxationDamper 6000
+        MaxTravelUp 0.25
+        MaxTravelDown 0.25
+       }
+       Wheel Wheel "{69AA989967536DE2}" {
+        Radius 0.5
+       }
+       Tyre Tyre "{69AA989967536DE0}" {
+       }
+      }
+      LandingGearWheel "{69AA989967536DE1}" {
+       Pivot Pivot "{69AA989967536DE6}" {
+        Bone "v_root"
+        Position 1.9859 0.7998 0
+       }
+       Suspension Suspension "{69AA989967536DE7}" {
+        SpringRate 238
+        CompressionDamper 3000
+        RelaxationDamper 6000
+        MaxTravelUp 0.25
+        MaxTravelDown 0.25
+       }
+       Wheel Wheel "{69AA989967536DE4}" {
+       }
+       Tyre Tyre "{69AA989967536DE5}" {
+       }
+      }
+      LandingGearWheel "{69AA989967536DDA}" {
+       Pivot Pivot "{69AA989967529021}" {
+        Bone "v_root"
+        Position -1.9538 0.7998 0
+       }
+       Suspension Suspension "{69AA989967529020}" {
+        SpringRate 238
+        CompressionDamper 3000
+        RelaxationDamper 6000
+        MaxTravelUp 0.25
+        MaxTravelDown 0.25
+       }
+       Wheel Wheel "{69AA989967529023}" {
+       }
+       Tyre Tyre "{69AA989967529022}" {
+       }
+      }
+     }
+    }
+   }
+   RotorConfigs {
+    HelicopterRotorConfig "{5E3121F78F7927FB}" {
+     StaticModel "{C625477FE211F0C1}Assest_New/V_22_Rotor_Spin.xob"
+     SpinningModel "{C625477FE211F0C1}Assest_New/V_22_Rotor_Spin.xob"
+     DestroyedModel "{6DF304715ABB7959}Assest_New/V_22_Rotor_Broke.xob"
+    }
+    HelicopterRotorConfig "{5E3121F78CCBA638}" {
+     StaticModel "{C625477FE211F0C1}Assest_New/V_22_Rotor_Spin.xob"
+     SpinningModel "{C625477FE211F0C1}Assest_New/V_22_Rotor_Spin.xob"
+     DestroyedModel "{6DF304715ABB7959}Assest_New/V_22_Rotor_Broke.xob"
+    }
+   }
+  }
+  VehicleProcAnimComponent "{76A3E713CE84D72F}" {
+   Parameters {
+    ProcAnimParams "{69AA989967529029}" {
+     ResourceName "{2D841183A8FB78CC}Rotors.pap"
+     BoneNames {
+      "v_motor_l" "v_motor_r"
+     }
+    }
+    ProcAnimParams "{69AA98996752B793}" {
+     ResourceName "{59991BA965BCE5D5}Ramp.pap"
+     BoneNames {
+      "v_Ramp"
+     }
+    }
+    ProcAnimParams "{69AA98996752B792}" {
+     ResourceName "{FE4CCBFCBEA9179A}Ramp_Upper.pap"
+     BoneNames {
+      "v_Ramp_Upper"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo RotorMain {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo RotorTail {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CockpitPanel_Top {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CockpitPanel_Main {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo CockpitPanel_Bottom {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Seat_Gunners {
+     PivotID "v_body"
+     Offset -0.0056 0.8156 2.0539
+     Prefab "{46869DE89C7D8E82}Prefabs/Veh_Parts/Cockpit/VT_22_Dash.et"
+     InheritParentSkeleton 1
+    }
+    RegisteringComponentSlotInfo Seat_Cargo {
+     Offset 0 -0.1207 0
+     Enabled 1
+     Prefab "{4D6434DD4F9B38AE}Prefabs/Veh_Parts/Cargo_Chairs/Seats.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo Glass_Windshield_Right {
+     PivotID "v_Ramp"
+     Offset -0.0009 -0.5243 1.6609
+     MergePhysics 1
+     Enabled 1
+     Prefab "{F1881BE9749A1A51}Prefabs/Veh_Parts/Ramp/Lower/Ramp_Night_Runner.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 0
+     SyncAnims 1
+     RegisterActions 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+     RegisterActionSignals 1
+    }
+    RegisteringComponentSlotInfo Glass_Windshield_Left {
+     PivotID "v_Ramp_Upper"
+     Offset -0.1523 -2.4558 5.8252
+     MergePhysics 1
+     Enabled 1
+     Prefab "{A739A39397A54ACC}Prefabs/Veh_Parts/Ramp/Upper/Ramp_Upper_Night_Runner.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 0
+     SyncAnims 1
+     RegisterActions 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+     RegisterActionSignals 1
+    }
+    RegisteringComponentSlotInfo Glass_Skylight_Right {
+     PivotID "v_body"
+     Offset 1.1904 0.6197 -0.0303
+     Angles 90 -180 0
+     Enabled 0
+     Prefab "{2CB20FFC1713DDD0}Prefabs/Structures/BuildingParts/Doors/Door_AircraftShelter_E_01/Side_Door.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 0
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+    RegisteringComponentSlotInfo Glass_Skylight_Left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_PostWindow_Left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_PostWindow_Right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CrewSlider_Left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CrewSlider_Right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CrewForward_Left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CrewForward_Right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_Crew_Left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_Crew_Right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_ChinBubble_Right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_ChinBubble_Left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CargoDoor_FrontLeft {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CargoDoor_FrontRight {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CargoDoor_RearLeft {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Glass_CargoDoor_RearRight {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo USArmyDecal {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Interior_TieDownPoints {
+     Offset 0 0.8695 0
+     Enabled 0
+    }
+    WCS_Armament_DispenserSlotInfo Flares_Left {
+     Offset -1.0066 2.4133 -4.4866
+     Angles 36.0459 170.5441 84.1979
+    }
+    WCS_Armament_DispenserSlotInfo Flares_Right {
+     Offset 1.0541 2.3773 -4.5821
+     Angles 35.5867 -164.5553 -70.6424
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Offset 0 0.8859 5.1594
+     Enabled 1
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Offset 0.0351 0.8859 3.932
+     Enabled 1
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Offset 0.0138 0.8859 2.7142
+     Enabled 1
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     Offset 0.0138 0.8859 1.4589
+     Angles 0 0 0
+     Enabled 1
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     Offset 0.0138 0.8859 0.2203
+     Angles 0 0 0
+     Enabled 1
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     Offset 0.0431 0.8859 -1.0097
+     Enabled 1
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_07 {
+     Offset 0.5246 0.8859 1.5069
+     Angles 0 178.63611 0
+     Enabled 0
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_08 {
+     Offset -0.5023 0.8859 1.4824
+     Angles 0 178.63611 0
+     Enabled 0
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_09 {
+     Offset -0.4752 0.8859 0.3473
+     Angles 0 178.63611 0
+     Enabled 0
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_10 {
+     Offset 0.561 0.8859 0.3719
+     Angles 0 178.63611 0
+     Enabled 0
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_11 {
+     Offset 0.4973 0.8859 -0.8534
+     Angles 0 0 0
+     Enabled 0
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_12 {
+     Offset -0.5256 0.8859 -0.8534
+     Angles 0 0 0
+     Enabled 0
+     Prefab "{1C0884445CC5EE5D}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_Small_01/SupplyStack_Small_01_Vehicle.et"
+    }
+    RegisteringComponentSlotInfo Motor_l {
+     PivotID "v_motor_l"
+     Offset 6.3965 -4.2905 -2.7128
+     MergePhysics 1
+     Prefab "{EEE07E325C36442A}Prefabs/Veh_Parts/Nacelle/Nacelle_Night_Runner.et"
+    }
+    RegisteringComponentSlotInfo L01 {
+     PivotID "v_rotor_l"
+     Offset -0.4131 -3.2466 1.0867
+     Angles -6.2541 0 0
+     MergePhysics 1
+     Prefab "{C935D72F5DE0224E}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/Rotor_Test.et"
+     RegisterDamage 1
+     RegisterLights 1
+     RegisterActionSignals 1
+    }
+    RegisteringComponentSlotInfo R01 {
+     PivotID "v_rotor_l"
+     Offset 15.0036 -3.2466 1.0867
+     Angles -6.2541 0 0
+     MergePhysics 1
+     Prefab "{C935D72F5DE0224E}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/Rotor_Test.et"
+     RegisterDamage 1
+     RegisterLights 1
+     RegisterActionSignals 1
+    }
+    RegisteringComponentSlotInfo Wheel_F {
+     Offset 0 0.2878 7.5579
+     MergePhysics 1
+     Prefab "{3519496E5249D85A}Prefabs/Veh_Parts/Landing_Gear/Wheel_F.et"
+    }
+    RegisteringComponentSlotInfo Wheel_l01 {
+     Offset 1.926 0.3064 0.1706
+     MergePhysics 1
+     Prefab "{647958B69BE1DE43}Prefabs/Veh_Parts/Landing_Gear/Wheel_B.et"
+    }
+    RegisteringComponentSlotInfo Wheel_r01 {
+     Offset -1.9266 0.3064 0.1706
+     Angles 0 180 0
+     MergePhysics 1
+     Prefab "{647958B69BE1DE43}Prefabs/Veh_Parts/Landing_Gear/Wheel_B.et"
+    }
+    RegisteringComponentSlotInfo R1_Lower {
+     PivotID "v_side_door_upper"
+     Offset -1.1204 -2.5746 -5.1704
+     Angles 0 0 0
+     MergePhysics 1
+     Prefab "{19FAEA3760AEE264}Prefabs/Veh_Parts/Side_Door/Night_Runner/Door_Lower_Night_Runner.et"
+    }
+    RegisteringComponentSlotInfo R1_Upper {
+     PivotID "v_side_door_lower"
+     Offset -1.1982 -0.9674 -5.2368
+     Angles 0 0 0
+     MergePhysics 1
+     Enabled 0
+     Prefab "{19FAEA3760AEE264}Prefabs/Veh_Parts/Side_Door/Night_Runner/Door_Lower_Night_Runner.et"
+    }
+    RegisteringComponentSlotInfo MFD1 {
+     Offset -0.1093 1.6893 7.3179
+     Angles -49.7821 0 0
+     MergePhysics 1
+     Prefab "{9DE21A9BBA2DA9BE}Prefabs/Veh_Parts/MFD/MFD1.et"
+     RegisterActions 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo MFD2 {
+     Offset 0.4342 1.8466 7.4617
+     Angles -19.1306 0 0
+     MergePhysics 1
+     Prefab "{2D8FE243E66B2129}Prefabs/Veh_Parts/MFD/MFD2_Pilot_01.et"
+     RegisterActions 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo MFD3 {
+     Offset 0.7432 1.8467 7.4614
+     Angles -19.1306 0 0
+     MergePhysics 1
+     Prefab "{C098B3EF2E844809}Prefabs/Veh_Parts/MFD/MFD4_Pilot_02.et"
+     RegisterActions 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo MFD4 {
+     Offset -0.4449 1.8474 7.4595
+     Angles -19.1306 0 0
+     MergePhysics 1
+     Prefab "{885B57C569F0D0C9}Prefabs/Veh_Parts/MFD/MFD3_CoPilot_01.et"
+     RegisterActions 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo MFD5 {
+     Offset -0.7451 1.8474 7.4595
+     Angles -19.1306 0 0
+     Prefab "{83DD167639786D5E}Prefabs/Veh_Parts/MFD/MFD4_CoPilot_02.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5E2EC4D3A76449F8}" {
+     Position PointInfo "{5E2EBCFA94ADB9FE}" {
+      Offset 0 1.2127 9.0911
+     }
+    }
+    UserActionContext "{5EA2942B0CA46BF0}" {
+     Position PointInfo "{5EA2942B09B778E1}" {
+      Offset -8.4117 3.3026 3.0717
+     }
+    }
+    UserActionContext "{5EA2942B1446DDA6}" {
+     Position PointInfo "{5EA2942BE88E9CA8}" {
+     }
+    }
+    UserActionContext "{5EA294269F991DD9}" {
+     Position PointInfo "{5EA294276782D7EE}" {
+      Offset -8.3338 1.2329 3.0688
+     }
+    }
+    UserActionContext "{5EA2943E86F349E7}" {
+     Position PointInfo "{5EA2943F3246B55E}" {
+      Offset 8.5599 3.3026 2.7742
+     }
+    }
+    UserActionContext "{5EA2943E6CD65B72}" {
+     Position PointInfo "{5EA2943E68C33717}" {
+      Offset 8.3377 1.2329 3.0688
+     }
+    }
+    UserActionContext "{5CAAA44AC4FFEDA2}" {
+     Position PointInfo "{5CAAA44AC4FFEDA0}" {
+      Offset 0.5499 1.7017 6.905
+     }
+    }
+    UserActionContext "{615AB71565922E01}" {
+     Position PointInfo "{5CAAA44AC4FFEDA0}" {
+      Offset 1.4967 125.6228 5.3399
+     }
+     Radius 0
+     Omnidirectional 0
+    }
+    UserActionContext "{5CAAA44AC4FFEDA1}" {
+     Position PointInfo "{5CAAA44AC4FFEDBE}" {
+      Offset -0.5788 1.7402 6.9096
+     }
+    }
+    UserActionContext "{615AB7129F480F36}" {
+     Position PointInfo "{5CAAA44AC4FFEDBE}" {
+      Offset -0.8336 339.77341 2.4
+     }
+     Radius 0
+     Omnidirectional 0
+    }
+    UserActionContext "{5CAAA44AC4FF860D}" {
+     Position PointInfo "{5CAAA44AC4FF860C}" {
+      Offset -0.7741 -38.1645 5.3451
+     }
+     Radius 0
+     Omnidirectional 0
+    }
+    UserActionContext "{5CAAA44AC4FF8603}" {
+     Position PointInfo "{5CAAA44AC4FF8602}" {
+      Offset -0.7741 1.4334 5.3797
+     }
+    }
+    UserActionContext "{5CAAA44AC4FF8601}" {
+     Position PointInfo "{5CAAA44AC4FF7F5C}" {
+      Offset -0.7741 1.4334 4.9259
+     }
+     Radius 0
+    }
+    UserActionContext "{5CAAA44AC4FF7F5B}" {
+     Position PointInfo "{5CAAA44AC4FF7F58}" {
+      Offset 0.5 -67.5106 1.48
+     }
+     Radius 0
+     Omnidirectional 0
+    }
+    UserActionContext "{5CAAA44AC4FF346D}" {
+     Position PointInfo "{5CAAA44AC4FF346C}" {
+      Offset 0.734 1.4334 4.4669
+     }
+    }
+    UserActionContext "{5CAAA44AC4FF3453}" {
+     Position PointInfo "{5CAAA44AC4FF3452}" {
+      Offset 0.734 1.4334 3.9688
+     }
+    }
+    UserActionContext "{5CAAA44AC4FCD134}" {
+     Position PointInfo "{5CAAA44AC4FCD133}" {
+      Offset 1.2547 1.3104 5.9415
+     }
+     Radius 0
+    }
+    UserActionContext "{5CAAA44AC4FCD131}" {
+     Position PointInfo "{5CAAA44AC4FC9274}" {
+      Offset -1.0681 1.7371 7.3538
+     }
+    }
+    UserActionContext "{5CAAA44AC4FC927A}" {
+     Position PointInfo "{5CAAA44AC4FC927B}" {
+      Offset 1.1993 1.7371 5.234
+      Angles 0 90 0
+     }
+     Radius 0.1
+     Omnidirectional 1
+    }
+    UserActionContext "{5CAAA44AC4FC9278}" {
+     Position PointInfo "{5CAAA44AC4FC927E}" {
+      PivotID "Scene_Root"
+      Offset 0.0698 1.9893 6.4269
+      Angles 0 -90 0
+     }
+     Radius 0.7
+     Height 2
+    }
+    UserActionContext "{615AB728F17B98FA}" {
+     UIInfo SCR_ActionContextUIInfo "{61107A552D3660C3}" {
+     }
+     Position PointInfo "{5CAAA44AC4FC927E}" {
+      Offset 0 -1.9565 0
+     }
+    }
+    UserActionContext "{5CAAA44AC4FC927F}" {
+     UIInfo SCR_ActionContextUIInfo "{61107A552A954DDC}" {
+     }
+     Position PointInfo "{5CAAA44AC4FC6CA5}" {
+      Offset 0 269.56091 0
+     }
+    }
+    UserActionContext "{5CAAA44AC4FC6CA7}" {
+     Position PointInfo "{5CAAA44AC4FC6CB8}" {
+      Offset 1.2501 1.124 5.2794
+      Angles 0 90 0
+     }
+     Omnidirectional 1
+    }
+    UserActionContext "{5CAAA44AC4FC6CB9}" {
+     Position PointInfo "{5CAAA44AC4FC0049}" {
+      Offset 1.0413 1.7371 7.3538
+      Angles 0 0 0
+     }
+     Omnidirectional 1
+    }
+    UserActionContext "{5CAAA44AC4FC004A}" {
+     Position PointInfo "{5CAAA44AC4FC004B}" {
+      Offset 0.0277 1.8479 5.675
+      Angles 0 0 0
+     }
+    }
+    UserActionContext "{5CAAA44AC4FC004C}" {
+     Position PointInfo "{5CAAA44AC4FDFE5C}" {
+      PivotID "Scene_Root"
+      Offset 1.23 1.45 1
+      Angles 0 90 0
+     }
+     Radius 0.7
+     Height 2
+    }
+    UserActionContext "{5CAAA44AC4FD11FD}" {
+     Position PointInfo "{5CAAA44AC4FD11FC}" {
+      Offset -0.1329 1.195 2.1903
+     }
+    }
+    UserActionContext "{5CAAA44AC4FD11FF}" {
+     Position PointInfo "{5CAAA44AC4FA911E}" {
+      Offset 0.0454 2.3033 1.6835
+     }
+    }
+    UserActionContext "{5CAAA44AC4FA9116}" {
+     Position PointInfo "{5CAAA44AC4FA0613}" {
+      Offset 0.1706 1.5964 7.4006
+     }
+    }
+    UserActionContext "{5CAAA44AC4FA0612}" {
+     Position PointInfo "{5CAAA44AC4FA060D}" {
+      Offset 0.1993 2.8243 6.6077
+     }
+    }
+    UserActionContext "{5CAAA44AC4FA060F}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A2938340E130}" {
+     }
+     Position PointInfo "{5CAAA44AC4FA060E}" {
+      Offset -2.1036 1.0616 -0.465
+     }
+    }
+    UserActionContext "{5DA9429EB22A22CE}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A2939F8E8367}" {
+     }
+     Position PointInfo "{5DA9429EB9066D93}" {
+      Offset -0.2422 0.397 0.4963
+     }
+    }
+    UserActionContext "{5E3EDDF45F7BB6F9}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset -0.2769 2.4484 1.5156
+     }
+    }
+    UserActionContext "{5E3EDDF45E5CF449}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset -0.1648 2.4484 1.5156
+     }
+    }
+    UserActionContext "{5E3EDDF45EFDB966}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset -0.1711 2.4647 1.4505
+     }
+    }
+    UserActionContext "{5E3EDDF45D7A0847}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset -0.2101 1.794 2.1421
+     }
+    }
+    UserActionContext "{5E3EDDF45DF8D460}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset 0.0161 2.4528 1.4902
+     }
+    }
+    UserActionContext "{5EEAE3990380F8F5}" {
+     Position PointInfo "{5EEAE39E18082D84}" {
+      Offset 0.1549 0 0.9901
+     }
+    }
+    UserActionContext "{5EECF2CD0F5889A7}" {
+     Position PointInfo "{5EECF2CD112DD099}" {
+      Offset -0.0754 0 0.99
+     }
+    }
+    UserActionContext "{5EEEBCDE7B76DA1E}" {
+     Position PointInfo "{5EEEBCDE8E8B018C}" {
+      Offset 0.5024 0.397 0.4963
+     }
+    }
+    UserActionContext "{69AA98996752B459}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A293F8BD5D2C}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Motor_Up"
+     Position PointInfo "{69AA98996752B458}" {
+      PivotID ""
+      Offset -0.0811 1.6038 6.7999
+      Angles 0 -90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA98996752B45F}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A293F8BD5D2C}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Ramp_r01"
+     Position PointInfo "{69AA98996752B45E}" {
+      PivotID ""
+      Offset 1.3183 1.1106 -2.8077
+      Angles 0 0 0
+     }
+     Radius 0.2
+    }
+    UserActionContext "{69AA98996752B45D}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A293F8BD5D2C}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Ramp_l01"
+     Position PointInfo "{69AA98996752B45C}" {
+      PivotID ""
+      Offset -1.2068 1.1106 -2.9422
+      Angles 0 0 0
+     }
+     Radius 0.2
+    }
+    UserActionContext "{69AA98996752E9B2}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A293F8BD5D2C}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "Ramp_Pilot"
+     Position PointInfo "{69AA98996752E9BD}" {
+      PivotID ""
+      Offset 0.2644 1.6722 6.9846
+      Angles 0 0 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA98996752E9BC}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA98996752E9BF}" {
+     }
+     ContextName "passenger_l04"
+     Position PointInfo "{69AA98996752E9BE}" {
+      PivotID ""
+      Offset -0.7741 1.4334 4.4899
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA98996752E9B9}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D34}" {
+     }
+     ContextName "passenger_l05"
+     Position PointInfo "{69AA989967521D35}" {
+      PivotID ""
+      Offset -0.7741 1.4334 4.0385
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D36}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D37}" {
+     }
+     ContextName "passenger_l06"
+     Position PointInfo "{69AA989967521D28}" {
+      PivotID ""
+      Offset -0.7741 1.4334 3.5533
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D29}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D2A}" {
+     }
+     ContextName "passenger_l07"
+     Position PointInfo "{69AA989967521D2B}" {
+      PivotID ""
+      Offset -0.7741 1.4334 3.1148
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D2C}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D2D}" {
+     }
+     ContextName "passenger_l08"
+     Position PointInfo "{69AA989967521D2E}" {
+      PivotID ""
+      Offset -0.7741 1.4334 2.6462
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D2F}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D20}" {
+     }
+     ContextName "passenger_l09"
+     Position PointInfo "{69AA989967521D21}" {
+      PivotID ""
+      Offset -0.7741 1.4334 2.17
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D22}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D23}" {
+     }
+     ContextName "passenger_l10"
+     Position PointInfo "{69AA989967521D24}" {
+      PivotID ""
+      Offset -0.7741 1.4334 1.7304
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D26}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D27}" {
+     }
+     ContextName "passenger_l11"
+     Position PointInfo "{69AA989967521D58}" {
+      PivotID ""
+      Offset -0.7741 1.4334 1.2588
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D59}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA989967521D5A}" {
+     }
+     ContextName "passenger_l12"
+     Position PointInfo "{69AA989967521D5B}" {
+      PivotID ""
+      Offset -0.7741 1.4334 0.8262
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA989967521D5D}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675D8630}" {
+     }
+     ContextName "passenger_l13"
+     Position PointInfo "{69AA9899675D8633}" {
+      PivotID ""
+      Offset -0.7741 1.4334 0.3553
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675D8632}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675D863D}" {
+     }
+     ContextName "passenger_l14"
+     Position PointInfo "{69AA9899675D8BBF}" {
+      PivotID ""
+      Offset -0.7741 1.4334 -0.1091
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675D8BBE}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675D8BBD}" {
+     }
+     ContextName "passenger_l15"
+     Position PointInfo "{69AA9899675DB568}" {
+      PivotID ""
+      Offset -0.7741 1.4334 -0.5455
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675DB569}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675DB56E}" {
+     }
+     ContextName "passenger_l16"
+     Position PointInfo "{69AA9899675DB56F}" {
+      PivotID ""
+      Offset -0.7741 1.4334 -1.0367
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675DB56C}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675DEB36}" {
+     }
+     ContextName "passenger_r04"
+     Position PointInfo "{69AA9899675DEB37}" {
+      PivotID ""
+      Offset 0.734 1.4334 3.4824
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675DE8C8}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675DE8D7}" {
+     }
+     ContextName "passenger_r05"
+     Position PointInfo "{69AA9899675DE8D6}" {
+      PivotID ""
+      Offset 0.734 1.4334 3.0735
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675DE8D5}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675DE8D4}" {
+     }
+     ContextName "passenger_r06"
+     Position PointInfo "{69AA9899675DE8D3}" {
+      PivotID ""
+      Offset 0.734 1.4334 2.6307
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675DE8D2}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675DE8D1}" {
+     }
+     ContextName "passenger_r07"
+     Position PointInfo "{69AA9899675DFEFC}" {
+      PivotID ""
+      Offset 0.734 1.4334 2.167
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675DFEFD}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675D4651}" {
+     }
+     ContextName "passenger_r08"
+     Position PointInfo "{69AA9899675D465E}" {
+      PivotID ""
+      Offset 0.734 1.4334 1.7047
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675D465F}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675D465C}" {
+     }
+     ContextName "passenger_r09"
+     Position PointInfo "{69AA9899675CB392}" {
+      PivotID ""
+      Offset 0.734 1.4334 1.7008
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675CB393}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675CB394}" {
+     }
+     ContextName "passenger_r10"
+     Position PointInfo "{69AA9899675CB395}" {
+      PivotID ""
+      Offset 0.734 1.4334 1.2693
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675CD98A}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675CD989}" {
+     }
+     ContextName "passenger_r11"
+     Position PointInfo "{69AA9899675CD988}" {
+      PivotID ""
+      Offset 0.734 1.4334 0.8122
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675CD9B7}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675C1F13}" {
+     }
+     ContextName "passenger_r12"
+     Position PointInfo "{69AA9899675C1F12}" {
+      PivotID ""
+      Offset 0.734 1.4334 0.3557
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675C1F11}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675C1854}" {
+     }
+     ContextName "passenger_r13"
+     Position PointInfo "{69AA9899675C1855}" {
+      PivotID ""
+      Offset 0.734 1.4334 -0.051
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675F90E8}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675F90EF}" {
+     }
+     ContextName "passenger_r14"
+     Position PointInfo "{69AA9899675F90EE}" {
+      PivotID ""
+      Offset 0.734 1.4334 -0.5579
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675FABA2}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675FABA1}" {
+     }
+     ContextName "APU"
+     Position PointInfo "{69AA9899675FABA0}" {
+      PivotID ""
+      Offset 0.2904 2.7394 6.9082
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675FD70F}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675FD700}" {
+     }
+     ContextName "Battery"
+     Position PointInfo "{69AA9899675FD4D5}" {
+      PivotID ""
+      Offset 0.1875 2.7394 6.9082
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675FD4D4}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675FD4D7}" {
+     }
+     ContextName "Start Turbine"
+     Position PointInfo "{69AA9899675FD4D6}" {
+      PivotID ""
+      Offset -0.0614 2.632 6.9897
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675FD4D1}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675FD4D0}" {
+     }
+     ContextName "Start Engine"
+     Position PointInfo "{69AA9899675F31D0}" {
+      PivotID ""
+      Offset 0.0936 2.632 6.9897
+      Angles 0 90 0
+     }
+     Radius 0.3
+    }
+    UserActionContext "{69AA9899675F31D3}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675EAD7A}" {
+     }
+     ContextName "Ramp_Interal_R"
+     Position PointInfo "{69AA9899675EAD7B}" {
+      PivotID ""
+      Offset 0.8289 1.8046 -1.5219
+      Angles 0 0 0
+     }
+     Radius 0.2
+    }
+    UserActionContext "{69AA9899675EAD64}" {
+     UIInfo SCR_ActionContextUIInfo "{69AA9899675EAD65}" {
+     }
+     ContextName "Ramp_Interal_L"
+     Position PointInfo "{69AA9899675EFE20}" {
+      PivotID ""
+      Offset -0.925 1.8046 -1.5219
+      Angles 0 0 0
+     }
+     Radius 0.2
+    }
+    UserActionContext "{69AA9899675EFE23}" {
+    }
+   }
+   additionalActions {
+    SCR_EngineAction "{5F0EC97C50FB221C}" {
+     ParentContextList {
+      "Start Engine"
+     }
+    }
+    SCR_EngineAction "{5F0EC97C4FC0879F}" {
+     ParentContextList {
+      "Start Engine"
+     }
+    }
+    ACM_ApuUserAction "{69AA9899675EFE26}" {
+     ParentContextList {
+      "APU"
+     }
+    }
+    ACM_BatteryUserAction "{69AA9899675EFE29}" {
+     ParentContextList {
+      "Battery"
+     }
+    }
+    ACM_EngineTiltUserAction "{69AA9899675E5035}" {
+     ParentContextList {
+      "Motor_Up"
+     }
+     m_sActionName "Rotors"
+    }
+    ACM_EngineStartUserAction "{69AA9899675E5034}" {
+     ParentContextList {
+      "Start Turbine"
+     }
+    }
+    ACM_FuelUserAction "{69AA9899675E5037}" {
+     ParentContextList {
+      "fuel_pump_switch"
+     }
+    }
+    ACM_RampOpenAction "{69AA9899675E5036}" {
+     ParentContextList {
+      "Ramp_Interal_R" "Ramp_Interal_L" "Ramp_r01" "Ramp_l01" "Ramp_Pilot"
+     }
+    }
+    ACM_RampHorizontalAction "{69AA9899675E5031}" {
+     ParentContextList {
+      "Ramp_Interal_R" "Ramp_Interal_L" "Ramp_r01" "Ramp_l01" "Ramp_Pilot"
+     }
+    }
+    ACM_RampCloseAction "{69AA9899675E5030}" {
+     ParentContextList {
+      "Ramp_Interal_R" "Ramp_Interal_L" "Ramp_r01" "Ramp_l01" "Ramp_Pilot"
+     }
+    }
+    ACM_RampOpenAction "{69AA9899675E5033}" {
+     ParentContextList {
+      "Ramp_Interal_R" "Ramp_Interal_L" "Ramp_r01" "Ramp_l01" "Ramp_Pilot"
+     }
+     m_sTargetSignal "Ramp_Upper"
+    }
+    ACM_RampCloseAction "{69AA9899675E5032}" {
+     ParentContextList {
+      "Ramp_Interal_R" "Ramp_Interal_L" "Ramp_r01" "Ramp_l01" "Ramp_Pilot"
+     }
+     m_sTargetSignal "Ramp_Upper"
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B80BCCBF0B33C8}" {
+   AnimGraph "{E268C47C1E4C3268}anims/Workspace/VT_22.agr"
+   AnimInstance "{0F0291A702456086}anims/Workspace/VT_22.asi"
+   AnimInjection AnimationAttachmentInfo "{50B80BCCA6210E6D}" {
+    AnimGraph "{E268C47C1E4C3268}anims/Workspace/VT_22.agr"
+    AnimInstance "{A8DCF23C530F4BCF}anims/Workspace/VT_22_player.asi"
+   }
+  }
+ }
+ coords 150.486 1 133.802
+}

@@ -1,0 +1,45 @@
+Vehicle : "{7B77320AE3CBD289}Prefabs/Vehicles/Helicopters/UH60/UH-60_Gunship_base.et" {
+ ID "6910AB9493C73382"
+ components {
+  MeshObject "{6910AB948A4EF307}" {
+   Materials {
+    MaterialAssignClass "{69A935463151068D}" {
+     SourceMaterial "body"
+     AssignedMaterial "{88D081868FA115D6}XOB/Data/body_grey.emat"
+    }
+    MaterialAssignClass "{69A93546315106B6}" {
+     SourceMaterial "extender"
+     AssignedMaterial "{C4BAE0C89256A75E}XOB/Data/extender_grey.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{6916DC2EBFB95A8F}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{6916DC2E4946750C}" {
+    Name "UH-60 Gunship Grey"
+    m_Image "{5578164A094A801C}Assets/UH60_tump/2026.04.29 19.04.50.814(super).edds"
+    m_aAutoLabels + {
+     VEHICLE_HELICOPTER
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{69A9354650863F5F}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 250
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{693717EA5E627710}" {
+   Slots {
+    RegisteringComponentSlotInfo Side_mounts {
+     Prefab "{F1AEDF2A089A2EAC}Prefabs/Vehicles/Core/UH-60_Side_Mount_grey.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+Vehicle : "{E3F9B076295DFF38}Prefabs/Vehicles/Helicopters/Harbin-Z9/Harbin Supply.et" {
+ ID "57DA6675519A417B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69A951E8C66603DA}" {
+     SourceMaterial "Exterior"
+     AssignedMaterial "{0F4640112FC7A94C}Assets/Vehicles/Helicopters/Harbin-Z9/Data/Exterior Camo Blue.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{DFFE15B4BB4367C9}UI/Textures/EditorPreviews/Vehicles/Helicopters/Harbin/HarbinBlueSupplyING.edds"
+    m_aAutoLabels + {
+     VEHICLE_HELICOPTER
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69A951E83EA08712}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 200
+     }
+    }
+   }
+  }
+ }
+ coords 958.263 39 2634.954
+}

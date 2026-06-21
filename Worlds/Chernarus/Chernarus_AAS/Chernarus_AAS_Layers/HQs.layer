@@ -1,0 +1,60 @@
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ MainBaseSouth {
+  components {
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 5000
+    m_iSuppliesMax 5000
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 3000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Base South"
+    m_sBaseNameUpper "MAIN BASE SOUTH"
+    m_aWhiteList {
+     "Kamenka"
+    }
+    m_aWhiteListAntenna {
+     "Kamenka"
+    }
+   }
+  }
+  coords 93.63 5.75 1526.12
+  angles 0 1.247 0
+ }
+ MainBaseNorth {
+  components {
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 5000
+    m_iSuppliesMax 5000
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 3000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Base North"
+    m_sBaseNameUpper "MAIN BASE NORTH"
+    m_aWhiteList {
+     "Nizhnoye"
+    }
+    m_aWhiteListAntenna {
+     "Nizhnoye"
+    }
+   }
+  }
+  coords 12768.28 5.75 9519.59
+  angles 0 -173.535 0
+ }
+}

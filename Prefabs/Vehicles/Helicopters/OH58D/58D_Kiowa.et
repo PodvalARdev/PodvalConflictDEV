@@ -1,0 +1,996 @@
+Vehicle : "{42C90A80D2C51415}Prefabs/Vehicles/Helicopters/OH58D/58D_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  EventHandlerManagerComponent "{52CAB06F9C274D14}" {
+   EventHandlers {
+    BaseEventHandler "{69A9348ECEE60D28}" {
+     EventName "OnDestroyed"
+    }
+   }
+  }
+  SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+   Filenames + {
+    "{3CCA3F747AC55B37}Sounds/Weapons/Countermeasures/RVX_MissileWarningSystem_Incoming.acp"
+   }
+  }
+  BaseLightManagerComponent "{51F88B1C7D1C1F11}" {
+   LightsEnabled 1
+   LightSlots {
+    SCR_LightSlot "{5E32ACA107A21791}" {
+     LightFunctional 0
+     LightPositionInfo EntitySlotInfo "5DD6BB25F0B075F2" {
+      Offset -0.2132 0.3055 1.4715
+     }
+    }
+    SCR_LightSlot "{5E32ACA104651DD1}" {
+     LightFunctional 1
+     LightPositionInfo EntitySlotInfo "5DD6BB25F0B075F2" {
+      Offset -0.0055 0.689 2.9292
+     }
+    }
+    SCR_LightSlot "{5E3EDDEBCBCE7D76}" {
+     LightPositionInfo EntitySlotInfo d {
+      Offset -0.0049 2.8114 -1.542
+      Angles -88.0322 0 0
+     }
+    }
+    SCR_LightSlot "{5E3EDDEBC8F86F29}" {
+     LightFunctional 1
+     LightPositionInfo EntitySlotInfo d {
+      Offset -0.0082 0.4624 -2.142
+     }
+    }
+    SCR_LightSlot "{5E427CC494B40FA6}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset 1.3224 1.662 -4.5147
+     }
+    }
+    SCR_LightSlot "{5E427CC4927A300B}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5E427CC1E135743C}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5E427CC4912718AE}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset -1.3416 1.662 -4.8203
+     }
+    }
+    SCR_LightSlot "{5E427CC420178A0E}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5E427CC405410FE0}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset 0.2338 1.9589 1.4114
+      Angles -82.7615 90.0001 -90.0001
+     }
+     LightPrefab "{DEE4BB93D61122ED}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_OH58D_Dome.et"
+    }
+    SCR_LightSlot "{5E42CDD9CA9E758F}" {
+     LightPositionInfo EntitySlotInfo s {
+      Offset -0.2531 1.9589 1.4054
+      Angles -83.83 -90.0001 90.0001
+     }
+     LightPrefab "{DEE4BB93D61122ED}Prefabs/Vehicles/Helicopters/UH1H/Lights/VehicleLight_OH58D_Dome.et"
+    }
+    SCR_LightSlot "{5E42D7318622F1A4}" {
+     LightFunctional 0
+    }
+    SCR_LightSlot "{5E42D7318524ABF4}" {
+     LightFunctional 0
+    }
+   }
+   EmissiveSurfaceSlots {
+    EmissiveLightSurfaceSlot Anticollision_01 {
+     Offset 0 1.8393 2.2772
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Landing_Light_01 {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Landing_Light_02 {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Pos_Light_L01 {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Pos_Light_L02 {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Pos_Light_R01 {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Pos_Light_R02 {
+     Enabled 0
+    }
+    EmissiveLightSurfaceSlot Pos_Light_Tail_01 {
+     Enabled 0
+    }
+   }
+   LightAction {
+    RVX_LightUserAction "{5E5957753AEBD29F}" {
+     ParentContextList +{
+     }
+     signalName "anti_collision"
+    }
+    LightUserAction "{5E595775CFF9760B}" {
+     ParentContextList {
+     }
+     m_aExcludeDefinedCompartmentSections {
+     }
+    }
+    RVX_LightUserAction "{5E5957759E16241B}" {
+     signalName "dome_light"
+    }
+    RVX_LightUserAction "{5E59577551D99BE6}" {
+     signalName "formation_light"
+    }
+    LightUserAction "{5E595776D77A51E0}" {
+     ParentContextList {
+     }
+     m_aExcludeDefinedCompartmentSections {
+     }
+    }
+   }
+  }
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Object "{91A58A2C5C30891B}Assets/58D_Base.xob"
+  }
+  RVX_58D_AircraftManagerComponent "{69A9348ECEE60D7D}" {
+   openAutomatically 0
+  }
+  RVX_58D_WCS_Armament_LoadoutComponent "{63095489A070961A}" {
+   pylonsConfiguration {
+    PylonsDefinition "{69A9348ECEE60D7B}" {
+     stationName "Left Pylon"
+     leftPylon WCS_Armament_WeaponInfo "{69A9348ECEE60D65}" {
+      Position PointInfo "{69A9348ECEE60D66}" {
+       Offset -1.6808 0.8043 0.2369
+      }
+     }
+     availableWeaponCodes {
+      "RVX_AGM114K" "RVX_RKT" "RVX_DAGR" "RVX_M3M"
+     }
+     initialWeaponCode "RVX_RKT"
+    }
+    PylonsDefinition "{69A9348ECEE60D60}" {
+     stationName "Right Pylon"
+     rightPylon WCS_Armament_WeaponInfo "{69A9348ECEE60D61}" {
+      Position PointInfo "{69A9348ECEE60D62}" {
+       Offset 1.6997 0.8043 0.2369
+      }
+     }
+     availableWeaponCodes {
+      "RVX_AGM114K" "RVX_RKT" "RVX_DAGR"
+     }
+     initialWeaponCode "RVX_AGM114K"
+    }
+   }
+   availableWeaponsList {
+    RVX_WCS_Armament_WeaponGroup "{69A9348ECEE60D6D}" {
+     prefab "{8B00C7B359560816}Prefabs/Weapons/AircraftWeapons/MissilePods/RVX_Pod_M299_2x.et"
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{69A9348ECEE60D6E}" {
+      }
+     }
+     weaponCode "RVX_AGM114K"
+     weaponLabel "2x AGM-114K Hellfire (Laser Guided)"
+    }
+    RVX_WCS_Armament_WeaponGroup "{69A9348ECEE60D68}" {
+     prefab "{3E4326E0B1ADA0AB}Prefabs/Weapons/AircraftWeapons/RocketPods/M260/RVX_M260.et"
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{69A9348ECEE60D69}" {
+      }
+     }
+     weaponCode "RVX_RKT"
+     weaponLabel "M260 HE Unguided Rockets"
+    }
+    RVX_WCS_Armament_WeaponGroup "{69A9348ECEE60D6A}" {
+     prefab "{EAFBD81DD4F86D44}Prefabs/Weapons/AircraftWeapons/RocketPods/M260/RVX_Pod_DAGR.et"
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{69A9348ECEE60D99}" {
+      }
+     }
+     weaponCode "RVX_DAGR"
+     weaponLabel "DAGR 2.75 inch Guided Rockets"
+    }
+    RVX_WCS_Armament_WeaponGroup "{69A9348ECEE60D9A}" {
+     prefab "{684AF3298B1D167E}Prefabs/Weapons/AircraftWeapons/RocketPods/M260/RVX_Pod_M260_APKWS.et"
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{69A9348ECEE60D9B}" {
+      }
+     }
+     weaponCode "RVX_APKWS"
+     weaponLabel "APKWS M260 (Laser Guided)"
+    }
+    RVX_WCS_Armament_WeaponGroup "{69A9348ECEE60D85}" {
+     prefab "{A88943475217AE69}Prefabs/Weapons/Core/RVX_M3M.et"
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{69A9348ECE99DB73}" {
+      }
+     }
+     weaponCode "RVX_M3M"
+     weaponLabel "M-3P"
+    }
+   }
+   leftPylon {
+    WCS_Armament_WeaponInfo "{69A9348ECE99DB71}" {
+     Position PointInfo "{69A9348ECE99DB76}" {
+      Offset -1.6808 0.8043 0.2369
+     }
+    }
+   }
+   rightPylon {
+    WCS_Armament_WeaponInfo "{69A9348ECE99DB74}" {
+     Position PointInfo "{69A9348ECE99A9F1}" {
+      Offset 1.6997 0.8043 0.2369
+     }
+    }
+   }
+  }
+  RVX_AvionicsEventProvider "{64EECCF15B01B2A7}" {
+   m_aCompartmentsNames +{
+   }
+  }
+  RVX_HMD "{654F60D6ED79D846}" {
+   m_LayoutPath "{95B30D4904385A56}UI/layouts/HMD_VSD.layout"
+  }
+  RVX_HasPilotCameraComponent "{69A9348ECE99A9FD}" {
+  }
+  RVX_LaserDesignatorComponent "{69A9348ECE99A9FC}" {
+   Enabled 0
+   laserToggleAction "KiowaLaserDesignatorToggle"
+   isToggleAction 0
+   enableDebugLaserTarget 0
+  }
+  RVX_LaserSeeker "{69A9348ECE99A9C2}" {
+   laserSeekerOriginPos PointInfo "{69A9348ECE99A9C1}" {
+    PivotID "v_mms"
+   }
+  }
+  RVX_LaserSeeker "{69A9348ECE99A9CF}" {
+   laserSeekerOriginPos PointInfo "{69A9348ECE99A9CE}" {
+    PivotID "v_mms"
+   }
+   laserSeekerID "RKT"
+  }
+  RVX_MissileCameraComponent "{69A9348ECE99A9CD}" {
+   cameraPrefab "{302BBC03EADC289C}Prefabs/Editor/Camera/RVX_ManualCameraPhoto.et"
+  }
+  RVX_MissileFlightTimeProvider "{69A9348ECE99A9CC}" {
+  }
+  RVX_MovePlayerToThisVehicle "{69A9348ECE99A9CB}" {
+   Enabled 0
+   isEngineOn 0
+  }
+  RVX_SlotAnimMapper "{6330E39019C105C9}" {
+   slotMappings {
+    RVX_SlotAnimMapping "{6330E39018CF5C1B}" {
+     signalMappings {
+      RVX_AnimSignalMapping "{6330E39050694940}" {
+       parentSignal "pitchAngle"
+       childSignal "pitchAngle"
+      }
+      RVX_AnimSignalMapping "{6330E3927DFA08BB}" {
+      }
+      RVX_AnimSignalMapping "{63320C7E85BF38B7}" {
+       parentSignal "airspeed"
+       childSignal "airspeed_value"
+      }
+      RVX_AnimSignalMapping "{633377DE1876674E}" {
+       parentSignal "altitude"
+       childSignal "altitude"
+      }
+      RVX_AnimSignalMapping "{64FB4298DA111805}" {
+       parentSignal "engineOn"
+       childSignal "engineOn"
+      }
+      RVX_AnimSignalMapping "{64FB5734BE4E157F}" {
+       parentSignal "anti_collision"
+       childSignal "anti_collision"
+      }
+      RVX_AnimSignalMapping "{64FC8739EE29A7C3}" {
+       parentSignal "dome_light"
+       childSignal "dome_light"
+      }
+      RVX_AnimSignalMapping "{64FC8739F139A5CC}" {
+       parentSignal "formation_light"
+       childSignal "formation_light"
+      }
+      RVX_AnimSignalMapping "{64FC873FBD51AABB}" {
+       parentSignal "console_light"
+       childSignal "console_light"
+      }
+      RVX_AnimSignalMapping "{69A9348ECE99A9D6}" {
+       parentSignal "yawAngle"
+       childSignal "yawAngle"
+      }
+     }
+    }
+    RVX_SlotAnimMapping "{64FC872BB642675B}" {
+     slotName "Cockpit_Emissive"
+     signalMappings {
+      RVX_AnimSignalMapping "{64FC872BB9FC74CD}" {
+       parentSignal "pitchAngle"
+       childSignal "pitchAngle"
+      }
+      RVX_AnimSignalMapping "{64FC872BC3DA9C01}" {
+       parentSignal "rollAngle"
+       childSignal "rollAngle"
+      }
+      RVX_AnimSignalMapping "{64FC872BC67E8AEC}" {
+       parentSignal "airspeed"
+       childSignal "airspeed_value"
+      }
+      RVX_AnimSignalMapping "{64FC872BC91F591A}" {
+       parentSignal "altitude"
+       childSignal "altitude"
+      }
+      RVX_AnimSignalMapping "{64FCBC2C85E000D8}" {
+       parentSignal "console_light"
+       childSignal "console_light"
+      }
+      RVX_AnimSignalMapping "{69A9348ECE99A9D2}" {
+       parentSignal "yawAngle"
+       childSignal "yawAngle"
+      }
+     }
+    }
+    RVX_SlotAnimMapping "{69A9348ECE99A9D1}" {
+     slotName "RotorMain"
+     signalMappings {
+      RVX_AnimSignalMapping "{69A9348ECE99A9D0}" {
+       parentSignal "MainRotorRPMScaled"
+       childSignal "MainRotorRPMScaled"
+      }
+     }
+    }
+    RVX_SlotAnimMapping "{69A9348ECE99A9DF}" {
+     slotName "MMS"
+     signalMappings {
+      RVX_AnimSignalMapping "{69A9348ECE99A9DE}" {
+       parentSignal "MMS_X"
+       childSignal "MMS_X"
+      }
+      RVX_AnimSignalMapping "{69A9348ECE99A9DD}" {
+       parentSignal "MMS_Y"
+       childSignal "MMS_Y"
+      }
+     }
+    }
+   }
+  }
+  RVX_WCS_Armament_VehicleWeaponStationComponent "{630A9AB005B640B2}" {
+   enableDebug 0
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Active Active
+   Mass 2365
+   Static 0
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{60F8D2B583BD6505}" {
+     ExitPositionInfo PointInfo "{5CAAA44AC4FFE225}" {
+      Offset 1.5714 0 1.8659
+     }
+     GetOutTeleport 1
+    }
+    CompartmentDoorInfo "{60F8D2B58CA24A75}" {
+     ExitPositionInfo PointInfo "{5CAAA44AC4FFE225}" {
+      Offset -1.7032 0 2.1232
+     }
+     GetOutTeleport 1
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CompartmentUniqueName "pilot"
+     PassengerPositionInfo EntitySlotInfo "{A1CB25848A3D93A8}" {
+      Offset 0.3309 0.9564 1.3274
+      Angles 0 0 0
+     }
+     CanOccupantEquipGadget 1
+    }
+    PilotCompartmentSlot CopilotCompartment {
+     CompartmentUniqueName "copilot"
+     CanOccupantEquipGadget 0
+    }
+   }
+  }
+  SCR_BaseEffectManagerComponent "{5D4ADA33D7B11909}" {
+   m_aEffectModules {
+    SCR_EffectModule "{5D4ADA33D4E92022}" {
+     m_effectPosition PointInfo "{5D4ADA33DBAC468C}" {
+     }
+    }
+    SCR_EffectModule "{69A9348ECE99A9A0}" {
+     m_sParticle "{2A680671BD9C1ACB}Particles/ExhaustHeatEffect.ptc"
+     m_effectPosition PointInfo "{69A9348ECE99A9AF}" {
+      Offset 0 2.6901 -1.8752
+      Angles 9.8267 0 0
+     }
+     m_bTickOnFrame 1
+     m_aEffectActions {
+      SCR_BaseEffectParticleHelicopterRotorControlAction "{69A9348ECE99A9AD}" {
+       m_ExhaustEndSpeedInM 100
+      }
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#RVX_Kiowa_Name"
+    Description ""
+    m_Image "{86B9DE44E9DD81ED}Assets/Textures/Thumbnails/M3M_AGM114_Thumbnail.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels + {
+     VEHICLE_HELICOPTER
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1250
+     }
+     SCR_EntityBudgetValue "{62E157691946CED9}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+     SCR_EntityBudgetValue "{69A951E870DFC4D6}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 450
+     }
+    }
+   }
+  }
+  SCR_HelicopterDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{48D120C9D53E0BA9}Assets/Wreck/OH-58D_Wreck.xob"
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{62E157691946CED4}" {
+   m_aContainers {
+    SCR_ResourceContainer "{62E157691946CEC9}" {
+     m_eResourceRights FACTION
+     m_eStorageType CARGO_VEHICLE
+    }
+   }
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{62E157691946CECA}" {
+     m_sDebugName "Encapsulator - UH-1H"
+     m_eResourceRights ALL
+     m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{5E42966E59638D3A}" {
+     }
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeDecay "{62E157691946CECD}" {
+      }
+      SCR_ResourceEncapsulatorActionChangeGain "{62E157691946CEC0}" {
+      }
+      SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{62E157691946CEC2}" {
+       m_eOnEmptyBehavior HIDE
+      }
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{62E157691946CEC3}" {
+       m_fResourceValueCurrent 0
+      }
+     }
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E42966EB4B6C40C}" {
+    }
+    SCR_ResourceConsumer "{5E42966EB7ABFDFF}" {
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGenerator "{5E42966EB87D0B2E}" {
+    }
+    SCR_ResourceGenerator "{5E42966EB8A02BC1}" {
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E1E994304F0E0D3}" {
+   MultiSlots {
+    MultiSlotConfiguration "{60F6C785F08E4AE4}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{F2A55A212EBAF03F}Prefabs/Items/SOFLAM/PEQ1_SOFLAM.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleCameraDataComponent "{216DA82C75CDD94B}" {
+   m_fFOV 105.2
+  }
+  VehicleHelicopterSimulation "{51FAEE57F7DA270E}" {
+   Animation VehicleAnimation "{5D9CEE8599E9D9BA}" {
+    AnimGraph "{6017F5AC0413430A}Anims/58d/OH58D.agr"
+    AnimInstance "{8D7DA077181A11E4}Anims/58d/OH58D.asi"
+    VehicleParts {
+     VehiclePartAnimation "{5D9ECEDEFBCD0229}" {
+     }
+     VehiclePartAnimation "{5D9ECEDEFBA14196}" {
+     }
+     VehiclePartAnimation "{5D9ECEDEFB060725}" {
+     }
+    }
+   }
+   Simulation Helicopter "{51FAED9EF37A2D29}" {
+    Engine HelicopterEngine "{51FAED9EF37A2D2B}" {
+    }
+    Hull HelicopterHull "{51FAED9EF37A2D2D}" {
+    }
+   }
+   RotorConfigs {
+    HelicopterRotorConfig "{5E3121F78F7927FB}" {
+     StaticModel "{CD5AA97DF6EED006}Assets/58D_Rotor.xob"
+     SpinningModel "{3667723F82F5AC64}Assets/58D_RotorBlur.xob"
+     DestroyedModel "{D4A83EA9B4AEA043}Assets/58D_RotorDst.xob"
+    }
+   }
+  }
+  BaseVehicleNodeComponent "{57DA667544C3090A}" {
+   components {
+    BaseHUDComponent "{50F09A38B4352300}" {
+     InfoDisplays {
+      WCS_Armament_WeaponInfoVehicle "{62BABE5366394C8B}" {
+       m_bIsEnabled 0
+      }
+     }
+    }
+    BaseWeaponManagerComponent "{57DA667544C3550C}" {
+     DefaultWeaponIndex 0
+    }
+    SCR_HelicopterControllerComponent "{5CB0B40B1BD943AB}" {
+     MaxStartupTime 0.5
+     MaxWantsToStartTime 0.5
+    }
+   }
+  }
+  VehicleProcAnimComponent "{76A3E713CE84D72F}" {
+   Parameters {
+    ProcAnimParams "{62F9401534F13E99}" {
+     BoneNames {
+     }
+     AlwaysSimulateOwner 1
+    }
+    ProcAnimParams "{63302368115F05D3}" {
+     ResourceName "{0C60930FA9D77871}Anims/proc/indicator.pap"
+     BoneNames {
+     }
+    }
+   }
+  }
+  WCS_Armament_DispenserManagerComponent "{630AF3A3E19C9F39}" {
+   Enabled 0
+  }
+  WCS_Armament_MWSComponent "{62DEE63BEA26FBED}" {
+   m_eThreatSizeDetection 120
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{6309104B86C5F82E}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{55BCE45E438E4CDD}" {
+   Enabled 1
+   Slots {
+    RegisteringComponentSlotInfo RotorMain {
+     Offset 0 0 0
+     Angles 0 45 0
+     Prefab "{ED1E3F2AFD6EA488}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Rotor/58D_Rotor_Main.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo RotorTail {
+     Offset 0.1055 -1.7598 1.1
+     Prefab "{2AE22E2B182784C6}Prefabs/Vehicles/Helicopters/UH1H/VehParts/Rotor/VehPart_UH1H_rotor_tail.et"
+     DisablePhysicsInteraction 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Cockpit {
+     MergePhysics 1
+     Prefab "{492EB7D6D79D97EA}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_Cockpit.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+    }
+    RegisteringComponentSlotInfo M3M {
+     Enabled 0
+     Prefab "{40421B255FF86CBC}Prefabs/Weapons/HeavyWeapons/58D_M3M.et"
+    }
+    RegisteringComponentSlotInfo MFD_R {
+     Prefab "{E187F06393C1BD01}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_MFD_R.et"
+    }
+    RegisteringComponentSlotInfo MFD_L {
+     Offset -0.578 0 0
+     Prefab "{E187F06393C1BD01}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_MFD_R.et"
+    }
+    RegisteringComponentSlotInfo Weapon_Mount_Right {
+     Prefab "{DDDDD24EB7DAE72D}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Exterior/58D_Weapon_Mount_Right.et"
+    }
+    RegisteringComponentSlotInfo RFD {
+     Prefab "{A737D7E851C55D02}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_RFD.et"
+    }
+    RegisteringComponentSlotInfo CMWS {
+     Prefab "{9021425D7F18675C}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_CMWS.et"
+    }
+    RegisteringComponentSlotInfo M16_Left {
+     Offset -0.5536 1.4164 2.1608
+     Angles -18.0352 19.1505 45.0505
+     MergePhysics 0
+     Enabled 1
+     Prefab "{16717A7FBB608DE8}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_AR15_Carbine.et"
+     DisablePhysicsInteraction 1
+     InheritParentSkeleton 0
+     DeactivatePhysicsOnAtaching 0
+     UpdateReplicationParent 0
+     SyncAnims 0
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+    }
+    RegisteringComponentSlotInfo M18_1 {
+     Offset 0.1219 1.6352 1.9455
+     Angles 68.1108 -2.4138 0
+     MergePhysics 0
+     Enabled 1
+     Prefab "{235233C0018FCA6F}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_Smoke_Green.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+    }
+    RegisteringComponentSlotInfo M18_2 {
+     Offset 0.0347 1.6581 1.9577
+     Angles 71.3368 -0.2456 -0.4248
+     MergePhysics 1
+     Enabled 1
+     Prefab "{2CF840E5B3678F53}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_Smoke_Red.et"
+     DisablePhysicsInteraction 1
+    }
+    RegisteringComponentSlotInfo M18_3 {
+     Offset -0.0286 1.6581 1.9577
+     Angles 71.3368 -0.2456 -0.4248
+     MergePhysics 1
+     Enabled 1
+     Prefab "{8507C4F1910B9DD1}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_Smoke_Blue.et"
+    }
+    RegisteringComponentSlotInfo M18_4 {
+     Offset -0.101 1.6581 1.9577
+     Angles 71.3368 -5.6022 -0.4248
+     MergePhysics 1
+     Enabled 1
+     Prefab "{DC36D993E94ED1DF}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_Smoke_Yellow.et"
+    }
+    RegisteringComponentSlotInfo Cockpit_Emissive {
+     MergePhysics 1
+     Prefab "{BA86A5CA7F53B776}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_Cockpit_Emissive.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+    }
+    RegisteringComponentSlotInfo HiddenCollimator {
+     Offset -0.041 -0.03 0
+     Enabled 1
+     Prefab "{B75C17C5B58D3771}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Exterior/58D_Weapon_Reticle.et"
+    }
+    RegisteringComponentSlotInfo MMS {
+     Prefab "{ACD9D7B21CB32BFB}Prefabs/Vehicles/Helicopters/CommonParts/VehParts/Cockpit/RVX_MMS_Camera_Sample.et"
+    }
+    RegisteringComponentSlotInfo Weapon_Mount_Left : Weapon_Mount_Right {
+     Prefab "{B7065B2C358AD591}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Exterior/58D_Weapon_Mount_Left.et"
+    }
+    RegisteringComponentSlotInfo MFD_Bkup {
+     Prefab "{F7A8B43D66926DA1}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_MFD_Bkup.et"
+    }
+    WCS_Armament_DispenserSlotInfo Flares {
+     Offset 0 0.4452 -1.2937
+     Angles 0 0 180
+     Prefab "{3494772951012B94}Prefabs/Weapons/Core/Armament_Dispenser_Flare.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Enabled 0
+   Slots {
+    RegisteringComponentSlotInfo CockpitPanel_Top {
+     Prefab "{492EB7D6D79D97EA}Prefabs/Vehicles/Helicopters/OH58D/VehParts/Cockpit/58D_Cockpit.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{630758BB47F29437}" {
+   Enabled 1
+   SignalsSourceAccess SignalsSourceAccessClass "{630AF3A0AEBC257B}" {
+   }
+   WeaponType None
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot M3M {
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 0
+  }
+  WeaponSlotComponent "{6309548A5F275E3A}" {
+   Enabled 1
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   AttachType InventoryStorageSlot "{65F292DA86FADCE9}" {
+    DisablePhysicsInteraction 1
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 1
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5E2EC4D3A76449F8}" {
+     Position PointInfo "{5E2EBCFA94ADB9FE}" {
+      Offset 0 1.2127 3.0418
+     }
+    }
+    UserActionContext "{5EA2942B1446DDA6}" {
+     Position PointInfo "{5EA2942BE88E9CA8}" {
+      Offset -0.2992 1.9333 -7.3598
+     }
+    }
+    UserActionContext "{5CAAA44AC4FFEDA2}" {
+     Position PointInfo "{5CAAA44AC4FFEDA0}" {
+      Offset 0.4884 0.7348 1.5833
+     }
+     Radius 0.15
+    }
+    UserActionContext "{615AB71565922E01}" {
+     Position PointInfo "{5CAAA44AC4FFEDA0}" {
+      Offset 0.664 0.8484 1.3789
+     }
+     Radius 2
+    }
+    UserActionContext "{5CAAA44AC4FFEDA1}" {
+     Position PointInfo "{5CAAA44AC4FFEDBE}" {
+      Offset -0.4145 0.9105 1.1324
+     }
+     Radius 0.15
+    }
+    UserActionContext "{615AB7129F480F36}" {
+     Position PointInfo "{5CAAA44AC4FFEDBE}" {
+      Offset -0.7346 0.8484 1.3789
+     }
+     Radius 2
+    }
+    UserActionContext "{5CAAA44AC4FC9278}" {
+     Position PointInfo "{5CAAA44AC4FC927E}" {
+      Offset -0.4753 0.9662 -1.4876
+     }
+    }
+    UserActionContext "{5CAAA44AC4FC004C}" {
+     ContextName "unused"
+     Position PointInfo "{5CAAA44AC4FDFE5C}" {
+      Offset 0.7306 0.9228 -1.3371
+     }
+    }
+    UserActionContext "{5CAAA44AC4FD11FF}" {
+     Position PointInfo "{5CAAA44AC4FA911E}" {
+      Offset 0.0298 1.8102 1.237
+     }
+     Radius 0.15
+    }
+    UserActionContext "{5CAAA44AC4FA9116}" {
+     Radius 0.15
+    }
+    UserActionContext "{5CAAA44AC4FA0612}" {
+     Radius 0.15
+    }
+    UserActionContext "{5CAAA44AC4FA060F}" {
+     Position PointInfo "{5CAAA44AC4FA060E}" {
+      Offset 0.7665 1.1657 -0.4132
+      Angles 0 28.1587 0
+     }
+    }
+    UserActionContext "{5E3EDDF45F7BB6F9}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset 0.2372 1.9365 0.6634
+     }
+     Radius 0.1
+    }
+    UserActionContext "{5E3EDDF45E5CF449}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      PivotID ""
+      Offset 0.0549 1.9154 1.3467
+     }
+     Radius 0.1
+    }
+    UserActionContext "{5E3EDDF45EFDB966}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      PivotID ""
+      Offset 0.0236 1.9028 1.3394
+     }
+     Radius 0.1
+    }
+    UserActionContext "{5E3EDDF45D7A0847}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset -0.047 1.8421 1.0747
+     }
+     Radius 0.1
+    }
+    UserActionContext "{5E3EDDF45DF8D460}" {
+     Position PointInfo "{5E3EDDF5AE1E3A62}" {
+      Offset 0.0462 1.8591 1.0102
+     }
+     Radius 0.1
+    }
+    UserActionContext "{62F33B8F9BD8994A}" {
+     UIInfo UIInfo "{62F33B8FD247DC79}" {
+      Name "VSD"
+     }
+     ContextName "vsd_button"
+     Position PointInfo "{62F33B8FA6D28195}" {
+      Offset 0.2399 1.2738 2.0093
+     }
+     Radius 0.2
+    }
+    UserActionContext "{62F543F570AC8AED}" {
+     UIInfo UIInfo "{62F543F57AF34D4F}" {
+      Name "HSD"
+     }
+     ContextName "hsd_button"
+     Position PointInfo "{62F543F57D4272D0}" {
+      Offset 0.265 1.2738 2.0093
+     }
+     Radius 0.2
+    }
+    UserActionContext "{62F543F4F9AE1618}" {
+     UIInfo UIInfo "{62F543F4FEF99689}" {
+      Name "MMS"
+     }
+     ContextName "mms_button"
+     Position PointInfo "{62F543F3014A7274}" {
+      Offset 0.3574 1.2738 2.0093
+     }
+     Radius 0.2
+    }
+    UserActionContext "{62F543F115A72EDB}" {
+     ContextName "vsd_button_l"
+     Position PointInfo "{62F543F128689B74}" {
+      Offset -0.3392 1.2738 2.0093
+     }
+     Radius 0.2
+    }
+    UserActionContext "{62F543F139EA37F2}" {
+     UIInfo UIInfo "{62F543F13D29C668}" {
+     }
+     ContextName "hsd_button_l"
+     Position PointInfo "{62F543F145155150}" {
+      Offset -0.3145 1.2738 2.0093
+     }
+     Radius 0.2
+    }
+    UserActionContext "{62F543F157CF2F62}" {
+     UIInfo UIInfo "{62F543F15490BE26}" {
+     }
+     ContextName "mms_button_l"
+     Position PointInfo "{62F543F19229EC89}" {
+      Offset -0.2217 1.2738 2.0093
+     }
+     Radius 0.2
+    }
+    UserActionContext "{649D058C99DF6020}" {
+     ContextName "flir_mode_button"
+     Position PointInfo "{649D058CAE9188A0}" {
+      Offset 0.2036 1.3158 2.0228
+     }
+     Radius 0.2
+    }
+    UserActionContext "{649D0592E5E0D62D}" {
+     ContextName "flir_mode_button_l"
+     Position PointInfo "{649D0592F61941CF}" {
+      Offset -0.3755 1.3158 2.0228
+     }
+     Radius 0.2
+    }
+    UserActionContext "{654CD9322F599DA3}" {
+     ContextName "laser_code_digit_1"
+     Position PointInfo "{654CD93233CC3B8A}" {
+      Offset -0.107 1.1363 1.9545
+     }
+     Radius 0.15
+    }
+    UserActionContext "{654CD9322F229BF2}" {
+     ContextName "laser_code_digit_2"
+     Position PointInfo "{654CD9325AF284C3}" {
+      Offset -0.0847 1.1363 1.9545
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69A9348ECE99A87B}" {
+     ContextName "toggle_laser_seeker"
+     Position PointInfo "{69A9348ECE99A87A}" {
+      Offset 0.2041 1.4044 2.0569
+     }
+     Radius 0.2
+    }
+    UserActionContext "{69A9348ECE99A879}" {
+     ContextName "aircraft_manager"
+     Position PointInfo "{69A9348ECE99A878}" {
+      Offset -0.0306 1.1423 0.9297
+     }
+     Radius 0.2
+    }
+    UserActionContext "{69A9348ECE99A847}" {
+     ContextName "mfd_code_page"
+     Position PointInfo "{69A9348ECE99A84D}" {
+      Offset -0.408 1.3964 2.0711
+      Angles 0 52.3622 0
+     }
+     Radius 0.02
+    }
+   }
+   additionalActions {
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" {
+     ParentContextList +{
+     }
+    }
+    SCR_EngineAction "{5F0EC97C50FB221C}" {
+     Duration -0.5
+    }
+    SCR_ResourceContainerVehicleLoadAction "{5DAD751A3D2FE182}" {
+     ParentContextList +{
+     }
+    }
+    SCR_ResourceContainerVehicleUnloadAction "{5DAD751A3BF8492E}" {
+     ParentContextList +{
+     }
+    }
+    SCR_ResourceContainerVehicleLoadAction "{5E42966A989974E7}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{62E157691946CE01}" {
+      Name "#AR-Supplies_Vehicle_Load"
+      Description "#AR-Supplies_Vehicle_Load_Long"
+     }
+     Duration 1
+    }
+    SCR_ResourceContainerVehicleUnloadAction "{5E42966A9D4BFB90}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{62E157691946CE03}" {
+      Name "#AR-Supplies_Vehicle_Unload"
+      Description "#AR-Supplies_Vehicle_Unload_Long"
+     }
+     Duration 1
+    }
+    RVX_ConsoleLightAction "{64FCBC2BD105A18B}" {
+     ParentContextList +{
+     }
+     UIInfo UIInfo "{64FCBC2BE3008659}" {
+      Name "Toggle console backlight"
+     }
+    }
+    RVX_OpenAircraftManagerAction "{69A9348ECE99A855}" {
+     ParentContextList {
+      "aircraft_manager"
+     }
+     UIInfo UIInfo "{69A9348ECE996082}" {
+      Name "Show aircraft manager"
+     }
+    }
+    RVX_ShowLaserCodePageAction "{69A9348ECE996083}" {
+     ParentContextList {
+      "mfd_code_page"
+     }
+     UIInfo UIInfo "{69A9348ECE996084}" {
+      Name "Show Laser Codes page"
+     }
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B80BCCBF0B33C8}" {
+   AnimGraph "{2E7DC909B8C4128F}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A.agr"
+   AnimInstance "{C3179CD2A4CD4061}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A.asi"
+   AnimInjection AnimationAttachmentInfo "{50B80BCCA6210E6D}" {
+    AnimGraph "{2E7DC909B8C4128F}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A.agr"
+    AnimInstance "{E01854FEDB1BA7B0}Assets/Vehicles/Helicopters/UH1H/workspace/UH1A_player.asi"
+   }
+  }
+ }
+}
