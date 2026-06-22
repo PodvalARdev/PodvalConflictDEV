@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{5CD941AE4A440811}Configs/EntityCatalog/USMC/USMC_Vehicles.conf"
+ Name "{DC9D3ABD53D79849}Configs/EntityCatalog/US/WCS_Vehicles_EntityCatalog_US.conf"
  Configurations {
   CONFResourceClass PC {
   }

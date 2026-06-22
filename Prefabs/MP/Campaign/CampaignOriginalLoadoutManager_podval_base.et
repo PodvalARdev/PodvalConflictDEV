@@ -26,5 +26,31 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
    m_sLoadoutResource "{918C557BF3506286}Prefabs/Characters/Campaign/Final/OPFOR/USSR_Army/Campaign_USSR_Base.et"
    m_sAffiliatedFaction "USSR"
   }
+  SCR_FactionPlayerLoadout "{69AC9406F4EE276A}" : "{7C7C65FD583E6612}Configs/Loadouts/US/Regular/Loadout_US_Rifleman.conf" {
+  }
+  SCR_FactionPlayerLoadout "{69AC9406CAAFF7A7}" : "{5F9034642E99437D}Configs/Loadouts/USSR/Regular/Loadout_USSR_Rifleman.conf" {
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1BE31CE57}" : "{3F2F526680E109C9}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_US.conf" {
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1A21BD1DA}" : "{3F2F526680E109C9}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_US.conf" {
+   m_sWCSSlotId "Slot2"
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1A624111D}" : "{3F2F526680E109C9}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_US.conf" {
+   m_sWCSSlotId "Slot3"
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1AA07D131}" : "{3F2F526680E109C9}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_US.conf" {
+   m_sWCSSlotId "Slot4"
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1FAD043CB}" : "{81EA41BDD0679AAD}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_USSR.conf" {
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1FBAEF599}" : "{81EA41BDD0679AAD}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_USSR.conf" {
+   m_sWCSSlotId "Slot2"
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1FB74288C}" : "{81EA41BDD0679AAD}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_USSR.conf" {
+   m_sWCSSlotId "Slot3"
+  }
+  SCR_PlayerArsenalLoadout "{69AC84D1FC3A5AB1}" : "{81EA41BDD0679AAD}Configs/Actions/Arsenals/WCS_PlayerArsenalLoadout_USSR.conf" {
+   m_sWCSSlotId "Slot4"
+  }
  }
 }

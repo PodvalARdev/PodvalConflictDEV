@@ -1,5 +1,5 @@
 $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
- MainBaseSouth {
+ MainBaseNorthwest {
   components {
    SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
     m_iSupplies 5000
@@ -8,27 +8,27 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 3000
+      "Transmitting Range" 4000
      }
     }
-    m_bIsSource 1
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
-    m_sBaseName "Main Base South"
-    m_sBaseNameUpper "MAIN BASE SOUTH"
+    m_sBaseName "MainBaseNortheast"
+    m_sBaseNameUpper "MAINBASENORTHEAST"
+    m_sMapLocationName "MainBaseNortheast"
     m_aWhiteList {
-     "Kamenka"
+     "NorthAirfield"
     }
     m_aWhiteListAntenna {
-     "Kamenka"
+     "NorthAirfield"
     }
    }
   }
-  coords 93.63 5.75 1526.12
-  angles 0 1.247 0
+  coords 4106.72 52.379 11832.38
+  angles 0 -120 0
  }
- MainBaseNorth {
+ MainBaseSoutheast {
   components {
    SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
     m_iSupplies 5000
@@ -37,24 +37,24 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 3000
+      "Transmitting Range" 4000
      }
     }
-    m_bIsSource 1
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
-    m_sBaseName "Main Base North"
-    m_sBaseNameUpper "MAIN BASE NORTH"
+    m_sBaseName "Main Base Southwest"
+    m_sBaseNameUpper "MAINBASESOUTHWEST"
+    m_sMapLocationName "MainBaseSouthwest"
     m_aWhiteList {
-     "Nizhnoye"
+     "SouthAirfield"
     }
     m_aWhiteListAntenna {
-     "Nizhnoye"
+     "SouthAirfield"
     }
    }
   }
-  coords 12768.28 5.75 9519.59
-  angles 0 -173.535 0
+  coords 7058.445 307.535 890.316
+  angles 0.382 -16.415 1.297
  }
 }

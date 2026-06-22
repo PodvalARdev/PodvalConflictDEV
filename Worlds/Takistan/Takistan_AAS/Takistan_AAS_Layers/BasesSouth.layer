@@ -1,0 +1,202 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ SouthAirfield {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 0
+    m_sBaseName "SouthAirfield"
+    m_sBaseNameUpper "SouthAirfield"
+    m_sMapLocationName "SouthAirfield"
+    m_aWhiteList {
+     "Timurkalay"
+     "MainBaseSouthwest"
+    }
+    m_aWhiteListAntenna {
+     "Timurkalay"
+     "MainBaseSouthwest"
+    }
+   }
+  }
+  coords 8375.949 322.187 2044.056
+  angles -1.814 4.647 1.64
+ }
+ Jilavur {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Jilavur"
+    m_sBaseNameUpper "Jilavur"
+    m_sMapLocationName "Jilavur"
+    m_aWhiteList {
+     "Timurkalay"
+     "FeruzAbad"
+    }
+    m_aWhiteListAntenna {
+     "Timurkalay"
+     "FeruzAbad"
+    }
+   }
+  }
+  coords 2669.41 223.788 5124.06
+  angles 0.556 -82.097 0.939
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_5 {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ Timurkalay {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Timurkalay"
+    m_sBaseNameUpper "Timurkalay"
+    m_sMapLocationName "Timurkalay"
+    m_aWhiteList {
+     "SouthAirfield"
+     "FeruzAbad"
+    }
+    m_aWhiteListAntenna {
+     "SouthAirfield"
+     "FeruzAbad"
+    }
+   }
+  }
+  coords 8939.233 294.691 5246.979
+  angles 1.02 -120.653 0.388
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_6 {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ FeruzAbad {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "FeruzAbad"
+    m_sBaseNameUpper "FeruzAbad"
+    m_sMapLocationName "FeruzAbad"
+    m_aWhiteList {
+     "Jilavur"
+     "Bastam"
+    }
+    m_aWhiteListAntenna {
+     "Jilavur"
+     "Bastam"
+    }
+   }
+  }
+  coords 5254.584 171.618 6130.939
+  angles 0.893 -176.547 -0.627
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_7 {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ Bastam {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Bastam"
+    m_sBaseNameUpper "Bastam"
+    m_sMapLocationName "Bastam"
+    m_aWhiteList {
+     "FeruzAbad"
+     "NorthAirfield"
+    }
+    m_aWhiteListAntenna {
+     "FeruzAbad"
+     "NorthAirfield"
+    }
+   }
+  }
+  coords 5598.438 104.406 9113.73
+  angles 0.893 -176.547 -0.627
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_8 {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ NorthAirfield {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 0
+    m_sBaseName "NorthAirfield"
+    m_sBaseNameUpper "NorthAirfield"
+    m_sMapLocationName "NorthAirfield"
+    m_aWhiteList {
+     "Bastam"
+     "MainBaseNortheast"
+    }
+    m_aWhiteListAntenna {
+     "Bastam"
+     "MainBaseNortheast"
+    }
+   }
+  }
+  coords 5656.598 109.313 11333.572
+  angles 2.409 -143.105 -0.419
+ }
+}

@@ -22,8 +22,6 @@ GenericEntity : "{491CEF88656BE6C2}Prefabs/Weapons/Core/Suppressor_base.et" {
     }
     CustomAttributes {
      SCR_WeaponAttachmentSuppressorAttributes "{5284D858FFF9BE66}" {
-      AttachmentType AttachmentPointCSR_QD "{618A843CE28C7529}" {
-      }
       m_fMuzzleSpeedCoefficient 1.01
       m_fMuzzleDispersionFactor 0.9
       m_fExtraObstructionLength 0.183
@@ -37,8 +35,6 @@ GenericEntity : "{491CEF88656BE6C2}Prefabs/Weapons/Core/Suppressor_base.et" {
       FOV 15
      }
      SCR_WeaponAttachmentObstructionAttributes "{61B08C885494492B}" {
-      AttachmentType AttachmentPointCSR_QD "{61B08C8FA3FA3ADE}" {
-      }
       m_aObstructedAttachmentTypes {
        AttachmentBayonetM9 "{61B485C90019DB63}" {
        }

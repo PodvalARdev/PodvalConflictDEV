@@ -1,4 +1,4 @@
-GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmets/Helmet_PASGT/Helmet_PASGT_01_base.et" {
  ID "50D485E1435D6C72"
  components {
   SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {

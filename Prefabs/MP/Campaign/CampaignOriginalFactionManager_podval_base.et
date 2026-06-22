@@ -403,7 +403,7 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
     }
     SCR_EntityCatalogMultiList "{68E533DA794BA43C}" : "{E3DE1AD43E23113A}Configs/EntityCatalog/US/InventoryItems_EntityCatalog_US.conf" {
     }
-    SCR_EntityCatalogMultiList "{68E533DA023A2A07}" : "{5CD941AE4A440811}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf" {
+    SCR_EntityCatalogMultiList "{68E533DA023A2A07}" : "{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf" {
     }
     SCR_EntityCatalogMultiList "{68E533D8C4E46328}" : "{8D2FF16F196C73D9}Configs/EntityCatalog/US/Characters_EntityCatalog_US.conf" {
     }
@@ -435,7 +435,7 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
     }
     SCR_EntityCatalogMultiList "{68E533D9EF14C239}" : "{BCF3DF914B58F078}Configs/EntityCatalog/USSR/Characters_EntityCatalog_USSR.conf" {
     }
-    SCR_EntityCatalogMultiList "{68E533DA205DEBE9}" : "{CE7E912A3F3EAA9B}Configs/EntityCatalog/USSR/Vehicles_EntityCatalog_USSR.conf" {
+    SCR_EntityCatalogMultiList "{68E533DA205DEBE9}" : "{09C2ED5F617A0390}Configs/EntityCatalog/USSR/Vehicles_EntityCatalog_USSR.conf" {
     }
     SCR_EntityCatalogMultiList "{68E533D9DF04ABBC}" : "{1CA8E5FBE353635D}Configs/EntityCatalog/USSR/InventoryItems_EntityCatalog_USSR.conf" {
     }
