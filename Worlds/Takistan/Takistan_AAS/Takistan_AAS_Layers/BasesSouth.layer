@@ -83,11 +83,11 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sMapLocationName "Timurkalay"
     m_aWhiteList {
      "SouthAirfield"
-     "FeruzAbad"
+     "Jilavur"
     }
     m_aWhiteListAntenna {
      "SouthAirfield"
-     "FeruzAbad"
+     "Jilavur"
     }
    }
   }
@@ -177,7 +177,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 3800
+      "Transmitting Range" 10000
      }
     }
    }
@@ -187,12 +187,12 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_sBaseNameUpper "NorthAirfield"
     m_sMapLocationName "NorthAirfield"
     m_aWhiteList {
-     "Bastam"
      "MainBaseNortheast"
+     "Bastam"
     }
     m_aWhiteListAntenna {
-     "Bastam"
      "MainBaseNortheast"
+     "Bastam"
     }
    }
   }
