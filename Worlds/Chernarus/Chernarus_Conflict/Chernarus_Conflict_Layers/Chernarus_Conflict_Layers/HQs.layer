@@ -1,5 +1,5 @@
 $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
- MainBaseNorthwest {
+ MainBaseNortheast {
   components {
    SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
     m_iSupplies 5000
@@ -8,27 +8,30 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 4000
+      "Transmitting Range" 10000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
-    m_sBaseName "Main Base North"
-    m_sBaseNameUpper "Main Base North"
-    m_sMapLocationName "Main Base North"
+    m_sBaseName "Main Base Northeast"
+    m_sBaseNameUpper "MAIN BASE NORTHEAST"
     m_aWhiteList {
-     "Factory"
+     "Solnichniy"
+     "Gorka"
+     "Industrial"
     }
     m_aWhiteListAntenna {
-     "Factory"
+     "Solnichniy"
+     "Gorka"
+     "Industrial"
     }
    }
   }
-  coords 4106.72 52.379 11832.38
-  angles 0 -120 0
+  coords 12627.018 5.75 9002.846
+  angles 0 -165 0
  }
- MainBaseSoutheast {
+ MainBaseSouthwest {
   components {
    SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
     m_iSupplies 5000
@@ -37,24 +40,27 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 4000
+      "Transmitting Range" 4500
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
-    m_sBaseName "Main Base South"
-    m_sBaseNameUpper "Main Base South"
-    m_sMapLocationName "Main Base South"
+    m_sBaseName "Main Base Southwest"
+    m_sBaseNameUpper "MAIN BASE SOUTHWEST"
     m_aWhiteList {
-     "Durras"
+     "Zelenogorsk"
+     "Kozlovka"
+     "Komarovo"
     }
     m_aWhiteListAntenna {
-     "Durras"
+     "Zelenogorsk"
+     "Kozlovka"
+     "Komarovo"
     }
    }
   }
-  coords 7058.445 307.535 890.316
-  angles 0.382 -16.415 1.297
+  coords 1863.677 73.943 2940.622
+  angles 0.87 97.268 7.291
  }
 }

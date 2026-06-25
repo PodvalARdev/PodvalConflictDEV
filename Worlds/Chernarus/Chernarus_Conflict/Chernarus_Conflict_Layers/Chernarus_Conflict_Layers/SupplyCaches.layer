@@ -1,0 +1,242 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ SupplyMilitaryBase {
+  coords 4560.211 306.663 8248.774
+  angles 1.729 105.007 0.463
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyCoastal {
+  coords 13403.125 12.5 4097.002
+  angles -7.209 -27.105 -4.293
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyNE {
+  coords 11281.758 78.797 6618.312
+  angles -1.434 126.898 3.396
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyNorthCherno {
+  coords 5765.528 126.203 4816.676
+  angles 5.055 47.686 13.252
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyNorthGug {
+  coords 8697.266 346.582 7162.316
+  angles 5.345 65.353 7.317
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyPusta {
+  coords 9152.088 215.917 3906.389
+  angles -5.956 158.93 -0.572
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyN {
+  coords 7738.966 408.118 9267.208
+  angles 0.565 57.884 -2.467
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyGreenMountain {
+  coords 3697.547 386.94 5958.291
+  angles -1.164 21.877 0.497
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyNorthBalota {
+  coords 5719.013 86.356 2943.417
+  angles -1.698 71.579 -2.263
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyVyshnoye {
+  coords 6486.878 310.5 6198.629
+  angles 1.145 121.931 4.92
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

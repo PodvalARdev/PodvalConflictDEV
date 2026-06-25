@@ -14,18 +14,18 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
-    m_sBaseName "Main Base North"
-    m_sBaseNameUpper "Main Base North"
-    m_sMapLocationName "Main Base North"
+    m_sBaseName "MainBaseNorth"
+    m_sBaseNameUpper "MainBaseNorth"
+    m_sMapLocationName "MainBaseNorth"
     m_aWhiteList {
-     "Factory"
+     "Warley"
     }
     m_aWhiteListAntenna {
-     "Factory"
+     "Warley"
     }
    }
   }
-  coords 4106.72 52.379 11832.38
+  coords 1624.569 2 2982.223
   angles 0 -120 0
  }
  MainBaseSoutheast {
@@ -43,18 +43,18 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
-    m_sBaseName "Main Base South"
-    m_sBaseNameUpper "Main Base South"
-    m_sMapLocationName "Main Base South"
+    m_sBaseName "MainBaseSouth"
+    m_sBaseNameUpper "MainBaseSouth"
+    m_sMapLocationName "MainBaseSouth"
     m_aWhiteList {
-     "Durras"
+     "Southwick"
     }
     m_aWhiteListAntenna {
-     "Durras"
+     "Southwick"
     }
    }
   }
-  coords 7058.445 307.535 890.316
+  coords 2579.133 2.812 232.359
   angles 0.382 -16.415 1.297
  }
 }

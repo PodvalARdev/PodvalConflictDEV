@@ -1,0 +1,378 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseSolnichniy {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Solnichniy"
+    m_sBaseNameUpper "SOLNICHNIY"
+    m_sMapLocationName "Solnichniy"
+    m_aWhiteList {
+     "Main Base Northeast"
+     "Kamyshovo"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Northeast"
+     "Kamyshovo"
+    }
+   }
+  }
+  coords 13420.393 5.75 6170.168
+  angles 0 90.076 0
+ }
+ BaseIndustrial {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Industrial"
+    m_sBaseNameUpper "INDUSTRIAL"
+    m_sMapLocationName "Industrial"
+    m_aWhiteList {
+     "Main Base Northeast"
+     "Staroye"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Northeast"
+     "Staroye"
+    }
+   }
+  }
+  coords 11462.507 212 7513.225
+  angles 0 -11.365 0
+ }
+ BaseElektrozavodsk {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Elektrozavodsk"
+    m_sBaseNameUpper "ELEKTROZAVODSK"
+    m_sMapLocationName "Elektrozavodsk"
+    m_aWhiteList {
+     "Kamyshovo"
+     "Mogilevka"
+     "Staroye"
+    }
+    m_aWhiteListAntenna {
+     "Kamyshovo"
+     "Mogilevka"
+     "Staroye"
+    }
+   }
+  }
+  coords 10481.681 6.031 2338.832
+  angles 0 150.915 0
+ }
+ BaseChernogorsk {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Chernogorsk"
+    m_sBaseNameUpper "CHERNOGORSK"
+    m_sMapLocationName "Chernogorsk"
+    m_aWhiteList {
+     "Komarovo"
+     "Mogilevka"
+     "Staroye"
+    }
+    m_aWhiteListAntenna {
+     "Komarovo"
+     "Mogilevka"
+     "Staroye"
+    }
+   }
+  }
+  coords 6826.281 5.75 2440.235
+  angles 0 144.989 0
+ }
+ BaseGorka {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Gorka"
+    m_sBaseNameUpper "GORKA"
+    m_sMapLocationName "Gorka"
+    m_aWhiteList {
+     "Main Base Northeast"
+     "Novy Sobor"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Northeast"
+     "Novy Sobor"
+    }
+   }
+  }
+  coords 9467.999 292.746 8860.573
+  angles 1.534 -95.31 -2.837
+ }
+ BaseKomarovo {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Komarovo"
+    m_sBaseNameUpper "KOMAROVO"
+    m_sMapLocationName "Komarovo"
+    m_aWhiteList {
+     "Main Base Southwest"
+     "Chernogorsk"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Southwest"
+     "Chernogorsk"
+    }
+   }
+  }
+  coords 3604.29 5.75 2236.641
+  angles 0 102.636 0
+ }
+ BaseZelenogorsk {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Zelenogorsk"
+    m_sBaseNameUpper "ZELENOGORSK"
+    m_sMapLocationName "Zelenogorsk"
+    m_aWhiteList {
+     "Main Base Southwest"
+     "Pogorevka"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Southwest"
+     "Pogorevka"
+    }
+   }
+  }
+  coords 2791.354 202.395 5298.917
+  angles -0.52 -163.113 1.712
+ }
+ BaseKozlovka {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Kozlovka"
+    m_sBaseNameUpper "KOZLOVKA"
+    m_sMapLocationName "Kozlovka"
+    m_aWhiteList {
+     "Main Base Southwest"
+     "Mogilevka"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Southwest"
+     "Mogilevka"
+    }
+   }
+  }
+  coords 4409.192 226.214 4646.845
+  angles 1.285 -44.113 -1.246
+ }
+ BaseNovySobor {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Novy Sobor"
+    m_sBaseNameUpper "NOVY SOBOR"
+    m_sMapLocationName "Novy Sobor"
+    m_aWhiteList {
+     "Pogorevka"
+     "Mogilevka"
+     "Gorka"
+     "Staroye"
+    }
+    m_aWhiteListAntenna {
+     "Pogorevka"
+     "Mogilevka"
+     "Gorka"
+     "Staroye"
+    }
+   }
+  }
+  coords 7087.03 285.469 7716.913
+  angles 0 166.987 0
+ }
+ BasePogorevka {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Pogorevka"
+    m_sBaseNameUpper "POGOREVKA"
+    m_sMapLocationName "Pogorevka"
+    m_aWhiteList {
+     "Zelenogorsk"
+     "Novy Sobor"
+    }
+    m_aWhiteListAntenna {
+     "Zelenogorsk"
+     "Novy Sobor"
+    }
+   }
+  }
+  coords 4774.13 262.049 6821.472
+  angles 1.678 -125.191 -2.277
+ }
+ BaseKamyshovo {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Kamyshovo"
+    m_sBaseNameUpper "KAMYSHOVO"
+    m_sMapLocationName "Kamyshovo"
+    m_aWhiteList {
+     "Elektrozavodsk"
+     "Solnichniy"
+    }
+    m_aWhiteListAntenna {
+     "Elektrozavodsk"
+     "Solnichniy"
+    }
+   }
+  }
+  coords 12095.179 6.106 3530.771
+  angles 0.69 -39.56 -0.57
+ }
+ BaseMogilevka {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Mogilevka"
+    m_sBaseNameUpper "MOGILEVKA"
+    m_sMapLocationName "Mogilevka"
+    m_aWhiteList {
+     "Novy Sobor"
+     "Kozlovka"
+     "Elektrozavodsk"
+     "Staroye"
+     "Chernogorsk"
+    }
+    m_aWhiteListAntenna {
+     "Novy Sobor"
+     "Kozlovka"
+     "Elektrozavodsk"
+     "Staroye"
+     "Chernogorsk"
+    }
+   }
+  }
+  coords 7565.264 208.562 5171.661
+  angles 0 -100.049 0
+ }
+ BaseStaroye {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 10000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Staroye"
+    m_sBaseNameUpper "STAROYE"
+    m_sMapLocationName "Staroye"
+    m_aWhiteList {
+     "Novy Sobor"
+     "Mogilevka"
+     "Industrial"
+     "Elektrozavodsk"
+     "Chernogorsk"
+    }
+    m_aWhiteListAntenna {
+     "Novy Sobor"
+     "Mogilevka"
+     "Industrial"
+     "Elektrozavodsk"
+     "Chernogorsk"
+    }
+   }
+  }
+  coords 10147.043 236.295 5465.393
+  angles 2.036 -130.659 -1.748
+ }
+}

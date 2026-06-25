@@ -14,8 +14,7 @@ SCR_CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFact
      m_eRequiredRank PRIVATE
     }
    }
-   m_aStartingVehicles {
-    "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et" "{3F2AA823B6C65E1E}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_MERDC.et"
+   m_aStartingVehicles +{
    }
   }
   SCR_CampaignFaction "{56F0C3A6336375DC}" {

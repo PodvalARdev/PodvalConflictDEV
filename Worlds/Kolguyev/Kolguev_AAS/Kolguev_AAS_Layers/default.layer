@@ -4,8 +4,8 @@ SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4926.701 34.279 10717.344
 }
-SCR_CampaignFactionManager CampaignOriginalFactionManager_podval_base1 : "{1DB6402D3C1B27B0}Prefabs/MP/Campaign/CampaignOriginalFactionManager_podval_base.et" {
- coords 11014.315 102.711 10435.203
+SCR_CampaignFactionManager CampaignFactionManager1 : "{130806924CFFDA55}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 11014.844 102.729 10436.591
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 26.726 0 10.962
@@ -40,5 +40,5 @@ BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Ga
 MusicManager MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
 }
 SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 11007.614 103.353 10426.897
+ coords 11009.246 103.14 10427.85
 }

@@ -2,7 +2,7 @@ SCR_AIWorld SCR_AIWorld_Rostov {
  coords 3969.982 118.874 3971.863
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{130806924CFFDA55}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 3985.219 130.446 3932.7
+ coords 3985.404 129.699 3932.558
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 3969.982 118.877 3969.863
@@ -38,5 +38,5 @@ MusicManager MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager
  coords 3969.982 118.816 3974.863
 }
 SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 3986.021 130.08 3932.625
+ coords 3985.738 129.633 3932.535
 }

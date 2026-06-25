@@ -2,7 +2,7 @@ SCR_AIWorld SCR_AIWorld_Serhiivka : "{1B639CA56FCAC6EC}Prefabs/AI/SCR_AIWorld_Se
  coords 3969.982 118.874 3971.863
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{130806924CFFDA55}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 5128.694 135.683 5156.353
+ coords 5120.403 135.662 5149.811
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 3969.982 118.877 3969.863
@@ -33,5 +33,5 @@ MusicManager MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager
  coords 3969.982 118.816 3974.863
 }
 SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 5123.334 135.669 5150.521
+ coords 5124.006 135.663 5150.804
 }

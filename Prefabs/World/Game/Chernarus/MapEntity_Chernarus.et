@@ -1,0 +1,5 @@
+SCR_MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ ID "5255036BAB847859"
+ "Map Geometry Data" "{B3B40D9C044BD166}map/ChernarusMinusBeta.topo"
+ "Satellite background image" "{C1CB46D67D91C08E}UI/Textures/Map/Worlds/Chernarus/Chernarus.edds"
+}

@@ -1,0 +1,98 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ SupplyBrusselsFarm {
+  coords 6833.449 161.589 7848.326
+  angles -0.807 25.667 -0.388
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyEssomes {
+  coords 6535.202 493.11 6593.816
+  angles 0.643 165.508 -1.091
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplySaintGengoulph {
+  coords 5600.032 421.437 6869.091
+  angles 0 74.072 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyBonnesvalyn {
+  coords 9246.993 94.162 9464.296
+  angles -0.895 1.736 2.886
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
