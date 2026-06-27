@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{8DAC43E4F2AC1552}Missions/BelleauWood_AAS.conf"
+ Name "{2CCBAEC8CE48CC33}Missions/WCS_Serhiivka_Conflict_NvS_Layout1.conf"
  Configurations {
   CONFResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   CONFResourceClass PS5 : PC {
   }
   CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass Xbox : PC {
   }
  }
 }

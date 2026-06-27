@@ -1,0 +1,170 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ SupplySouthTown {
+  coords 4909.964 155.153 4360.104
+  angles 0 66.54 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyNorthTown {
+  coords 5271.39 154.427 5603.308
+  angles 0 -140.854 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyWestTown {
+  coords 4164.692 133.175 4909.896
+  angles 0 128.334 -1.296
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyTrench {
+  coords 4155.458 183.384 7010.788
+  angles 0 175.02 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplySouth {
+  coords 7674.547 178.454 2904.941
+  angles 0 171.624 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplySwamp {
+  coords 5184.377 142.062 5276.252
+  angles 0 -135 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ SupplyNorth {
+  coords 5853.082 180.038 9522.351
+  angles 0 -165.824 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5D45393876460D01"
+      components {
+       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+        m_aContainers {
+         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
+          m_bEnableResourceGain 1
+          m_fResourceGainTickrate 600
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

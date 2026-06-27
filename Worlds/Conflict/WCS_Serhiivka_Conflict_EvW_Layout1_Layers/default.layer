@@ -1,0 +1,37 @@
+SCR_AIWorld SCR_AIWorld_Serhiivka : "{1B639CA56FCAC6EC}Prefabs/AI/SCR_AIWorld_Serhiivka.et" {
+ coords 3969.982 118.874 3971.863
+}
+SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ coords 3969.982 118.877 3969.863
+ m_iControlPointsThreshold 6
+ m_fVictoryTimer 900
+ m_iSuppliesReplenishThreshold 0
+ m_iQuickSuppliesReplenishThreshold 5000
+ m_iSuppliesArrivalInterval 30
+ m_iRegularSuppliesIncome 4500
+ m_iRegularSuppliesIncomeExtra 0
+ m_iHQStartingSupplies 15000
+ m_iMinStartingSupplies 200
+ m_iMaxStartingSupplies 200
+ m_iStartingSuppliesInterval 100
+ m_iSupplyDepotIconThreshold 5000
+ m_bSuppliesAutoRegenerationEnabled 1
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 3969.982 118.816 3974.863
+}
+RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 3969.982 118.816 3974.863
+}
+SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 3969.982 118.861 3972.863
+}
+BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 3969.982 118.816 3974.863
+}
+SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 3969.982 118.816 3974.863
+}
+MusicManager MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
+ coords 3969.982 118.816 3974.863
+}
