@@ -1,0 +1,254 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseSoutheastMarigny {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 0
+    m_sBaseName "Southeast Marigny"
+    m_sBaseNameUpper "SOUTHEAST MARIGNY"
+    m_aWhiteList {
+     "Main Base Southwest"
+     "Lucy-le-Bocage"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Southwest"
+     "Lucy-le-Bocage"
+    }
+   }
+  }
+  coords 2116.917 206.567 3127.451
+  angles -1.416 101.398 -1.993
+ }
+ BaseBelleauWood {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Belleau Wood"
+    m_sBaseNameUpper "BELLEAU WOOD"
+    m_sMapLocationName "BelleauWood"
+    m_aWhiteList {
+     "Lucy-le-Bocage"
+     "Belleau"
+    }
+    m_aWhiteListAntenna {
+     "Lucy-le-Bocage"
+     "Belleau"
+    }
+   }
+  }
+  coords 5650.5 174.5 5249.543
+  angles -0.481 102.362 -0.979
+ }
+ BaseBussiares {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Bussiares"
+    m_sBaseNameUpper "BUSSIARES"
+    m_sMapLocationName "Bussiares"
+    m_aWhiteList {
+     "Industrial"
+     "Belleau"
+    }
+    m_aWhiteListAntenna {
+     "Industrial"
+     "Belleau"
+    }
+   }
+  }
+  coords 3059.572 119.156 6932.723
+  angles -1.949 13.427 0.455
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.003 0 0.009
+    angles 0 1.7 0
+   }
+  }
+ }
+ BaseWestCourchamps {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "West Courchamps"
+    m_sBaseNameUpper "WEST COURCHAMPS"
+    m_sMapLocationName "WestCourchamps"
+    m_aWhiteList {
+     "Airfield North"
+     "Industrial"
+    }
+    m_aWhiteListAntenna {
+     "Airfield North"
+     "Industrial"
+    }
+   }
+  }
+  coords 2616.335 161.893 9458.901
+  angles 3.32 4.37 -1.891
+ }
+ BaseAirfieldNorth {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 0
+    m_sBaseName "Airfield North"
+    m_sBaseNameUpper "AIRFIELD NORTH"
+    m_sMapLocationName "AirfieldNorth"
+    m_aWhiteList {
+     "West Courchamps"
+     "Main Base Northeast"
+    }
+    m_aWhiteListAntenna {
+     "West Courchamps"
+     "Main Base Northeast"
+    }
+   }
+  }
+  coords 4620.091 169.594 10414.314
+  angles 2.045 -147.3 3.434
+ }
+ BaseIndustrial {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Industrial"
+    m_sBaseNameUpper "INDUSTRIAL"
+    m_aWhiteList {
+     "West Courchamps"
+     "Bussiares"
+    }
+    m_aWhiteListAntenna {
+     "West Courchamps"
+     "Bussiares"
+    }
+   }
+  }
+  coords 1325.741 87.703 7693.091
+  angles -1.565 155.113 -1.247
+ }
+ BaseBelleau {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Belleau"
+    m_sBaseNameUpper "BELLEAU"
+    m_sMapLocationName "Belleau"
+    m_aWhiteList {
+     "Belleau Wood"
+     "Bussiares"
+    }
+    m_aWhiteListAntenna {
+     "Belleau Wood"
+     "Bussiares"
+    }
+   }
+  }
+  coords 5592.988 120.913 6482.58
+  angles -0.621 93.863 -0.897
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 0 0
+    angles 0 -1 0
+   }
+  }
+ }
+ BaseLucyleBocage {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Lucy-le-Bocage"
+    m_sBaseNameUpper "LUCY-LE-BOCAGE"
+    m_sMapLocationName "Lucy-le-Bocage"
+    m_aWhiteList {
+     "Southeast Marigny"
+     "Belleau Wood"
+    }
+    m_aWhiteListAntenna {
+     "Southeast Marigny"
+     "Belleau Wood"
+    }
+   }
+  }
+  coords 4655.347 179.864 3533.331
+  angles 0.893 -176.547 -0.627
+ }
+}

@@ -1,3 +1,55 @@
 SCR_ChimeraCharacter : "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" {
  ID "200D264F0EEA1A28"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{397B6CBE56D21341}Prefabs/Weapons/Rifles/AK12/Variants/Rifle_AK12_EOTECH_SQUAD.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{AB898107D202B1F0}Prefabs/Characters/HeadGear/Helmets/Helmet_Altyn/Helmet_Altyn.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{08BA18A8B4B4A7CC}Prefabs/Characters/Uniforms/Jacket_Tracksuit/Jacket_Tracksuit_Black.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{7513BB41AE20C536}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_neck_arms_protection_black.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5DC8EE20E85B6BF9}Prefabs/Characters/Uniforms/Pants_Tracksuit/Pants_Tracksuit_Black.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{D2712ED8A9F3F605}Prefabs/Characters/Footwear/Shoes_ThreeStripe/Shoes_ThreeStripe_Black.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{035BA1DCD911D216}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_black_AK.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{A3CF1953F200089E}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01_Black.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173E6675BF7}" {
+     TargetStorage "Jacket/Jacket_Tracksuit_Black.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{54A68D64D7F9124F}" {
+     TargetStorage "Pants/Pants_Tracksuit_Black.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{62DEC638B985B3FE}Prefabs/Weapons/Magazines/545x39_AK12_30rnd/Magazine_545x39_AK12_30rnd_4AP_1Tracer_7N10_7T3.et" "{62DEC638B985B3FE}Prefabs/Weapons/Magazines/545x39_AK12_30rnd/Magazine_545x39_AK12_30rnd_4AP_1Tracer_7N10_7T3.et" "{62DEC638B985B3FE}Prefabs/Weapons/Magazines/545x39_AK12_30rnd/Magazine_545x39_AK12_30rnd_4AP_1Tracer_7N10_7T3.et" "{62DEC638B985B3FE}Prefabs/Weapons/Magazines/545x39_AK12_30rnd/Magazine_545x39_AK12_30rnd_4AP_1Tracer_7N10_7T3.et" "{62DEC638B985B3FE}Prefabs/Weapons/Magazines/545x39_AK12_30rnd/Magazine_545x39_AK12_30rnd_4AP_1Tracer_7N10_7T3.et" "{62DEC638B985B3FE}Prefabs/Weapons/Magazines/545x39_AK12_30rnd/Magazine_545x39_AK12_30rnd_4AP_1Tracer_7N10_7T3.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69CA78645A8D4CA2}" {
+     TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/radio/Pouch_Taktika_radioPouch_BLK.et"
+     PrefabsToSpawn {
+      "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+   }
+  }
+ }
 }

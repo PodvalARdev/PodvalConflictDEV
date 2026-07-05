@@ -1,0 +1,248 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseCoupru {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 0
+    m_sBaseName "Coupru"
+    m_sBaseNameUpper "COUPRU"
+    m_sMapLocationName "Coupru"
+    m_aWhiteList {
+     "Main Base Southwest"
+     "Triangle Farm"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Southwest"
+     "Triangle Farm"
+    }
+   }
+  }
+  coords 4313.393 165.976 733.447
+  angles 0.248 -128.446 0.394
+ }
+ BaseTriangleFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Triangle Farm"
+    m_sBaseNameUpper "TRIANGLE FARM"
+    m_sMapLocationName "Triangle"
+    m_aWhiteList {
+     "Coupru"
+     "North Vaux"
+    }
+    m_aWhiteListAntenna {
+     "Coupru"
+     "North Vaux"
+    }
+   }
+  }
+  coords 6919.97 179.357 2941.061
+  angles -1.844 -86.321 0.778
+ }
+ BaseFortDeVaux {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Fort De Vaux"
+    m_sBaseNameUpper "FORT DE VAUX"
+    m_sMapLocationName "Fortdevaux"
+    m_aWhiteList {
+     "North Vaux"
+     "Airfield South"
+    }
+    m_aWhiteListAntenna {
+     "North Vaux"
+     "Airfield South"
+    }
+   }
+  }
+  coords 10701.418 196.844 2028.132
+  angles 0 -77.61 0
+ }
+ BaseAirfieldSouth {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield South"
+    m_sBaseNameUpper "AIRFIELD SOUTH"
+    m_sMapLocationName "AirfieldSouth"
+    m_aWhiteList {
+     "Fort De Vaux"
+     "Le Verger Farm"
+    }
+    m_aWhiteListAntenna {
+     "Fort De Vaux"
+     "Le Verger Farm"
+    }
+   }
+  }
+  coords 10141.582 216.469 4311.145
+  angles 0 1.709 0
+ }
+ BaseEtrepilly {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Etrepilly"
+    m_sBaseNameUpper "ETREPILLY"
+    m_sMapLocationName "Etrepilly"
+    m_aWhiteList {
+     "Le Verger Farm"
+     "Fort Douay"
+    }
+    m_aWhiteListAntenna {
+     "Le Verger Farm"
+     "Fort Douay"
+    }
+   }
+  }
+  coords 9048.571 167.375 6607.788
+  angles 0 50.108 -1.466
+ }
+ BaseNorthVaux {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "North Vaux"
+    m_sBaseNameUpper "NORTH VAUX"
+    m_sMapLocationName "NorthVaux"
+    m_aWhiteList {
+     "Triangle Farm"
+     "Fort De Vaux"
+    }
+    m_aWhiteListAntenna {
+     "Triangle Farm"
+     "Fort De Vaux"
+    }
+   }
+  }
+  coords 9465.027 152.139 2907.001
+  angles 0 -176.91 0
+ }
+ BaseLeVergerFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Le Verger Farm"
+    m_sBaseNameUpper "LE VERGER FARM"
+    m_sMapLocationName "LeVergerFarm"
+    m_aWhiteList {
+     "Airfield South"
+     "Etrepilly"
+    }
+    m_aWhiteListAntenna {
+     "Airfield South"
+     "Etrepilly"
+    }
+   }
+  }
+  coords 10878.955 206.708 5894.66
+  angles 0 34.509 0
+ }
+ BaseFortDouay {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Fort Douay"
+    m_sBaseNameUpper "FORT DOUAY"
+    m_sMapLocationName "Fortdouay"
+    m_aWhiteList {
+     "Etrepilly"
+     "Monthiers"
+    }
+    m_aWhiteListAntenna {
+     "Etrepilly"
+     "Monthiers"
+    }
+   }
+  }
+  coords 8544.747 228.156 7690.651
+  angles 0 77.19 0
+ }
+ BaseMonthiers {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 0
+    m_sBaseName "Monthiers"
+    m_sBaseNameUpper "MONTHIERS"
+    m_sMapLocationName "Monthiers"
+    m_aWhiteList {
+     "Fort Douay"
+     "Main Base Northeast"
+    }
+    m_aWhiteListAntenna {
+     "Fort Douay"
+     "Main Base Northeast"
+    }
+   }
+  }
+  coords 6131.66 93.432 8734.971
+  angles -0.109 29.694 1.998
+ }
+}

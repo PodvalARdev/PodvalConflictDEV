@@ -1,0 +1,60 @@
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ MainBaseNorth {
+  components {
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 5000
+    m_iSuppliesMax 5000
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 2300
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Base North"
+    m_sBaseNameUpper "MAIN BASE NORTH"
+    m_sMapLocationName "LocationStPhillipe_Harbour"
+    m_aWhiteList {
+     "Tyrone"
+    }
+    m_aWhiteListAntenna {
+     "Tyrone"
+    }
+   }
+  }
+  coords 1348.337 63.77 6813.373
+  angles 0 -1.072 0
+ }
+ MainBaseSouth {
+  components {
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 5000
+    m_iSuppliesMax 5000
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 2300
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Base South"
+    m_sBaseNameUpper "MAIN BASE SOUTH"
+    m_sMapLocationName "LocationStPierre_Harbour"
+    m_aWhiteList {
+     "Quarry"
+    }
+    m_aWhiteListAntenna {
+     "Quarry"
+    }
+   }
+  }
+  coords 7074.136 96.656 1346.529
+  angles 0 -76.653 0
+ }
+}
