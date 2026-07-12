@@ -1,262 +1,252 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- TownBaseQuarry {
+ BaseKamyshovo {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
+      "Transmitting Range" 3000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Quarry"
-    m_sBaseNameUpper "QUARRY"
+    m_sBaseName "Kamyshovo"
+    m_sBaseNameUpper "KAMYSHOVO"
+    m_sMapLocationName "Kamyshovo"
     m_aWhiteList {
-     "Military"
-     "Main Base South"
+     "Tulga"
+     "Elektro"
     }
     m_aWhiteListAntenna {
-     "Military"
-     "Main Base South"
+     "Tulga"
+     "Elektro"
     }
    }
   }
-  coords 8794.174 196.594 3895.302
-  angles -0.091 -109.256 1.72
+  coords 6303.809 294.031 7785.021
+  angles 0 -25.479 0
  }
- TownBaseMilitary {
+ BaseCherno {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
+      "Transmitting Range" 3000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Military"
-    m_sBaseNameUpper "MILITARY"
+    m_sBaseName "Cherno"
+    m_sBaseNameUpper "CHERNO"
+    m_sMapLocationName "Cherno"
     m_aWhiteList {
-     "Simons Wood"
-     "Quarry"
+     "Elektro"
+     "Balota"
     }
     m_aWhiteListAntenna {
-     "Simons Wood"
-     "Quarry"
+     "Elektro"
+     "Balota"
     }
    }
   }
-  coords 7473.493 164.562 4311.818
-  angles 1.676 144.325 -0.398
+  coords 8495.804 348.123 6597.764
+  angles 0 129.527 0
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -0.081 0 -0.075
+    angles 0 1.656 0
+   }
+  }
  }
- TownBaseSimonsWood {
+ BaseBor {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
+      "Transmitting Range" 3000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Simons Wood"
-    m_sBaseNameUpper "SIMONS WOOD"
+    m_sBaseName "Bor"
+    m_sBaseNameUpper "BOR"
+    m_sMapLocationName "Bor"
     m_aWhiteList {
-     "Harbour"
-     "Military"
+     "Kamenka"
+     "Balota"
     }
     m_aWhiteListAntenna {
-     "Harbour"
-     "Military"
+     "Kamenka"
+     "Balota"
     }
    }
   }
-  coords 6136.118 114.429 5101.808
-  angles -1.706 -30.247 0.238
+  coords 11391.343 75.887 6658.754
+  angles 0 -37.3 0
  }
- TownBaseHarbour {
+ BaseSolnichniy {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
+      "Transmitting Range" 3000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Harbour"
-    m_sBaseNameUpper "HARBOUR"
+    m_sBaseName "Solnichniy"
+    m_sBaseNameUpper "SOLNICHNIY"
+    m_sMapLocationName "Solnichniy"
     m_aWhiteList {
-     "Sawmill"
-     "Simons Wood"
+     "Nizhnoye"
+     "Tulga"
     }
     m_aWhiteListAntenna {
-     "Sawmill"
-     "Simons Wood"
+     "Nizhnoye"
+     "Tulga"
     }
    }
   }
-  coords 4950.582 2.187 3873.78
-  angles -0.16 62.372 -1.715
+  coords 4107.69 353.687 11636.513
+  angles 0 -179.191 0
  }
- TownBaseSawmill {
+ BaseElektro {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
+      "Transmitting Range" 3000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Sawmill"
-    m_sBaseNameUpper "SAWMILL"
+    m_sBaseName "Elektro"
+    m_sBaseNameUpper "ELEKTRO"
+    m_sMapLocationName "Elektro"
     m_aWhiteList {
-     "Lamentin"
-     "Harbour"
+     "Kamyshovo"
+     "Cherno"
     }
     m_aWhiteListAntenna {
-     "Lamentin"
-     "Harbour"
+     "Kamyshovo"
+     "Cherno"
     }
    }
   }
-  coords 3106.77 118.649 5217.442
-  angles -0.16 62.372 -1.715
+  coords 7175.528 285.47 7661.929
+  angles 0 105.905 0
  }
- TownBaseLamentin {
+ BaseNizhnoye {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
      RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
+      "Transmitting Range" 3000
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Lamentin"
-    m_sBaseNameUpper "LAMENTIN"
-    m_aWhiteList {
-     "Villeneuf"
-     "Sawmill"
-    }
-    m_aWhiteListAntenna {
-     "Villeneuf"
-     "Sawmill"
-    }
-   }
-  }
-  coords 1290.885 37.574 6024.417
-  angles -0.16 62.372 -1.715
- }
- TownBaseVilleneuf {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Villeneuf"
-    m_sBaseNameUpper "VILLENEUF"
-    m_aWhiteList {
-     "Montignac"
-     "Lamentin"
-    }
-    m_aWhiteListAntenna {
-     "Montignac"
-     "Lamentin"
-    }
-   }
-  }
-  coords 2853.336 86.67 6346.425
-  angles -0.259 -103.654 1.703
- }
- TownBaseMontignac {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Montignac"
-    m_sBaseNameUpper "MONTIGNAC"
-    m_aWhiteList {
-     "Gravette"
-     "Villeneuf"
-    }
-    m_aWhiteListAntenna {
-     "Gravette"
-     "Villeneuf"
-    }
-   }
-  }
-  coords 4713.779 161.642 6982.298
-  angles -0.16 62.372 -1.715
- }
- TownBaseGravette {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Gravette"
-    m_sBaseNameUpper "GRAVETTE"
-    m_aWhiteList {
-     "Tyrone"
-     "Montignac"
-    }
-    m_aWhiteListAntenna {
-     "Tyrone"
-     "Montignac"
-    }
-   }
-  }
-  coords 4153.427 39.606 7757.718
-  angles -0.16 62.372 -1.715
- }
- TownBaseTyrone {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Tyrone"
-    m_sBaseNameUpper "TYRONE"
+    m_sBaseName "Nizhnoye"
+    m_sBaseNameUpper "NIZHNOYE"
+    m_sMapLocationName "Nizhnoye"
     m_aWhiteList {
      "Main Base North"
-     "Gravette"
+     "Solnichniy"
     }
     m_aWhiteListAntenna {
      "Main Base North"
-     "Gravette"
+     "Solnichniy"
     }
    }
   }
-  coords 4886.518 35.422 9113.516
-  angles 1.379 120.873 -1.032
+  coords 3591.175 187.154 12895.624
+  angles 0 138.756 0
+ }
+ BaseKamenka {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Kamenka"
+    m_sBaseNameUpper "KAMENKA"
+    m_sMapLocationName "Kamenka"
+    m_aWhiteList {
+     "Main Base South"
+     "Bor"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South"
+     "Bor"
+    }
+   }
+  }
+  coords 9738.843 283.669 9019.054
+  angles 0 93.164 0
+ }
+ BaseTulga {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Tulga"
+    m_sBaseNameUpper "TULGA"
+    m_sMapLocationName "Tulga"
+    m_aWhiteList {
+     "Solnichniy"
+     "Kamyshovo"
+    }
+    m_aWhiteListAntenna {
+     "Solnichniy"
+     "Kamyshovo"
+    }
+   }
+  }
+  coords 4955.168 327.405 9724.635
+  angles 0 20.859 0
+ }
+ BaseBalota {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Balota"
+    m_sBaseNameUpper "BALOTA"
+    m_sMapLocationName "Balota"
+    m_aWhiteList {
+     "Cherno"
+     "Kamenka"
+    }
+    m_aWhiteListAntenna {
+     "Cherno"
+     "Kamenka"
+    }
+   }
+  }
+  coords 10074.55 236.533 5446.074
+  angles 0 -167.948 0
  }
 }

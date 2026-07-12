@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{FEC3063DF47790CA}Worlds/Rostov/RostovConflict/RostovConflict.ent"
+ Name "{162084238505179F}Worlds/Luna/LunaAAS.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -12,6 +12,8 @@ MetaFileClass {
   ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
+  }
+  ENTResourceClass Xbox : PC {
   }
  }
 }

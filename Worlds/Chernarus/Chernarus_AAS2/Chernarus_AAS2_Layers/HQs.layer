@@ -1,36 +1,4 @@
 $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
- MainBaseNorth {
-  components {
-   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
-    m_iSupplies 5000
-    m_iSuppliesMax 5000
-   }
-   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
-    Transceivers {
-     RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 5000
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_bCanBeHQ 1
-    m_sBaseName "Main Base North"
-    m_sBaseNameUpper "MAIN BASE NORTH"
-    m_aWhiteList {
-     "Mayaki"
-     "Powerplant"
-     "Military Base"
-    }
-    m_aWhiteListAntenna {
-     "Mayaki"
-     "Powerplant"
-     "Military Base"
-    }
-   }
-  }
-  coords 5700.042 188.323 7123.198
-  angles -0.743 -175.209 -1.858
- }
  MainBaseSouth {
   components {
    SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
@@ -40,27 +8,53 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 5000
+      "Transmitting Range" 3000
      }
     }
+    m_bIsSource 1
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
     m_sBaseName "Main Base South"
     m_sBaseNameUpper "MAIN BASE SOUTH"
     m_aWhiteList {
-     "Lumber"
-     "Southern Farm"
-     "Chernihiv"
+     "Kamenka"
     }
     m_aWhiteListAntenna {
-     "Lumber"
-     "Southern Farm"
-     "Chernihiv"
+     "Kamenka"
     }
    }
   }
-  coords 5310.908 159.258 393.861
-  angles 0 -105 0
+  coords 8791.561 197.186 11785.732
+  angles 0 1.247 0
+ }
+ MainBaseNorth {
+  components {
+   SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
+    m_iSupplies 5000
+    m_iSuppliesMax 5000
+   }
+   SCR_CoverageRadioComponent "{621EB97024DABABA}" {
+    Transceivers {
+     RelayTransceiver "{621EB97024DABAB8}" {
+      "Transmitting Range" 3000
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_bCanBeHQ 1
+    m_sBaseName "Main Base North"
+    m_sBaseNameUpper "MAIN BASE NORTH"
+    m_aWhiteList {
+     "Nizhnoye"
+    }
+    m_aWhiteListAntenna {
+     "Nizhnoye"
+    }
+   }
+  }
+  coords 1550.004 436.763 14935.545
+  angles 0 -173.535 0
  }
 }

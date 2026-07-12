@@ -4,7 +4,7 @@ RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
     m_aAutoLabels + {
-     VEHICLE_TANK
+     CAMO_RHS_Olive
     }
    }
   }

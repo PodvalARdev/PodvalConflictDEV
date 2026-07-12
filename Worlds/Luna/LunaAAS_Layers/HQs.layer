@@ -18,15 +18,13 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_sBaseNameUpper "MAIN BASE NORTHEAST"
     m_aWhiteList {
      "Crossroads"
-     "Udarnik"
     }
     m_aWhiteListAntenna {
      "Crossroads"
-     "Udarnik"
     }
    }
   }
-  coords 2635.328 24.217 5409.823
+  coords 6986.739 687.571 7506.183
   angles 0 -120 0
  }
  MainBaseSoutheast {
@@ -57,7 +55,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     }
    }
   }
-  coords 10995.92 105.317 10413.396
+  coords 648.554 819.971 165.976
   angles 0.382 -16.415 1.297
  }
 }
