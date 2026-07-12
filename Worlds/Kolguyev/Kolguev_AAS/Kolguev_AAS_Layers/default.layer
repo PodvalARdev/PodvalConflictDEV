@@ -27,7 +27,7 @@ RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/Radio
  coords 2884.968 91.924 6293.253
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 2840.975 45.912 5715.66
+ coords 2494.895 24.215 5456.761
 }
 SCR_MapLocator {
  coords 10434.78 0 1142.689
@@ -39,6 +39,6 @@ BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Ga
 }
 MusicManager MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
 }
-SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 2790.067 36.085 5721.819
+SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ coords 2483.778 24.223 5477.265
 }
