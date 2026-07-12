@@ -1,5 +1,8 @@
-SCR_AIWorld SCR_AIWorld_Serhiivka {
+SCR_AIWorld SCR_AIWorld_Serhiivka : "{1B639CA56FCAC6EC}Prefabs/AI/SCR_AIWorld_Serhiivka.et" {
  coords 3969.982 118.874 3971.863
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{130806924CFFDA55}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 5120.403 135.662 5149.811
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 3969.982 118.877 3969.863
@@ -23,15 +26,12 @@ ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity
 RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
  coords 3969.982 118.816 3974.863
 }
-SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 5120.396 148.293 5134.793
-}
 BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 3969.982 118.816 3974.863
 }
-SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 5120.468 148.362 5134.859
-}
 MusicManager MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
  coords 3969.982 118.816 3974.863
+}
+SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
+ coords 5124.006 135.663 5150.804
 }

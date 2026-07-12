@@ -1,16 +1,12 @@
-SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
- coords 28.773 -1.774 13.794
-}
-PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
- coords 4926.701 34.279 10717.344
+SCR_AIWorld SCR_AIWorld_Rostov {
+ coords 3969.982 118.874 3971.863
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{130806924CFFDA55}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 5566.532 114.244 11667.443
+ coords 3984.867 129.821 3932.548
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
- coords 26.726 0 10.962
- m_iControlPointsThreshold 9
- m_fVictoryTimer 300
+ coords 3969.982 118.877 3969.863
+ m_iControlPointsThreshold 6
  m_iSuppliesReplenishThreshold 0
  m_iQuickSuppliesReplenishThreshold 5000
  m_iSuppliesArrivalInterval 30
@@ -24,18 +20,23 @@ SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Con
  m_bSuppliesAutoRegenerationEnabled 1
 }
 ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
- coords 20.291 0 5.837
+ coords 3969.982 118.816 3974.863
 }
 RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
- coords 2884.968 91.924 6293.253
+ coords 3969.982 118.816 3974.863
 }
-SCR_MapLocator {
- coords 10434.78 0 1142.689
- m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
+ItemPreviewManagerEntity ItemPreviewManagerEntity {
+ coords 9215.633 1.917 7887.168
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{6244DC984DF5E2FC}" {
  }
 }
-MusicManager MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
+BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 3969.982 118.816 3974.863
+}
+MusicManager MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
+ coords 3969.982 118.816 3974.863
 }
 SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 5601.536 109.443 11548.154
+ coords 3985.53 129.521 3932.505
 }

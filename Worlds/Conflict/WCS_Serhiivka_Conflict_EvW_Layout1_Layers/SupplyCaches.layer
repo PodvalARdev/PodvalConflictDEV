@@ -1,7 +1,7 @@
 $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
- SupplyMilitaryBase {
-  coords 5647.478 305.819 9427.211
-  angles 1.729 105.007 0.463
+ SupplySouthTown {
+  coords 4909.964 155.153 4360.104
+  angles 0 66.54 0
   {
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 0 0 0
@@ -23,9 +23,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
    }
   }
  }
- SupplyCoastal {
-  coords 7810.32 424.422 9663.285
-  angles -7.209 -27.105 -4.293
+ SupplyNorthTown {
+  coords 5271.39 154.427 5603.308
+  angles 0 -140.854 0
   {
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 0 0 0
@@ -47,9 +47,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
    }
   }
  }
- SupplyNE {
-  coords 4918.011 171.056 12938.813
-  angles -1.434 126.898 3.396
+ SupplyWestTown {
+  coords 4164.692 133.175 4909.896
+  angles 0 128.334 -1.296
   {
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 0 0 0
@@ -71,9 +71,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
    }
   }
  }
- SupplyNorthCherno {
-  coords 8678.532 338.274 7111.008
-  angles 5.055 47.686 13.252
+ SupplyTrench {
+  coords 4155.458 183.384 7010.788
+  angles 0 175.02 0
   {
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 0 0 0
@@ -95,9 +95,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
    }
   }
  }
- SupplyNorthGug {
-  coords 9241.364 284.236 5753.048
-  angles 5.345 65.353 7.317
+ SupplySouth {
+  coords 7674.547 178.454 2904.941
+  angles 0 171.624 0
   {
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 0 0 0
@@ -119,9 +119,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
    }
   }
  }
- SupplyPusta {
-  coords 7306.885 252.593 5940.956
-  angles -5.956 158.93 -0.572
+ SupplySwamp {
+  coords 5184.377 142.062 5276.252
+  angles 0 -135 0
   {
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 0 0 0
@@ -143,81 +143,9 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
    }
   }
  }
- SupplyN {
-  coords 4908.014 228.331 11907.036
-  angles 0.565 57.884 -2.467
-  {
-   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
-    coords 0 0 0
-    {
-     GenericEntity {
-      ID "5D45393876460D01"
-      components {
-       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-        m_aContainers {
-         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-          m_bEnableResourceGain 1
-          m_fResourceGainTickrate 600
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- SupplyGreenMountain {
-  coords 6835.055 345.624 8596.1
-  angles -1.164 21.877 0.497
-  {
-   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
-    coords 0 0 0
-    {
-     GenericEntity {
-      ID "5D45393876460D01"
-      components {
-       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-        m_aContainers {
-         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-          m_bEnableResourceGain 1
-          m_fResourceGainTickrate 600
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- SupplyNorthBalota {
-  coords 6478.808 358.699 6636.25
-  angles -1.698 71.579 -2.263
-  {
-   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
-    coords 0 0 0
-    {
-     GenericEntity {
-      ID "5D45393876460D01"
-      components {
-       SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
-        m_aContainers {
-         SCR_ResourceContainerVirtual "{5D8AA552C6324D54}" {
-          m_bEnableResourceGain 1
-          m_fResourceGainTickrate 600
-         }
-        }
-       }
-      }
-     }
-    }
-   }
-  }
- }
- SupplyVyshnoye {
-  coords 2702.523 269.156 10127.464
-  angles 1.145 121.931 4.92
+ SupplyNorth {
+  coords 5853.082 180.038 9522.351
+  angles 0 -165.824 0
   {
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 0 0 0

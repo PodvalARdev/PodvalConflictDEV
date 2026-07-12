@@ -26,7 +26,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     }
    }
   }
-  coords 11004.463 104.444 10416.733
+  coords 12076.975 2.187 10439.042
   angles 0 -174.54 0
  }
  MainBaseSouth {
@@ -56,7 +56,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     }
    }
   }
-  coords 2652.73 24.219 5414.069
+  coords 2636.799 24.219 5409.962
   angles 0 60 0
  }
 }
