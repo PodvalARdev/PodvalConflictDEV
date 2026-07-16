@@ -1,31 +1,4 @@
 $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
- TownBaseDurras {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Durras"
-    m_sBaseNameUpper "DURRAS"
-    m_sMapLocationName "Durras"
-    m_aWhiteList {
-     "Main Base South"
-     "Quarry"
-    }
-    m_aWhiteListAntenna {
-     "Main Base South"
-     "Quarry"
-    }
-   }
-  }
-  coords 8232.573 322.188 2035.747
-  angles -1.405 -57.638 0.996
- }
  TownBaseQuarry {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
@@ -39,21 +12,20 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsControlPoint 1
     m_sBaseName "Quarry"
     m_sBaseNameUpper "QUARRY"
-    m_sMapLocationName "Quarry"
     m_aWhiteList {
-     "Durras"
-     "Military Base"
+     "Military"
+     "Main Base South"
     }
     m_aWhiteListAntenna {
-     "Durras"
-     "Military Base"
+     "Military"
+     "Main Base South"
     }
    }
   }
-  coords 8492.201 482.195 3791.87
-  angles -0.507 -95.186 1.646
+  coords 8916.489 490.772 4135.828
+  angles -1.597 -44.292 0.645
  }
- TownBaseLevieMilitaryBase {
+ TownBaseMilitary {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
@@ -64,21 +36,20 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Military Base"
-    m_sBaseNameUpper "MILITARY BASE"
-    m_sMapLocationName "Military"
+    m_sBaseName "Military"
+    m_sBaseNameUpper "MILITARY"
     m_aWhiteList {
-     "Quarry"
      "Simons Wood"
+     "Quarry"
     }
     m_aWhiteListAntenna {
-     "Quarry"
      "Simons Wood"
+     "Quarry"
     }
    }
   }
-  coords 8867.718 299.394 5175.565
-  angles -0.16 62.372 -1.715
+  coords 6997.99 353.57 4971.997
+  angles -1.377 14.621 -1.035
  }
  TownBaseSimonsWood {
   components {
@@ -93,21 +64,20 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsControlPoint 1
     m_sBaseName "Simons Wood"
     m_sBaseNameUpper "SIMONS WOOD"
-    m_sMapLocationName "Simons Wood"
     m_aWhiteList {
-     "Military Base"
-     "Provins"
+     "Harbour"
+     "Military"
     }
     m_aWhiteListAntenna {
-     "Military Base"
-     "Provins"
+     "Harbour"
+     "Military"
     }
    }
   }
-  coords 6863 328.8 6041.052
-  angles -1.638 -40.269 0.531
+  coords 6091.808 329.885 5692.119
+  angles 1.178 -155.446 1.257
  }
- TownBaseProvins {
+ TownBaseHarbour {
   components {
    SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
     Transceivers {
@@ -118,21 +88,98 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Provins"
-    m_sBaseNameUpper "PROVINS"
-    m_sMapLocationName "Provins"
+    m_sBaseName "Harbour"
+    m_sBaseNameUpper "HARBOUR"
     m_aWhiteList {
+     "Sawmill"
      "Simons Wood"
-     "Industrial"
     }
     m_aWhiteListAntenna {
+     "Sawmill"
      "Simons Wood"
-     "Industrial"
     }
    }
   }
-  coords 5244.556 171.625 6125.741
-  angles -1.254 20.975 -1.181
+  coords 5261.353 171.606 6126.578
+  angles -0.328 -101.335 1.691
+ }
+ TownBaseSawmill {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Sawmill"
+    m_sBaseNameUpper "SAWMILL"
+    m_aWhiteList {
+     "Lamentin"
+     "Harbour"
+    }
+    m_aWhiteListAntenna {
+     "Lamentin"
+     "Harbour"
+    }
+   }
+  }
+  coords 5095.739 327.219 6950.334
+  angles 1.634 139.258 -0.545
+ }
+ TownBaseLamentin {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Lamentin"
+    m_sBaseNameUpper "LAMENTIN"
+    m_aWhiteList {
+     "Villeneuf"
+     "Sawmill"
+    }
+    m_aWhiteListAntenna {
+     "Villeneuf"
+     "Sawmill"
+    }
+   }
+  }
+  coords 6050.937 144.001 7635.283
+  angles -1.095 -72.845 1.33
+ }
+ TownBaseVilleneuf {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Villeneuf"
+    m_sBaseNameUpper "VILLENEUF"
+    m_aWhiteList {
+     "Montignac"
+     "Lamentin"
+    }
+    m_aWhiteListAntenna {
+     "Montignac"
+     "Lamentin"
+    }
+   }
+  }
+  coords 5715.621 108.219 8985.754
+  angles 1.276 -160.072 1.158
  }
  TownBaseMontignac {
   components {
@@ -145,21 +192,20 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
    SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
     m_bIsControlPoint 1
-    m_sBaseName "Industrial"
-    m_sBaseNameUpper "INDUSTRIAL"
-    m_sMapLocationName "Industrial"
+    m_sBaseName "Montignac"
+    m_sBaseNameUpper "MONTIGNAC"
     m_aWhiteList {
-     "Provins"
      "Gravette"
+     "Villeneuf"
     }
     m_aWhiteListAntenna {
-     "Provins"
      "Gravette"
+     "Villeneuf"
     }
    }
   }
-  coords 6020.167 154.722 7177.467
-  angles 1.582 -179.01 0.681
+  coords 4732.128 159.34 9503.845
+  angles -1.697 -32.251 0.298
  }
  TownBaseGravette {
   components {
@@ -174,19 +220,18 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsControlPoint 1
     m_sBaseName "Gravette"
     m_sBaseNameUpper "GRAVETTE"
-    m_sMapLocationName "Gravette"
     m_aWhiteList {
-     "Industrial"
      "Tyrone"
+     "Montignac"
     }
     m_aWhiteListAntenna {
-     "Industrial"
      "Tyrone"
+     "Montignac"
     }
    }
   }
-  coords 5732.883 121.864 8803.039
-  angles -1.508 -51.22 0.833
+  coords 5821.341 100.625 10051.407
+  angles -0.961 -78.399 1.429
  }
  TownBaseTyrone {
   components {
@@ -201,45 +246,17 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bIsControlPoint 1
     m_sBaseName "Tyrone"
     m_sBaseNameUpper "TYRONE"
-    m_sMapLocationName "Tyrone"
     m_aWhiteList {
+     "Main Base North"
      "Gravette"
-     "Factory"
     }
     m_aWhiteListAntenna {
+     "Main Base North"
      "Gravette"
-     "Factory"
     }
    }
   }
-  coords 4735.915 159.44 9515.183
-  angles 1.496 128.004 -0.853
- }
- TownBaseSTPhillipe {
-  components {
-   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
-    Transceivers {
-     RelayTransceiver "{5C669673E8C94083}" {
-      "Transmitting Range" 2000
-     }
-    }
-   }
-   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
-    m_bIsControlPoint 1
-    m_sBaseName "Factory"
-    m_sBaseNameUpper "FACTORY"
-    m_sMapLocationName "Factory"
-    m_aWhiteList {
-     "Tyrone"
-     "Main Base North"
-    }
-    m_aWhiteListAntenna {
-     "Tyrone"
-     "Main Base North"
-    }
-   }
-  }
-  coords 6053.56 109.312 11735.148
-  angles 1.058 -150.174 1.36
+  coords 5376.585 109.313 11051.912
+  angles 1.595 135.517 -0.65
  }
 }

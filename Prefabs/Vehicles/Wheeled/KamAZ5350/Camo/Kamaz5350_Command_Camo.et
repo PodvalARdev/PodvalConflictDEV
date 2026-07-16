@@ -1,0 +1,15 @@
+Vehicle : "{D56EACD690688649}Prefabs/Vehicles/Wheeled/KamAZ5350/Green/Kamaz5350_Command.et" {
+ ID "61CB56EF914D1814"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{69DAE5BA5A508221}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+   }
+  }
+ }
+}

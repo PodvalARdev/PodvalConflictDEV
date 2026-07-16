@@ -12,8 +12,6 @@ Vehicle : "{CD4737303AA14C6D}Prefabs/Vehicles/Wheeled/TIGR/KORD/GAZ_TIGR_v2_KORD
       m_Value 700
      }
      SCR_EntityBudgetValue "{61B3396B66A62BA8}" {
-      m_BudgetType RANK_SERGEANT
-      m_Value 3
      }
     }
    }

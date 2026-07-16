@@ -4,9 +4,6 @@ SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 4926.701 34.279 10717.344
 }
-SCR_CampaignFactionManager CampaignFactionManager1 : "{130806924CFFDA55}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 11014.844 102.729 10436.591
-}
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 26.726 0 10.962
  m_iControlPointsThreshold 8
@@ -29,27 +26,9 @@ ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity
 RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
  coords 2884.968 91.924 6293.253
 }
-<<<<<<< HEAD
 SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 2494.895 24.215 5456.761
+ coords 2529.644 25.776 5514.786
 }
-=======
->>>>>>> parent of 21c43ff (Last Changes)
-SCR_MapLocator {
- coords 10434.78 0 1142.689
- m_WorldDirections SCR_MapLocationQuadHint "{5AAA8B37D1168EEB}" : "{ABA21F381437DFE8}Configs/Map/MapLocatorHints/LocationHintsEveron.conf" {
- }
-}
-BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
- coords 27.209 0 10.918
-}
-MusicManager MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Campaign.et" {
-}
-<<<<<<< HEAD
-SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
- coords 2483.778 24.223 5477.265
-=======
-SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 11009.246 103.14 10427.85
->>>>>>> parent of 21c43ff (Last Changes)
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 2582.417 21.277 5632.445
 }

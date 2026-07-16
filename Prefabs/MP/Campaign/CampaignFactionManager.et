@@ -1,6 +1,28 @@
 SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
  ID "50A6CDA4F7C1474A"
  Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C9E82F285C09E24}" : "{3DFE09221FE6C96E}Configs/EntityCatalog/USSR/WCS_Vehicles_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" : "{AC11437A0841F0C2}Configs/EntityCatalog/USSR/WCS_InventoryItems_EntityCatalog_USSR.conf" {
+    }
+   }
+   m_aStartingVehicles {
+    "{CE4BB0D5134151AB}Prefabs/Vehicles/Wheeled/KamAZ5350/Camo/Kamaz5350_Transport_Camo.et" "{CE4BB0D5134151AB}Prefabs/Vehicles/Wheeled/KamAZ5350/Camo/Kamaz5350_Transport_Camo.et" "{D895470B08B655EF}Prefabs/Vehicles/Wheeled/vaz_2109/vaz_2109_baltic.et" "{BA5F6733AA7AC3E1}Prefabs/Vehicles/Wheeled/vaz_2109/vaz_2109_cherry.et" "{E6C08F22CB673454}Prefabs/Vehicles/Wheeled/vaz_2109/vaz_2109_Onyx.et"
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" : "{DC9D3ABD53D79849}Configs/EntityCatalog/US/WCS_Vehicles_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{38B652747BC64334}Configs/EntityCatalog/US/WCS_InventoryItems_EntityCatalog_US.conf" {
+    }
+   }
+   m_aStartingVehicles {
+    "{45117DD549207A77}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et" "{45117DD549207A77}Prefabs/Vehicles/Wheeled/M1083/M1083_Transport_Woodland.et" "{03708F7E58BB7A55}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" "{03708F7E58BB7A55}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et"
+   }
+  }
   SCR_CampaignFaction "{56F0C3A6336375DC}" {
    m_bIsPlayable 0
   }

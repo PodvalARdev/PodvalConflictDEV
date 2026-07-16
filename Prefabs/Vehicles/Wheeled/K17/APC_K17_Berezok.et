@@ -1,0 +1,89 @@
+Vehicle : "{8C271634056DAD5A}Prefabs/Vehicles/Wheeled/K17/APC_K17_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  RHS_GroupMaterialController "{5E356B92D417DC07}" {
+   m_iMaxAllowedDepth 3
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#RHS-Vehicle_K17_Berezok_Name"
+    m_Image "{24B582F225954B89}UI/Textures/EditorPreviews/Vehicles/K17/Vehicle_K17_Berezhok_green.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE TRAIT_ARMOR TRAIT_ARMED TRAIT_AMPHIBIOUS TRAIT_PASSENGERS_LARGE TRAIT_SUPPLYSTORAGE_SMALL
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2200
+     }
+     SCR_EntityBudgetValue "{650E8E075C071980}" {
+      m_BudgetType RANK_LIEUTENANT
+     }
+    }
+    m_aOccupantFillCompartmentTypes {
+     TURRET
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5C622D568A9046CD}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5584C42C773FDFBF}" {
+      m_sWreckModel "{97B05698391F3480}Assets/Vehicles/Wheeled/K17bumerang/K17_Wreck_berezhok.xob"
+     }
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    InertiaOverrideEnabled 1
+    InertiaOverride 240927.359 241813.844 80686.344
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo commander_controls {
+     Offset 0 0 0.0239
+    }
+    RegisteringComponentSlotInfo pmf_commander_top {
+     Offset -0.0801 0.1074 -0.0172
+    }
+    RegisteringComponentSlotInfo pmf_commander_bottom {
+     Offset -0.0105 0.1273 -0.0197
+     Angles 0 0 -3.8174
+    }
+    RegisteringComponentSlotInfo Turret {
+     MergePhysics 1
+     Prefab "{78E9F4C87A36268F}Prefabs/Vehicles/Wheeled/K17/VehParts/Turrets/Turret_K17_Berezok.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+     RegisterLights 1
+    }
+    EntitySlotInfo Antenna {
+     Enabled 0
+     Prefab "{D0FE81F6A4C01B82}Prefabs/Vehicles/Wheeled/K17/VehParts/Attachments/Attachment_K17_Antennas.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5C622D51E1C7EADB}" {
+     Position PointInfo "{5C622D51EC84ED04}" {
+      PivotID ""
+      Offset -0.116 1.543 -4.6101
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+}

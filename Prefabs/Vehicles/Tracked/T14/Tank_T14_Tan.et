@@ -1,0 +1,114 @@
+RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
+ ID "5CDE8068D49AAEBB"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E9EC4895FDA7FE1}" {
+     SourceMaterial "hull1"
+     AssignedMaterial "{ED8C79E6DAC42FE5}Assets/Vehicles/Tracked/T14/data/T14_hull1_Tan.emat"
+    }
+    MaterialAssignClass "{5E9EC4895FDA7FF9}" {
+     SourceMaterial "hull2"
+     AssignedMaterial "{5F5B3B0D85661C7D}Assets/Vehicles/Tracked/T14/data/T14_hull2_Tan.emat"
+    }
+    MaterialAssignClass "{69DE5211CA3C1307}" {
+     SourceMaterial "armor"
+     AssignedMaterial "{A9A0E3017D3697C3}Assets/Vehicles/Tracked/T14/data/T14_armor_Tan.emat"
+    }
+    MaterialAssignClass "{69DE5211CA3C130C}" {
+     SourceMaterial "wheels"
+     AssignedMaterial "{002C0D7876073FDE}Assets/Vehicles/Tracked/T14/data/T14_wheels_Tan.emat"
+    }
+    MaterialAssignClass "{69DE5211CA3C130F}" {
+     SourceMaterial "grill"
+     AssignedMaterial "{9149EF9C23DCC2E2}Assets/Vehicles/Tracked/T14/data/T14_Grill_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#WCS-Vehicle_T14_tan_Name"
+    m_Image "{409C0CABEC6CD691}UI/Textures/EditorPreviews/Vehicles/Tracked/T14/Tank_T14_Tan.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{46880A7D6574653B}Prefabs/Vehicles/Tracked/T14/VehParts/Turret/T14_Turret_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_1_left {
+     Prefab "{54C6091E74E0C96A}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_L01_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_2_left {
+     Prefab "{7EE22EBD820EAF45}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_L02_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_3_left {
+     Prefab "{A6AE6C85B70D60D1}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_L03_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_4_left {
+     Prefab "{2AAA61FA6FD2631B}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_L04_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_5_left {
+     Prefab "{F2E623C25AD1AC8F}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_L05_Tan.et"
+    }
+    RegisteringComponentSlotInfo skirt_left {
+     Prefab "{F46E40E73EC71715}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/T14_skirt_l_Tan.et"
+    }
+    RegisteringComponentSlotInfo cage_1_left {
+     Prefab "{A7E507D5B54A8ED6}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Tan/WCS_T14_NERA_Cage_L01_Tan.et"
+    }
+    RegisteringComponentSlotInfo cage_2_left {
+     Prefab "{8DC1207643A4E8F9}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Tan/WCS_T14_NERA_Cage_L02_Tan.et"
+    }
+    RegisteringComponentSlotInfo cage_2_right {
+     Prefab "{A64A347F421A9DC6}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Tan/WCS_T14_NERA_Cage_R01_Tan.et"
+    }
+    RegisteringComponentSlotInfo cage_1_right {
+     Prefab "{8C6E13DCB4F4FBE9}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Tan/WCS_T14_NERA_Cage_R02_Tan.et"
+    }
+    RegisteringComponentSlotInfo skirt_right {
+     Prefab "{B3F7D354CD82DCA0}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/T14_skirt_r_Tan_2.et"
+    }
+    RegisteringComponentSlotInfo era_5_right {
+     Prefab "{F3491068AD81BF9F}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_R05_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_4_right {
+     Prefab "{2B0552509882700B}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_R04_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_3_right {
+     Prefab "{A7015F2F405D73C1}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_R03_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_2_right {
+     Prefab "{7F4D1D17755EBC55}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_R02_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_1_right {
+     Prefab "{55693AB483B0DA7A}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_R01_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front {
+     Prefab "{36794D835E6EBA26}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_Front_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front1 {
+     Prefab "{95F347214176D5EB}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_F01_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front2 {
+     Prefab "{BFD76082B798B3C4}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_F02_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front3 {
+     Prefab "{679B22BA829B7C50}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_F03_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front4 {
+     Prefab "{EB9F2FC55A447F9A}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_F04_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front5 {
+     Prefab "{33D36DFD6F47B00E}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_F05_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front6 {
+     Prefab "{19F74A5E99A9D621}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_F06_Tan.et"
+    }
+    RegisteringComponentSlotInfo era_front7 {
+     Prefab "{C1BB0866ACAA19B5}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Tan/WCS_T14_ERA_Block_F07_Tan.et"
+    }
+   }
+  }
+ }
+}

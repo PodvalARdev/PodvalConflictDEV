@@ -1,0 +1,245 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ TownBaseDurras {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Durras"
+    m_sBaseNameUpper "DURRAS"
+    m_sMapLocationName "Durras"
+    m_aWhiteList {
+     "Main Base South"
+     "Quarry"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South"
+     "Quarry"
+    }
+   }
+  }
+  coords 2032.093 43.254 289.393
+  angles 1.722 156.744 -0.029
+ }
+ TownBaseQuarry {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Quarry"
+    m_sBaseNameUpper "QUARRY"
+    m_sMapLocationName "Quarry"
+    m_aWhiteList {
+     "Durras"
+     "Military Base"
+    }
+    m_aWhiteListAntenna {
+     "Durras"
+     "Military Base"
+    }
+   }
+  }
+  coords 987.343 40.094 722.543
+  angles -1.627 -3.101 -0.566
+ }
+ TownBaseLevieMilitaryBase {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Military Base"
+    m_sBaseNameUpper "MILITARY BASE"
+    m_sMapLocationName "Military"
+    m_aWhiteList {
+     "Quarry"
+     "Simons Wood"
+    }
+    m_aWhiteListAntenna {
+     "Quarry"
+     "Simons Wood"
+    }
+   }
+  }
+  coords 165.9 30.969 417.599
+  angles -1.673 -36.088 0.41
+ }
+ TownBaseSimonsWood {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Simons Wood"
+    m_sBaseNameUpper "SIMONS WOOD"
+    m_sMapLocationName "Simons Wood"
+    m_aWhiteList {
+     "Military Base"
+     "Provins"
+    }
+    m_aWhiteListAntenna {
+     "Military Base"
+     "Provins"
+    }
+   }
+  }
+  coords 142.836 19.287 2037.526
+  angles 1.721 159.229 0.046
+ }
+ TownBaseProvins {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Provins"
+    m_sBaseNameUpper "PROVINS"
+    m_sMapLocationName "Provins"
+    m_aWhiteList {
+     "Simons Wood"
+     "Industrial"
+    }
+    m_aWhiteListAntenna {
+     "Simons Wood"
+     "Industrial"
+    }
+   }
+  }
+  coords 2182.049 62.687 1845.214
+  angles 0.697 -136.179 1.575
+ }
+ BaseIndustrial {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Industrial"
+    m_sBaseNameUpper "INDUSTRIAL"
+    m_sMapLocationName "Industrial"
+    m_aWhiteList {
+     "Provins"
+     "Gravette"
+    }
+    m_aWhiteListAntenna {
+     "Provins"
+     "Gravette"
+    }
+   }
+  }
+  coords 2861.08 60 2572.759
+  angles -1.587 -45.169 0.669
+ }
+ TownBaseGravette {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Gravette"
+    m_sBaseNameUpper "GRAVETTE"
+    m_sMapLocationName "Gravette"
+    m_aWhiteList {
+     "Industrial"
+     "Tyrone"
+    }
+    m_aWhiteListAntenna {
+     "Industrial"
+     "Tyrone"
+    }
+   }
+  }
+  coords 3636.517 51.75 3592.467
+  angles -1.603 -0.781 -0.632
+ }
+ TownBaseTyrone {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Tyrone"
+    m_sBaseNameUpper "TYRONE"
+    m_sMapLocationName "Tyrone"
+    m_aWhiteList {
+     "Gravette"
+     "Factory"
+    }
+    m_aWhiteListAntenna {
+     "Gravette"
+     "Factory"
+    }
+   }
+  }
+  coords 2736.75 14.259 4408.857
+  angles 1.717 162.052 0.131
+ }
+ BaseFactory {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Factory"
+    m_sBaseNameUpper "FACTORY"
+    m_sMapLocationName "Factory"
+    m_aWhiteList {
+     "Tyrone"
+     "Main Base North"
+    }
+    m_aWhiteListAntenna {
+     "Tyrone"
+     "Main Base North"
+    }
+   }
+  }
+  coords 1530.565 16.965 3657.562
+  angles 1.596 135.596 -0.648
+ }
+}

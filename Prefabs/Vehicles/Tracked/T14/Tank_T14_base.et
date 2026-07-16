@@ -1,0 +1,563 @@
+RHS_Tank : "{B744E85A9CE90F7D}Prefabs/Vehicles/Tracked/T14/Tank_T14_base.et" {
+ ID "5CDE8068D49AAEBB"
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   LightSlots {
+    SCR_LightSlot "{605D479EA9EB2F7E}" {
+     LightPositionInfo EntitySlotInfo int_light {
+      Offset 0.1599 1.5132 2.1707
+     }
+    }
+   }
+  }
+  RHS_APSV2Component "{698B329A071F60CF}" {
+   m_bSoftkillEnabled 0
+   m_rSmokePrefab "{390F422A87172A7C}Prefabs/Weapons/Ammo/Ammo_Smoke_Tucha.et"
+   m_fHardkillMaxElevation 10
+  }
+  RHS_ESSv2Component "{69C346D57428F7F7}" {
+   Enabled 0
+  }
+  RHS_FireSuppressionManagerV2 "{69C346D5EA5601C4}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    SCR_CompartmentDoorInfo "{64FCDBC08045ACCF}" {
+     m_eDoorType HATCH
+    }
+    SCR_CompartmentDoorInfo "{65027749CC26471D}" {
+     m_eDoorType HATCH
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086DB209BDE8253}" {
+      ParentContextList {
+       "DriverHatchOut"
+      }
+     }
+     m_fRandomEjectionChance 0
+     m_fExplosiveDamageMultiplier 0.07
+     m_fExplosiveDamageReduction 90
+     m_fExplosiveDamageThreshold 90
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED ENTITYTYPE_VEHICLE CAMO_RHS_Olive
+    }
+    m_aAutoLabels {
+     SIZE_M FACTION_USSR
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 750
+     }
+     SCR_EntityBudgetValue "{69DE5211DC588907}" {
+      m_BudgetType RANK_CAPTAIN
+      m_Value 5
+     }
+     SCR_EntityBudgetValue "{69DE5211DC588931}" {
+      m_BudgetType WCS_XP_COST
+      m_Value 700
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5CDE8068D4984EEF}" {
+   MaxCumulativeVolume 55000
+   MultiSlots {
+    MultiSlotConfiguration "{5E304C34917726C9}" {
+     SlotTemplate InventoryStorageSlot Mag {
+     }
+    }
+    MultiSlotConfiguration "{5E304C3490494A1E}" {
+     SlotTemplate InventoryStorageSlot HE {
+     }
+    }
+    MultiSlotConfiguration "{5E304C349073EEE5}" {
+     NumSlots 8
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     "Incendiary multiplier" 0.3
+    }
+    SCR_VehicleHitZone AmmoRack {
+     ParentHZs {
+      ParentHitZone "{5EA76678EF176A4D}" {
+       DamageMultiplier 100
+      }
+     }
+    }
+    SCR_VehicleHitZone Brains {
+     "Collision multiplier" 0
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0
+     "Fragmentation multiplier" 0
+     "Explosive multiplier" 0
+     "Incendiary multiplier" 0
+     "Fire multiplier" 0
+    }
+   }
+   m_fOccupantsDamageSpeedThreshold 50
+   m_fOccupantsSpeedDeath 120
+   m_iMinExplosionEjectionDamageThreshold 2000
+   m_iExplosionDamageEjectionChance 0
+   m_iCollisionDamageEjectionChance 0
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  VAPE_HeliFireExtinguisherComponent "{69DE5211DC588921}" {
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{5CDE8068D4987FC8}" {
+    Axles {
+     Axle "{5CDE8068D4987FD8}" {
+      Suspension Suspension "{4D8B26DF2B10AE05}" {
+       MaxTravelUp 0.25
+       MaxTravelDown 0.25
+      }
+     }
+     Axle "{5CDE8068D4987FDE}" {
+      Suspension Suspension "{5B3A8D44B1452858}" {
+       MaxTravelUp 0.25
+       MaxTravelDown 0.25
+      }
+     }
+     Axle "{5CDE8068D4987FDD}" {
+      Suspension Suspension "{5B3A8D44BDC38472}" {
+       MaxTravelUp 0.25
+       MaxTravelDown 0.25
+      }
+     }
+     Axle "{5CDE8068D4987FD3}" {
+      Suspension Suspension "{5B3A8D44B986A4EB}" {
+       MaxTravelUp 0.25
+       MaxTravelDown 0.25
+      }
+     }
+     Axle "{5CDE8068D4987FD2}" {
+      Suspension Suspension "{5B3A8D448659D92F}" {
+       MaxTravelUp 0.25
+       MaxTravelDown 0.25
+      }
+     }
+     Axle "{5CDE8068D4987FD1}" {
+      Suspension Suspension "{5B3A8D44825ECF19}" {
+       MaxTravelUp 0.25
+       MaxTravelDown 0.25
+      }
+     }
+     Axle "{5CDE8068D4987FD0}" {
+      Suspension Suspension "{5B3A8D448D7BA280}" {
+       MaxTravelUp 0.25
+       MaxTravelDown 0.25
+      }
+     }
+    }
+   }
+  }
+  WCS_Armament_GroundVehicleInfraredEmitterComponent "{62B0B51C54CF7AA5}" {
+   m_vPosition 0 1.475 -0.104
+  }
+  WCS_LockableVehicleComponent "{69DE5211DC588928}" {
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_SalvageVehicleSlotInfo VehicleSalvageActionEntity {
+     Offset 0 1.1544 4.6411
+    }
+    RegisteringComponentSlotInfo era_1_left {
+     Prefab "{522631C225A51314}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_L01.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_2_left {
+     Prefab "{E56B521D7F6FEB2E}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_L02.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_3_left {
+     Prefab "{00F71EE4738A7C45}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_L03.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_4_left {
+     Prefab "{3DC33BDC06E6F572}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_L04.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_5_left {
+     Prefab "{D85F77250A036219}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_L05.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo skirt_left {
+    }
+    RegisteringComponentSlotInfo cage_1_left {
+     Prefab "{129CEC29328201F7}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Green/WCS_T14_NERA_Cage_L01.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo cage_2_left {
+     Prefab "{A5D18FF66848F9CD}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Green/WCS_T14_NERA_Cage_L02.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo cage_2_right {
+     Prefab "{06F5605B042F77A3}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Green/WCS_T14_NERA_Cage_R01.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo cage_1_right {
+     Prefab "{6AA154BBB8EBF88D}Prefabs/Vehicles/Tracked/T14/VehParts/NERA/Green/WCS_T14_NERA_Cage_R02.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_5_right {
+     Prefab "{AF38AFFB6A658BE4}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_R05.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_4_right {
+     Prefab "{5B30E86367B8E390}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_R04.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_3_right {
+     Prefab "{12E8FD7C157E97FA}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_R03.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_2_right {
+     Prefab "{E6E0BAE418A3FF8E}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_R02.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_1_right {
+     Prefab "{B80893A7A72E7181}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_R01.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front {
+     Prefab "{0FDE106D63026043}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_Front.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front1 {
+     Prefab "{0DBF709FEB6C76B1}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_F01.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front2 {
+     Prefab "{61EB447F57A8F99F}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_F02.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front3 {
+     Prefab "{847708865B4D6EF4}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_F03.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front4 {
+     Prefab "{B9432DBE2E21E7C3}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_F04.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front5 {
+     Prefab "{5CDF614722C470A8}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_F05.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front6 {
+     Prefab "{308B55A79E00FF86}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_F06.et"
+     RegisterActions 1
+    }
+    RegisteringComponentSlotInfo era_front7 {
+     Prefab "{D517195E92E568ED}Prefabs/Vehicles/Tracked/T14/VehParts/ERA/Green/WCS_T14_ERA_Block_F07.et"
+     RegisterActions 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{60D889C6E33B775B}" {
+     Position PointInfo "{60D88999DF1EB09C}" {
+      Offset 0.0574 1 0
+      Angles 0 0 90
+     }
+     Height 9
+    }
+    UserActionContext "{5CDE8068D487C91C}" {
+     Position PointInfo "{5CDE8068D487C91D}" {
+      Offset -0.9689 -0.025 0.5089
+      Angles 0 180 0
+     }
+     Radius 0.15
+     Omnidirectional 0
+    }
+    UserActionContext "{61B485451E5B99E4}" {
+     Position PointInfo "{5CDE8068D4870F99}" {
+      Angles -90 -179.45113 -179.44885
+     }
+     Omnidirectional 0
+    }
+    UserActionContext "{69DE5211DC588947}" {
+     ContextName "DriverHatchOut"
+     Position PointInfo "{69DE5211DC588940}" {
+      PivotID "driver_idle"
+      Offset 0.038 1.0845 0.2817
+      Angles 15 -1.1035 0
+     }
+     Omnidirectional 0
+    }
+    UserActionContext "{69DE5211DC588941}" {
+     ContextName "rearm_vehicle"
+     Position PointInfo "{69DE5211DC588942}" {
+      PivotID "v_turret_01"
+      Offset 0 0.8965 0.4424
+     }
+     Radius 0.5
+    }
+    UserActionContext "{69DE5211DC588943}" {
+     ContextName "ERA_L01"
+     Position PointInfo "{69DE5211DC58894C}" {
+      PivotID "Scene_Root"
+      Offset -1.8152 1.511 3.8349
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC58894D}" {
+     ContextName "ERA_R01"
+     Position PointInfo "{69DE5211DC589300}" {
+      PivotID "Scene_Root"
+      Offset -1.8152 1.511 3.8349
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC589302}" {
+     ContextName "ERA_L02"
+     Position PointInfo "{69DE5211DC589330}" {
+      PivotID "Scene_Root"
+      Offset -1.8493 1.5593 2.8522
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC589335}" {
+     ContextName "ERA_R02"
+     Position PointInfo "{69DE5211DC274DC4}" {
+      PivotID "Scene_Root"
+      Offset 1.8493 1.5593 2.8522
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC274DC5}" {
+     ContextName "ERA_L03"
+     Position PointInfo "{69DE5211DC274DC6}" {
+      PivotID "Scene_Root"
+      Offset -1.8493 1.5593 1.5892
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC274DC7}" {
+     ContextName "ERA_R03"
+     Position PointInfo "{69DE5211DC274634}" {
+      PivotID "Scene_Root"
+      Offset 1.8493 1.5593 1.5892
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC27462B}" {
+     ContextName "ERA_L04"
+     Position PointInfo "{69DE5211DC2732B7}" {
+      PivotID "Scene_Root"
+      Offset -1.8493 1.5593 0.4902
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC2732B6}" {
+     ContextName "ERA_R04"
+     Position PointInfo "{69DE5211DC2732B5}" {
+      PivotID "Scene_Root"
+      Offset 1.8493 1.5593 0.4902
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC2732BF}" {
+     ContextName "ERA_L05"
+     Position PointInfo "{69DE5211DC2732BE}" {
+      PivotID "Scene_Root"
+      Offset -1.8493 1.5593 -0.6539
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC2732BD}" {
+     ContextName "ERA_R05"
+     Position PointInfo "{69DE5211DC2732BC}" {
+      PivotID "Scene_Root"
+      Offset 1.8493 1.5593 -0.6539
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC2732BB}" {
+     ContextName "ERA_Front"
+     Position PointInfo "{69DE5211DC2732BA}" {
+      PivotID "Scene_Root"
+      Offset 0 1.66 3.0449
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC278877}" {
+     ContextName "ERA_F01"
+     Position PointInfo "{69DE5211DC278874}" {
+      PivotID "Scene_Root"
+      Offset 0.9 1.38 4.1
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC278875}" {
+     ContextName "ERA_F02"
+     Position PointInfo "{69DE5211DC27888A}" {
+      PivotID "Scene_Root"
+      Offset 0.6 1.38 4.1
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC27888B}" {
+     ContextName "ERA_F03"
+     Position PointInfo "{69DE5211DC278888}" {
+      PivotID "Scene_Root"
+      Offset 0.3 1.38 4.1
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC278889}" {
+     ContextName "ERA_F04"
+     Position PointInfo "{69DE5211DC27888E}" {
+      PivotID "Scene_Root"
+      Offset 0 1.38 4.1
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC278434}" {
+     ContextName "ERA_F05"
+     Position PointInfo "{69DE5211DC278435}" {
+      PivotID "Scene_Root"
+      Offset -0.3 1.38 4.1
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC278436}" {
+     ContextName "ERA_F06"
+     Position PointInfo "{69DE5211DC27A323}" {
+      PivotID "Scene_Root"
+      Offset -0.6 1.38 4.1
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC27A322}" {
+     ContextName "ERA_F07"
+     Position PointInfo "{69DE5211DC27A32D}" {
+      PivotID "Scene_Root"
+      Offset -0.9 1.38 4.1
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC26273B}" {
+     ContextName "NERA_L01"
+     Position PointInfo "{69DE5211DC26273A}" {
+      PivotID "Scene_Root"
+      Offset -1.87 1.68 -2.25
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC262723}" {
+     ContextName "NERA_R01"
+     Position PointInfo "{69DE5211DC262722}" {
+      PivotID "Scene_Root"
+      Offset 1.87 1.68 -2.25
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC269085}" {
+     ContextName "NERA_L02"
+     Position PointInfo "{69DE5211DC269086}" {
+      PivotID "Scene_Root"
+      Offset -1.87 1.68 -3.6
+     }
+     Radius 0.15
+    }
+    UserActionContext "{69DE5211DC269107}" {
+     ContextName "NERA_R02"
+     Position PointInfo "{69DE5211DC269106}" {
+      PivotID "Scene_Root"
+      Offset 1.87 1.68 -3.6
+     }
+     Radius 0.15
+    }
+   }
+   additionalActions {
+    RHS_APSV2ReloadAction "{6992CC7C35D33293}" {
+     UIInfo SCR_ActionContextUIInfo "{6992CC7C3C1C4EA3}" {
+      m_sIconName "rearm"
+     }
+     Duration 0.5
+     "Sort Priority" 30
+    }
+    WCS_Armament_RearmVehicleAtRepairStationAction "{65C62861B2F3D4C6}" : "{3757C83EDA741808}Prefabs/Weapons/Core/Configs/WCS_RearmVehicleAtRepairStationAction.conf" {
+     ParentContextList {
+      "rear" "hood_front"
+     }
+     UIInfo SCR_ActionUIInfo "{62A1474E6A4D9DE9}" {
+      Name "#WCS-UserAction_RearmVehicle #RHS-AmmunitionID_125mm APFSDST"
+     }
+     Duration 5
+     "Sort Priority" 26
+     m_aRearmData {
+      WCS_Armament_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{EB33480A62A31B04}Prefabs/Weapons/Magazines/2A82/Box_125mm_2A82_APFSDST_20rnd.et"
+       maxAmount 1
+       unitSupplyCost 100
+      }
+     }
+    }
+    WCS_Armament_RearmVehicleAtRepairStationAction "{65C62861AC95A5F6}" : "{3757C83EDA741808}Prefabs/Weapons/Core/Configs/WCS_RearmVehicleAtRepairStationAction.conf" {
+     ParentContextList {
+      "rear" "hood_front"
+     }
+     UIInfo SCR_ActionUIInfo "{62A1474E6A4D9DE9}" {
+      Name "#WCS-UserAction_RearmVehicle #RHS-AmmunitionID_125mm HEF"
+     }
+     Duration 5
+     "Sort Priority" 27
+     m_aRearmData {
+      WCS_Armament_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{C502CADC032E147E}Prefabs/Weapons/Magazines/2A82/Box_125mm_2A82_HEFragFS_19rnd.et"
+       maxAmount 1
+       unitSupplyCost 100
+      }
+     }
+    }
+    WCS_Armament_RearmVehicleAtRepairStationAction "{65C62861AE23B677}" : "{3757C83EDA741808}Prefabs/Weapons/Core/Configs/WCS_RearmVehicleAtRepairStationAction.conf" {
+     ParentContextList {
+      "rear" "hood_front"
+     }
+     UIInfo SCR_ActionUIInfo "{62A1474E6A4D9DE9}" {
+      Name "#WCS-UserAction_RearmVehicle 7.62x54mm PKM"
+     }
+     Duration 5
+     "Sort Priority" 28
+     m_aRearmData {
+      WCS_Armament_VehicleRearmData "{62A1474EC72288A4}" {
+       magazine "{D8421F6E70B2FB4F}Prefabs/Weapons/Magazines/Box_762x54_PK_250rnd_4Ball_1Tracer.et"
+       maxAmount 8
+       unitSupplyCost 25
+      }
+     }
+    }
+    WCS_ToggleVehicleLockUserAction "{664EF58067431977}" : "{7AA37804E160DFC8}Prefabs/Vehicles/Core/Configs/Actions/ToggleVehicleLockUserAction.conf" {
+     ParentContextList {
+      "DriverHatch" "DriverHatchOut"
+     }
+     "Sort Priority" 30
+    }
+    VAPE_ActionExtinguishFire "{69DE5211DC269135}" {
+     ParentContextList {
+      "starter_switch"
+     }
+     UIInfo UIInfo "{69DE5211DC269137}" {
+      Name "Fire Supression System"
+     }
+    }
+   }
+  }
+ }
+}

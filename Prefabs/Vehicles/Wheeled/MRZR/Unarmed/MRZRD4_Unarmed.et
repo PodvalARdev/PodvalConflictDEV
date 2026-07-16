@@ -1,0 +1,35 @@
+Vehicle : "{DA7CF11F1BD23125}Prefabs/Vehicles/Wheeled/MRZR/Unarmed/MRZRD4_Unarmed.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{C2A2369A5AED0BAD}UI/Textures/EditorPreviews/Vehicles/Wheeled/MRZR/MRZR_Green.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 240
+     }
+     SCR_EntityBudgetValue "{69DAF534A22C0985}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{651C5520FF32C8EB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{651C552019E5B247}" {
+     NumSlots 3
+    }
+    MultiSlotConfiguration "{652A2B8625C7B04A}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{69DAF534A22C09D4}" {
+     SlotTemplate InventoryStorageSlot Wrench {
+      Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+ }
+}

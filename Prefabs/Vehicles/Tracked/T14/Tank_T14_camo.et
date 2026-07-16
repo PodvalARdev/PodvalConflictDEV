@@ -1,16 +1,6 @@
 RHS_Tank : "{9057DDA3E3FAA03B}Prefabs/Vehicles/Tracked/T14/Tank_T14_camo.et" {
  ID "5CDE8068D49AAEBB"
  components {
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_aAutoLabels + {
-     VEHICLE_TANK
-    }
-   }
-  }
-  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" ""
-  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo era_1_left {

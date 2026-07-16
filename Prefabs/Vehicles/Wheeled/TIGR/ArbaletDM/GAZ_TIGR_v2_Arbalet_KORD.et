@@ -12,8 +12,6 @@ Vehicle : "{7A21F47E09038E58}Prefabs/Vehicles/Wheeled/TIGR/ArbaletDM/GAZ_TIGR_v2
       m_Value 1500
      }
      SCR_EntityBudgetValue "{61B3396B66A62BA8}" {
-      m_BudgetType RANK_LIEUTENANT
-      m_Value 4
      }
     }
     m_EntityChildrenBudgetCost {

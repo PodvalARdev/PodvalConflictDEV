@@ -1,5 +1,5 @@
 $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
- MainBaseNorthwest {
+ MainBaseNorth {
   components {
    SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
     m_iSupplies 5000
@@ -8,27 +8,27 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 4000
+      "Transmitting Range" 2300
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
     m_sBaseName "Main Base North"
-    m_sBaseNameUpper "Main Base North"
-    m_sMapLocationName "Main Base North"
+    m_sBaseNameUpper "MAIN BASE NORTH"
+    m_sMapLocationName "LocationStPhillipe_Harbour"
     m_aWhiteList {
-     "Factory"
+     "Tyrone"
     }
     m_aWhiteListAntenna {
-     "Factory"
+     "Tyrone"
     }
    }
   }
-  coords 4106.72 52.379 11832.38
-  angles 0 -120 0
+  coords 4161.729 51.624 11654.209
+  angles 0 80.421 0
  }
- MainBaseSoutheast {
+ MainBaseSouth {
   components {
    SCR_CampaignSuppliesComponent "{621EB97024DABABC}" {
     m_iSupplies 5000
@@ -37,24 +37,24 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
    SCR_CoverageRadioComponent "{621EB97024DABABA}" {
     Transceivers {
      RelayTransceiver "{621EB97024DABAB8}" {
-      "Transmitting Range" 4000
+      "Transmitting Range" 2300
      }
     }
    }
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_bCanBeHQ 1
     m_sBaseName "Main Base South"
-    m_sBaseNameUpper "Main Base South"
-    m_sMapLocationName "Main Base South"
+    m_sBaseNameUpper "MAIN BASE SOUTH"
+    m_sMapLocationName "LocationStPierre_Harbour"
     m_aWhiteList {
-     "Durras"
+     "Quarry"
     }
     m_aWhiteListAntenna {
-     "Durras"
+     "Quarry"
     }
    }
   }
-  coords 7058.445 307.535 890.316
-  angles 0.382 -16.415 1.297
+  coords 8382.54 322.187 2057.075
+  angles 0 -76.653 0
  }
 }
