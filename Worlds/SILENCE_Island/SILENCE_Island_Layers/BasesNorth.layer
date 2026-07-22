@@ -1,0 +1,105 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseCerkovBogoroga {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bIsControlPoint 1
+    m_sBaseName "Cerkov Bogoroga"
+    m_sBaseNameUpper "CERKOV BOGOROGA"
+    m_sMapLocationName "Cerkov Bogoroga"
+    m_aWhiteList {
+     "Futbolchik"
+     "Hamertin"
+    }
+    m_aWhiteListAntenna {
+     "Futbolchik"
+     "Hamertin"
+    }
+   }
+  }
+  coords 2580.352 24.514 2846.243
+  angles -1.814 4.647 1.64
+ }
+ BasePoleBoly {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bIsControlPoint 1
+    m_sBaseName "Pole Boly"
+    m_sBaseNameUpper "POLE BOLY"
+    m_sMapLocationName "PoleBoly"
+    m_aWhiteList {
+     "Cerkov Bogoroga"
+     "Main Base Southwest"
+    }
+    m_aWhiteListAntenna {
+     "Cerkov Bogoroga"
+     "Main Base Southwest"
+    }
+   }
+  }
+  coords 2885.063 18.84 2790.708
+  angles -0.913 89.447 -1.781
+  {
+   SCR_CampaignSpawnPointGroup SCR_CampaignSpawnPointGroup_2 {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+ BaseFutbolchik {
+  components {
+   SCR_CampaignMilitaryBaseMapDescriptorComponent "{5C669672B19BFE5A}" {
+    m_pMapLinkColor 0.502 0 1 1
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 3800
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bIsControlPoint 1
+    m_sBaseName "Futbolchik"
+    m_sBaseNameUpper "FUTBOLCHIK"
+    m_sMapLocationName "Futbolchik"
+    m_aWhiteList {
+     "Main Base Northeast"
+     "Cerkov Bogoroga"
+    }
+    m_aWhiteListAntenna {
+     "Main Base Northeast"
+     "Cerkov Bogoroga"
+    }
+   }
+  }
+  coords 2328.799 19.031 2853.915
+  angles 0.893 -176.547 -0.627
+  {
+   SCR_CampaignSpawnPointGroup SCRCampaignSpawnPointGroup_4 {
+    ID "5C6696731466AF36"
+   }
+  }
+ }
+}

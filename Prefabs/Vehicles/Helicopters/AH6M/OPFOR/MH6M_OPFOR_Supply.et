@@ -1,18 +1,3 @@
 Vehicle : "{EDFD2D4D40AAE666}Prefabs/Vehicles/Helicopters/AH6M/MH6M_Supply.et" {
  ID "57DA6675519A417B"
- components {
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    m_EntityBudgetCost {
-     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
-      m_Value 800
-     }
-     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
-      m_Value 3
-     }
-    }
-   }
-  }
- }
- coords 7224.496 63.444 8366.143
 }

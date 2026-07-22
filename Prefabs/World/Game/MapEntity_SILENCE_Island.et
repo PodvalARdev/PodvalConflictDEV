@@ -1,0 +1,6 @@
+SCR_MapEntity : "{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et" {
+ ID "5255036BAB847859"
+ coords 3275.804 40.593 2504.02
+ "Map Geometry Data" "{C663930182B37E0F}Worlds/TinyIsland/Terrain/TOPO/Tiny Island.topo"
+ "Satellite background image" "{D0F399D11DD7C01F}mapbackground.edds"
+}

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{71616E08AC2A60BF}Prefabs/Vehicles/Helicopters/AH6M/OPFOR/MH6M_OPFOR_Supply.et"
+ Name "{D03C0F6044DB5209}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

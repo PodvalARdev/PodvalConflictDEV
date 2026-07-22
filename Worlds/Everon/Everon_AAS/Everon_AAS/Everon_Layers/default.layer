@@ -41,7 +41,7 @@ RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/Radio
  coords 2884.968 91.924 6293.253
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 6387.759 158.826 6423.912
+ coords 6391.414 158.952 6420.686
 }
 SCR_MapLocator {
  coords 10434.78 0 1142.689

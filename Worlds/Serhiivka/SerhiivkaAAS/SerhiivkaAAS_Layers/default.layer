@@ -1,4 +1,4 @@
-SCR_AIWorld SCR_AIWorld_Serhiivka : "{1B639CA56FCAC6EC}Prefabs/AI/SCR_AIWorld_Serhiivka.et" {
+SCR_AIWorld SCR_AIWorld_Serhiivka {
  coords 3969.982 118.874 3971.863
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
@@ -24,7 +24,7 @@ RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/Radio
  coords 3969.982 118.816 3974.863
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 5121.204 134.882 5157.451
+ coords 5120.792 148.662 5135.111
 }
 BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 3969.982 118.816 3974.863

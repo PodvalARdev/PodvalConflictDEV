@@ -1,3 +1,6 @@
+SCR_MapEntity MapEntity_SILENCE_Island1 : "{1F741925190DA8FC}Prefabs/World/Game/MapEntity_SILENCE_Island.et" {
+ coords 3275.804 40.593 2504.02
+}
 SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
  coords 28.773 -1.774 13.794
 }
@@ -6,7 +9,8 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
 }
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 26.726 0 10.962
- m_fVictoryTimer 60
+ m_iControlPointsThreshold 3
+ m_fVictoryTimer 180
  m_iSuppliesReplenishThreshold 0
  m_iQuickSuppliesReplenishThreshold 5000
  m_iSuppliesArrivalInterval 30
@@ -26,8 +30,8 @@ RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/Radio
  coords 2884.968 91.924 6293.253
 }
 SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 11190.526 93.949 10334.492
+ coords 3069.838 12.392 2674.855
 }
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
- coords 11117.137 99.12 10361.545
+ coords 11096.702 50.906 10159.892
 }

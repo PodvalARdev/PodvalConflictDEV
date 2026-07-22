@@ -1,9 +1,6 @@
 SCR_AIWorld SCR_AIWorld_BelleauWood : "{CFDC9C151CAB3F8D}Prefabs/AI/SCR_AIWorld_BelleauWood.et" {
  coords 4000 200 4000
 }
-SCR_CampaignFactionManager CampaignFactionManager1 : "{130806924CFFDA55}Prefabs/MP/Campaign/CampaignFactionManager.et" {
- coords 6014.209 135.352 6024.64
-}
 SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
  coords 4000 200 4000
  m_iControlPointsThreshold 13
@@ -25,9 +22,12 @@ ScriptedChatEntity CampaignMPChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign
 RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
  coords 4000 200 4000
 }
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 6013.667 136.978 6025.544
+}
 BasePreloadManager PreloadManager_Campaign : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 4000 200 4000
 }
-SCR_LoadoutManager : "{BAA15BC173EA5FCA}Prefabs/MP/Campaign/CampaignOriginalLoadoutManager_podval_base.et" {
- coords 6015.72 133.958 6028.391
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 6013.548 135.312 6030.639
 }

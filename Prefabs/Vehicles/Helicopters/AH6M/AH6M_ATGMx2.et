@@ -1,0 +1,47 @@
+Vehicle : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  AH6M_AGM114X2_AmmoDisplayComponent "{69E8800FE377D4B6}" {
+   id "AGM114X2"
+   m_LayoutPath "{C9ADE9F304EA196D}UI/layouts/MFD/AH6M_AGM114X2_AmmoMFD.layout"
+  }
+  AH6M_M260X2_AmmoDisplayComponent "{65F33DCC2373AD99}" {
+   Enabled 0
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AH6M-Vehicle_AH6M_Name - #WCS-Weapon_M134_Name/#WCS-Weapon_M299_Name"
+    m_Image "{C5F420E1E3ED2B4F}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_ATGMx2.edds"
+   }
+  }
+  WCS_Armament_LoadoutComponent "{629E45AA8C346AFE}" {
+   Enabled 0
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{685B0E6AEC29B6AA}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo turret {
+     Prefab "{27DCFCD210A9426B}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Turret/AH6M_ATGMx2.et"
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_L {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_R {
+     Enabled 0
+    }
+   }
+  }
+  WeaponSlotComponent "{62AD0772FF32B9A3}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   additionalActions {
+    WCS_Armament_VehicleDisplayPowerAction "{6674C319EDF13ED5}" {
+     m_sDisplayId "AGM114X2"
+    }
+   }
+  }
+ }
+}

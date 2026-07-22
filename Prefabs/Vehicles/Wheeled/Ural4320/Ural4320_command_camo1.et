@@ -1,14 +1,3 @@
-Vehicle : "{2C95509CA3E61DE1}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command_camo1.et" {
+Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
  ID "5206D4E7C4A16F13"
- components {
-  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
-   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_sFaction "USSR"
-    m_aAutoLabels {
-     FACTION_USSR SIZE_M VEHICLE_TRUCK
-    }
-   }
-  }
- }
- coords 4766.629 23.461 12048.946
 }
