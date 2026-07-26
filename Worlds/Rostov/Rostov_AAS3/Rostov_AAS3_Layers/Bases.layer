@@ -1,0 +1,308 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseAirfield {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield"
+    m_sBaseNameUpper "AIRFIELD"
+    m_aWhiteList {
+     "Antamano" "Outpost"
+    }
+    m_aWhiteListAntenna {
+     "Antamano" "Outpost"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 1039.704 117.981 2943.739
+  angleY -3.198
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseNorthernSuperFOB {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Northern Super FOB"
+    m_sBaseNameUpper "NORTHERN SUPER FOB"
+    m_aWhiteList {
+     "Military Base" "Main Base North"
+    }
+    m_aWhiteListAntenna {
+     "Military Base" "Main Base North"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 3909.369 130.039 7184.837
+  angleY -3.198
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseMilitaryBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Military Base"
+    m_sBaseNameUpper "MILITARY BASE"
+    m_aWhiteList {
+     "Checkpoint" "Northern Super FOB"
+    }
+    m_aWhiteListAntenna {
+     "Checkpoint" "Northern Super FOB"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 3604.83 125.214 6144.808
+  angleY 88.13
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseCheckpoint {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Checkpoint"
+    m_sBaseNameUpper "CHECKPOINT"
+    m_aWhiteList {
+     "Bukano" "Military Base"
+    }
+    m_aWhiteListAntenna {
+     "Bukano" "Military Base"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 2488.123 115.375 5897.325
+  angleY -177.639
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseBukano {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Bukano"
+    m_sBaseNameUpper "BUKANO"
+    m_aWhiteList {
+     "Outpost" "Checkpoint"
+    }
+    m_aWhiteListAntenna {
+     "Outpost" "Checkpoint"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 2441.383 152.858 4918.471
+  angleY 175.817
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseOutpost {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Outpost"
+    m_sBaseNameUpper "OUTPOST"
+    m_aWhiteList {
+     "Airfield" "Bukano"
+    }
+    m_aWhiteListAntenna {
+     "Airfield" "Bukano"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 1363.452 162.685 4029.154
+  angleY 33.032
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseAntamano {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Antamano"
+    m_sBaseNameUpper "ANTAMANO"
+    m_aWhiteList {
+     "Lumbermill" "Airfield"
+    }
+    m_aWhiteListAntenna {
+     "Lumbermill" "Airfield"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 1107.514 19.978 1571.779
+  angleY 69.899
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseLumbermill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Lumbermill"
+    m_sBaseNameUpper "LUMBERMILL"
+    m_aWhiteList {
+     "Southern Super FOB" "Antamano"
+    }
+    m_aWhiteListAntenna {
+     "Southern Super FOB" "Antamano"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 2991.196 113.031 914.334
+  angleY -107.483
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseSouthernSuperFOB {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Southern Super FOB"
+    m_sBaseNameUpper "SOUTHERN SUPER FOB"
+    m_aWhiteList {
+     "Main Base South" "Lumbermill"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South" "Lumbermill"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 4648.391 150.062 1186.879
+  angleY -136.065
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+}

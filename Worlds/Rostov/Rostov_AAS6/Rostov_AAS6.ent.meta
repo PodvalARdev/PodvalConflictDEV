@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{533BB9BF482BE0F6}Worlds/Rural/Rural_AAS.ent"
+ Name "{EF53FA5F9DACB41C}Worlds/Rostov/Rostov_AAS6/Rostov_AAS6.ent"
  Configurations {
   ENTResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   ENTResourceClass PS5 : PC {
   }
   ENTResourceClass HEADLESS : PC {
-  }
-  ENTResourceClass Xbox : PC {
   }
  }
 }

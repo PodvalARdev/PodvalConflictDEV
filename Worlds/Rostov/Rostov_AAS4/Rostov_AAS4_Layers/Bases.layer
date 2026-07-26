@@ -1,0 +1,362 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseAirfield {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield"
+    m_sBaseNameUpper "AIRFIELD"
+    m_aWhiteList {
+     "Atamano"
+     "Relay"
+    }
+    m_aWhiteListAntenna {
+     "Atamano"
+     "Relay"
+    }
+   }
+  }
+  coords 1039.704 117.981 2943.739
+  angles 0 -3.198 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BasePowerplant {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Powerplant"
+    m_sBaseNameUpper "POWERPLANT"
+    m_aWhiteList {
+     "Eastern Checkpoint"
+     "Junkyard"
+    }
+    m_aWhiteListAntenna {
+     "Eastern Checkpoint"
+     "Junkyard"
+    }
+   }
+  }
+  coords 6343.188 154.009 5196.465
+  angles 0 -55.139 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseChernihiv {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Chernihiv"
+    m_sBaseNameUpper "CHERNIHIV"
+    m_aWhiteList {
+     "Sawmill"
+     "Overgrown Radio"
+    }
+    m_aWhiteListAntenna {
+     "Sawmill"
+     "Overgrown Radio"
+    }
+   }
+  }
+  coords 5229.31 152.916 3264.264
+  angles 0 -96.661 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseEasternCheckpoint {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Eastern Checkpoint"
+    m_sBaseNameUpper "EASTERN CHECKPOINT"
+    m_aWhiteList {
+     "Overgrown Radio"
+     "Powerplant"
+    }
+    m_aWhiteListAntenna {
+     "Overgrown Radio"
+     "Powerplant"
+    }
+   }
+  }
+  coords 7069.187 142.769 4270.06
+  angles 0 149.196 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseSouthernFarm {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Southern Farm"
+    m_sBaseNameUpper "SOUTHERN FARM"
+    m_aWhiteList {
+     "Main Base South"
+     "Atamano"
+    }
+    m_aWhiteListAntenna {
+     "Main Base South"
+     "Atamano"
+    }
+   }
+  }
+  coords 1452.176 94.587 858.599
+  angles 0 -85.664 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseAtamano {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Atamano"
+    m_sBaseNameUpper "ATAMANO"
+    m_aWhiteList {
+     "Southern Farm"
+     "Airfield"
+    }
+    m_aWhiteListAntenna {
+     "Southern Farm"
+     "Airfield"
+    }
+   }
+  }
+  coords 1122.205 20.25 1625.259
+  angles 0 -25.877 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseRelay {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Relay"
+    m_sBaseNameUpper "RELAY"
+    m_aWhiteList {
+     "Airfield"
+     "Sawmill"
+    }
+    m_aWhiteListAntenna {
+     "Airfield"
+     "Sawmill"
+    }
+   }
+  }
+  coords 2135.826 127.833 3260.284
+  angles 0 -25.468 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseSawmill {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Sawmill"
+    m_sBaseNameUpper "SAWMILL"
+    m_aWhiteList {
+     "Relay"
+     "Chernihiv"
+    }
+    m_aWhiteListAntenna {
+     "Relay"
+     "Chernihiv"
+    }
+   }
+  }
+  coords 3217.334 99.151 2373.513
+  angles 0 15.424 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseOvergrownRadio {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Overgrown Radio"
+    m_sBaseNameUpper "OVERGROWN RADIO"
+    m_aWhiteList {
+     "Eastern Checkpoint"
+     "Chernihiv"
+    }
+    m_aWhiteListAntenna {
+     "Eastern Checkpoint"
+     "Chernihiv"
+    }
+   }
+  }
+  coords 6804.926 182.449 2768.561
+  angles 0 -134.837 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+ BaseJunkyard {
+  components {
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Junkyard"
+    m_sBaseNameUpper "JUNKYARD"
+    m_aWhiteList {
+     "Main Base North"
+     "Powerplant"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North"
+     "Powerplant"
+    }
+   }
+  }
+  coords 6365.912 179.259 6511.552
+  angles 0 -3.198 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -0.858 0 27.093
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.756 0 27.582
+   }
+  }
+ }
+}

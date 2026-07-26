@@ -1,0 +1,204 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseSouthernFarm {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Southern Farm"
+    m_sBaseNameUpper "SOUTHERN FARM"
+    m_aWhiteList {
+     "Bukano" "Main Base South"
+    }
+    m_aWhiteListAntenna {
+     "Bukano" "Main Base South"
+    }
+   }
+  }
+  coords 3217.921 99.149 2367.896
+  angleY 28.885
+ }
+ BaseBukano {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Bukano"
+    m_sBaseNameUpper "BUKANO"
+    m_aWhiteList {
+     "Relay" "Southern Farm"
+    }
+    m_aWhiteListAntenna {
+     "Relay" "Southern Farm"
+    }
+   }
+  }
+  coords 2829.411 44.883 2925.982
+  angleY -127.895
+ }
+ BaseRelay {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Relay"
+    m_sBaseNameUpper "RELAY"
+    m_aWhiteList {
+     "Airfield" "Bukano"
+    }
+    m_aWhiteListAntenna {
+     "Airfield" "Bukano"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 2132.131 128.2 3264.606
+  angleY -13.172
+ }
+ BaseAirfield {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield"
+    m_sBaseNameUpper "AIRFIELD"
+    m_aWhiteList {
+     "Outpost" "Relay"
+    }
+    m_aWhiteListAntenna {
+     "Outpost" "Relay"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 911.935 113.502 2880.06
+  angleY -141.276
+ }
+ BaseOutpost {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Outpost"
+    m_sBaseNameUpper "OUTPOST"
+    m_aWhiteList {
+     "Quarry" "Airfield"
+    }
+    m_aWhiteListAntenna {
+     "Quarry" "Airfield"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 1362.814 162.707 4029.125
+  angleY 28.885
+ }
+ BaseQuarry {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Quarry"
+    m_sBaseNameUpper "QUARRY"
+    m_aWhiteList {
+     "Northern Farm" "Outpost"
+    }
+    m_aWhiteListAntenna {
+     "Northern Farm" "Outpost"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 3325.642 72.906 4004.003
+  angleY -179.329
+ }
+ BaseMilitaryBase {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Military Base"
+    m_sBaseNameUpper "MILITARY BASE"
+    m_aWhiteList {
+     "Main Base North" "Radio"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North" "Radio"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 3821.015 132.597 6077.191
+  angleY -0.868
+ }
+ BaseRadio {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Radio"
+    m_sBaseNameUpper "RADIO"
+    m_aWhiteList {
+     "Military Base" "Northern Farm"
+    }
+    m_aWhiteListAntenna {
+     "Military Base" "Northern Farm"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 4320.277 99.933 5142.937
+  angleY -138.597
+ }
+ BaseNorthernFarm {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Northern Farm"
+    m_sBaseNameUpper "NORTHERN FARM"
+    m_aWhiteList {
+     "Radio" "Quarry"
+    }
+    m_aWhiteListAntenna {
+     "Radio" "Quarry"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 4371.352 117.375 4384.967
+  angleY 28.885
+ }
+}

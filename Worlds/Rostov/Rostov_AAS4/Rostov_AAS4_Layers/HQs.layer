@@ -17,19 +17,15 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_sBaseName "Main Base North"
     m_sBaseNameUpper "MAIN BASE NORTH"
     m_aWhiteList {
-     "Mayaki"
-     "Powerplant"
-     "Military Base"
+     "Junkyard"
     }
     m_aWhiteListAntenna {
-     "Mayaki"
-     "Powerplant"
-     "Military Base"
+     "Junkyard"
     }
    }
   }
-  coords 5700.042 188.323 7123.198
-  angles -0.743 -175.209 -1.858
+  coords 4625.406 158.464 7410.547
+  angles 0 -1.072 0
  }
  MainBaseSouth {
   components {
@@ -49,18 +45,14 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     m_sBaseName "Main Base South"
     m_sBaseNameUpper "MAIN BASE SOUTH"
     m_aWhiteList {
-     "Lumber"
      "Southern Farm"
-     "Chernihiv"
     }
     m_aWhiteListAntenna {
-     "Lumber"
      "Southern Farm"
-     "Chernihiv"
     }
    }
   }
-  coords 5310.908 159.258 393.861
-  angles 0 -105 0
+  coords 3831.337 144.101 313.767
+  angles -2.09 -128.868 1.684
  }
 }

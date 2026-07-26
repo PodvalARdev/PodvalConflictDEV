@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{434B4A926D647466}Worlds/Rostov/Rostov_AAS1/Rostov_AAS1.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass PS5 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

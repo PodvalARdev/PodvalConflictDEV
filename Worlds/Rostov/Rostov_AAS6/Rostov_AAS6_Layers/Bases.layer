@@ -1,0 +1,194 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ BaseQuarry {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Quarry"
+    m_sBaseNameUpper "QUARRY"
+    m_aWhiteList {
+     "Chernihiv" "Sawmill"
+    }
+    m_aWhiteListAntenna {
+     "Chernihiv" "Sawmill"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 3326.677 72.906 3997.841
+  angleY -175.82
+ }
+ BaseEasternCheckpoint {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Eastern Checkpoint"
+    m_sBaseNameUpper "EASTERN CHECKPOINT"
+    m_aWhiteList {
+     "Powerplant" "Chernihiv"
+    }
+    m_aWhiteListAntenna {
+     "Powerplant" "Chernihiv"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 7075.74 143.844 4208.665
+  angleY 36.226
+ }
+ BasePowerplant {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Powerplant"
+    m_sBaseNameUpper "POWERPLANT"
+    m_aWhiteList {
+     "Main Base North" "Eastern Checkpoint"
+    }
+    m_aWhiteListAntenna {
+     "Main Base North" "Eastern Checkpoint"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 6248.09 150.032 5199.292
+  angleY 2.386
+ }
+ BaseAirfield {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Airfield"
+    m_sBaseNameUpper "AIRFIELD"
+    m_aWhiteList {
+     "Sawmill" "Farm"
+    }
+    m_aWhiteListAntenna {
+     "Sawmill" "Farm"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 930.499 116.188 2938.209
+  angleY -0.741
+ }
+ BaseLumberyard {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Lumberyard"
+    m_sBaseNameUpper "LUMBERYARD"
+    m_aWhiteList {
+     "Farm" "Main Base South"
+    }
+    m_aWhiteListAntenna {
+     "Farm" "Main Base South"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 2993.114 113.002 914.723
+  angleY -99.568
+ }
+ BaseChernihiv {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Chernihiv"
+    m_sBaseNameUpper "CHERNIHIV"
+    m_aWhiteList {
+     "Eastern Checkpoint" "Quarry"
+    }
+    m_aWhiteListAntenna {
+     "Eastern Checkpoint" "Quarry"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 5227.359 152.906 3263.708
+  angleY -90.136
+ }
+ BaseSawmill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Sawmill"
+    m_sBaseNameUpper "SAWMILL"
+    m_aWhiteList {
+     "Quarry" "Airfield"
+    }
+    m_aWhiteListAntenna {
+     "Quarry" "Airfield"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 3254.033 100.515 2413.835
+  angleY 123.828
+ }
+ BaseFarm {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Farm"
+    m_sBaseNameUpper "FARM"
+    m_aWhiteList {
+     "Airfield" "Lumberyard"
+    }
+    m_aWhiteListAntenna {
+     "Airfield" "Lumberyard"
+    }
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 5000
+     }
+    }
+   }
+  }
+  coords 1457.583 94.737 857.953
+  angleY -84.829
+ }
+}

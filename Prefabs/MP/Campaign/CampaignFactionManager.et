@@ -4,8 +4,5 @@ SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/Fac
   SCR_CampaignFaction "{56F0C3A6336375DC}" {
    m_bIsPlayable 0
   }
-  SCR_CampaignFaction "{68F2E5C05A1440DC}" {
-   m_bIsPlayable 0
-  }
  }
 }
